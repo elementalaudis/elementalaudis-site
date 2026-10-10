@@ -35,7 +35,7 @@
       },
       {
         "until": "2026-12-06",
-        "text": "Wystawa w pracowni Elementa Laudis w Sheffield, przez dwa weekendy: 27 do 29 listopada i 4 do 6 grudnia, z pokazem intarsji w sobotę 5 grudnia.",
+        "text": "Wystawa w Sheffield przez dwa weekendy: 27 do 29 listopada, z wernisażem w piątek 27 listopada, oraz 4 do 6 grudnia, z pokazem intarsji w sobotę 5 grudnia.",
         "link": "#exhibitions",
         "link_text": "Szczegóły"
       }
@@ -75,14 +75,12 @@
       "stand": "B09, Pool B"
     },
     {
-      "venue": "Elementa Laudis",
+      "venue": "Miejsce zostanie ogłoszone",
       "locality": "Sheffield",
-      "street": "Unit 16, Gordon Works Complex, Valley Rd",
-      "postcode": "S8 9FT",
       "upcoming": true,
       "when": "pt. 27 do nd. 29 listopada 2026",
       "what": "Wystawa w pracowni, pierwszy weekend",
-      "where": "Elementa Laudis, Gordon Works, Sheffield",
+      "where": "Sheffield, miejsce zostanie ogłoszone, otwarcie z wernisażem w piątek 27 listopada",
       "start": "2026-11-27",
       "end": "2026-11-29"
     },
@@ -96,14 +94,12 @@
       "online": true
     },
     {
-      "venue": "Elementa Laudis",
+      "venue": "Miejsce zostanie ogłoszone",
       "locality": "Sheffield",
-      "street": "Unit 16, Gordon Works Complex, Valley Rd",
-      "postcode": "S8 9FT",
       "upcoming": true,
       "when": "pt. 4 do nd. 6 grudnia 2026",
       "what": "Wystawa w pracowni, drugi weekend",
-      "where": "Elementa Laudis, Gordon Works, Sheffield, z pokazem intarsji w sobotę 5 grudnia",
+      "where": "Sheffield, miejsce zostanie ogłoszone, z pokazem intarsji w sobotę 5 grudnia",
       "start": "2026-12-04",
       "end": "2026-12-06"
     },
