@@ -524,11 +524,19 @@ class Builder:
         about_ps = "\n          ".join(f"<p>{p}</p>" for p in self.ABOUT["paragraphs"])
         if self.ABOUT.get("membership_line"):
             about_ps += f'\n          <p class="member-line">{html.escape(self.ABOUT["membership_line"])}</p>'
-        ann = self.ART.get("announce")
-        announce = ""
-        if ann and datetime.date.today().isoformat() <= ann["until"]:
-            announce = (f'<p class="announce">{html.escape(ann["text"])} '
-                        f'<a href="{ann["link"]}">{html.escape(ann["link_text"])}</a></p>')
+        anns = self.ART.get("announce") or []
+        if isinstance(anns, dict):
+            anns = [anns]
+        today = datetime.date.today().isoformat()
+        anns = [x for x in anns if today <= x["until"]]
+        # every current notice is written out; a small script shows only the first one
+        # that has not ended yet, so a finished event drops off without a rebuild
+        announce = "".join(
+            f'<p class="announce" data-until="{x["until"]}"{"" if k == 0 else " hidden"}>{html.escape(x["text"])} '
+            f'<a href="{x["link"]}">{html.escape(x["link_text"])}</a></p>' for k, x in enumerate(anns))
+        if announce:
+            announce += ("<script>(function(){var d=new Date(),t=d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2),"
+                         "s=false;document.querySelectorAll('.announce').forEach(function(p){if(!s&&t<=p.dataset.until){p.hidden=false;s=true;}else{p.hidden=true;}});})();</script>")
         fs = self.L["form_suffix"]
         thanks = ("/pl/thanks.html" if self.code == "pl" else "/thanks.html")
 
