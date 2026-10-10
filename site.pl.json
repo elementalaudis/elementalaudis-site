@@ -61,28 +61,14 @@
   },
   "exhibitions": [
     {
-      "when": "16 do 18 października 2026",
-      "what": "Great Northern Contemporary Craft Fair",
-      "where": "Victoria Baths, Manchester, stoisko B09 w Pool B, wernisaż 15 października. Przez cały weekend będę przy stoisku ciął fornir na żywo.",
-      "upcoming": true,
-      "start": "2026-10-16",
-      "end": "2026-10-18",
-      "venue": "Victoria Baths",
-      "locality": "Manchester",
-      "street": "Hathersage Road",
-      "postcode": "M13 0FE",
-      "url": "https://www.greatnortherncraftfair.co.uk/",
-      "stand": "B09, Pool B"
-    },
-    {
       "venue": "Miejsce zostanie ogłoszone",
       "locality": "Sheffield",
       "upcoming": true,
-      "when": "pt. 27 do nd. 29 listopada 2026",
-      "what": "Wystawa w pracowni, pierwszy weekend",
-      "where": "Sheffield, miejsce zostanie ogłoszone, otwarcie z wernisażem w piątek 27 listopada",
-      "start": "2026-11-27",
-      "end": "2026-11-29"
+      "when": "4 do 6 grudnia 2026",
+      "what": "Wystawa w pracowni, drugi weekend",
+      "where": "Sheffield, miejsce zostanie ogłoszone, z pokazem intarsji w sobotę 5 grudnia",
+      "start": "2026-12-04",
+      "end": "2026-12-06"
     },
     {
       "when": "28 do 29 listopada 2026",
@@ -97,31 +83,49 @@
       "venue": "Miejsce zostanie ogłoszone",
       "locality": "Sheffield",
       "upcoming": true,
-      "when": "pt. 4 do nd. 6 grudnia 2026",
-      "what": "Wystawa w pracowni, drugi weekend",
-      "where": "Sheffield, miejsce zostanie ogłoszone, z pokazem intarsji w sobotę 5 grudnia",
-      "start": "2026-12-04",
-      "end": "2026-12-06"
+      "when": "27 do 29 listopada 2026",
+      "what": "Wystawa w pracowni, pierwszy weekend",
+      "where": "Sheffield, miejsce zostanie ogłoszone, otwarcie z wernisażem w piątek 27 listopada",
+      "start": "2026-11-27",
+      "end": "2026-11-29"
+    },
+    {
+      "when": "16 do 18 października 2026",
+      "what": "Great Northern Contemporary Craft Fair",
+      "where": "Victoria Baths, Manchester, stoisko B09 w Pool B, wernisaż 15 października. Przez cały weekend będę przy stoisku ciął fornir na żywo.",
+      "upcoming": true,
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "venue": "Victoria Baths",
+      "locality": "Manchester",
+      "street": "Hathersage Road",
+      "postcode": "M13 0FE",
+      "url": "https://www.greatnortherncraftfair.co.uk/",
+      "stand": "B09, Pool B"
     },
     {
       "when": "maj 2025",
       "what": "Open Up Sheffield",
-      "where": "Otworzyłem pracownię na weekend, żeby pokazać cykl Innerysm i to, jak powstaje intarsja"
+      "where": "Otworzyłem pracownię na weekend, żeby pokazać cykl Innerysm i to, jak powstaje intarsja",
+      "sort": "2025-05"
     },
     {
       "when": "listopad 2024",
       "what": "Wystawa zbiorowa",
-      "where": "The Holy Art Gallery, Londyn, dwie prace w wystawie kuratorowanej"
+      "where": "The Holy Art Gallery, Londyn, dwie prace w wystawie kuratorowanej",
+      "sort": "2024-11"
     },
     {
       "when": "sierpień 2024",
       "what": "Innerysm, wystawa indywidualna",
-      "where": "Elementa Laudis, Sheffield, połączona z otwarciem studia"
+      "where": "Elementa Laudis, Sheffield, połączona z otwarciem studia",
+      "sort": "2024-08"
     },
     {
       "when": "na bieżąco",
       "what": "Wirtualna otwarta pracownia",
-      "where": "Nagrywam powstawanie każdego dzieła i publikuję na YouTube"
+      "where": "Nagrywam powstawanie każdego dzieła i publikuję na YouTube",
+      "sort": "0000"
     }
   ],
   "artworks": [

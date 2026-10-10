@@ -514,7 +514,8 @@ class Builder:
       </div>""")
 
         exl = []
-        for e in self.EX:
+        # newest at the top, oldest at the bottom; undated entries go last
+        for e in sorted(self.EX, key=lambda e: e.get("start") or e.get("sort", "0000"), reverse=True):
             cls = "" if e.get("upcoming") else ' class="past"'
             exl.append(f"""        <li{cls}>
           <span class="when">{html.escape(e['when'])}</span>
