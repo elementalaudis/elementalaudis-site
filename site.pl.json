@@ -22,7 +22,7 @@
       "sztuka z forniru",
       "artysta intarsja",
       "drewniane obrazy",
-      "ginące rzemiosło",
+      "ręcznie cięta intarsja",
       "Jan Katewicz",
       "Elementa Laudis"
     ],
@@ -47,7 +47,7 @@
     "paragraphs": [
       "Urodziłem się w Warszawie w 1987 roku, a mieszkam i pracuję w Sheffield. Od czternastu lat jestem doradcą finansowym i nadal nim jestem, co zaskakuje ludzi, którzy wcześniej stanęli przed którąś z moich płyt. Zmieniło się to, że miałem wypadek na rowerze. Wylądowałem w szpitalu i dostałem pół roku na to, żeby się zastanowić, co właściwie chcę robić. W tym czasie trafiłem na fornir, czyli drewno pocięte tak cienko, że widać w nim wszystko, przez co przeszło drzewo, i zacząłem ciąć.",
       "To, co robię teraz, łączy bardzo stare rzemiosło z myśleniem, które kojarzy się raczej ze współczesnym malarstwem abstrakcyjnym. Cykl Innerysm jest o wewnętrznej sile, o poznawaniu siebie i o tych warstwach motywacji, na które zwykle nie patrzymy wprost. Buduję to wszystko z fornirów, w układach, które niektórym kojarzą się z mandalami, fraktalami i mukarnasami, czyli sklepieniami znanymi z architektury islamskiej.",
-      "Większość intarsji jest wielkości szkatułki. Moje prace są wielkości ściany i to jest poniekąd sedno sprawy. Intarsja trafiła na Czerwoną Listę Ginących Rzemiosł prowadzoną przez brytyjską organizację Heritage Crafts, w Wielkiej Brytanii zajmuje się nią garstka osób, a w takiej skali prawie nikt. Moje prace trafiły już do prywatnych kolekcji w pięciu krajach."
+      "Większość intarsji jest wielkości szkatułki. Moje prace są wielkości ściany i to jest poniekąd sedno sprawy. W Wielkiej Brytanii intarsją zajmuje się garstka osób, a w takiej skali prawie nikt. Moje prace trafiły już do prywatnych kolekcji w pięciu krajach."
     ],
     "membership_line": "Jestem członkiem Joined Up Heritage Sheffield (JUHS), organizacji charytatywnej, która łączy ludzi i instytucje dbające o dziedzictwo Sheffield."
   },
@@ -663,7 +663,7 @@
     "marquetry": {
       "nav": "Intarsja",
       "title": "Czym jest intarsja i jak powstają moje płyty",
-      "description": "Intarsja wyjaśniona przez artystę, który zajmuje się nią na co dzień. Czym jest, jak powstaje płyta cięta ręcznie z forniru, czym różni się od inkrustacji i dlaczego trafiła na listę ginących rzemiosł.",
+      "description": "Intarsja wyjaśniona przez artystę, który zajmuje się nią na co dzień. Czym jest, jak powstaje płyta cięta ręcznie z forniru, czym różni się od inkrustacji i dlaczego tak niewiele osób wciąż robi ją ręcznie.",
       "intro": "O to, czym właściwie jest intarsja, pytają mnie częściej niż o cokolwiek innego. To jest odpowiedź napisana przez kogoś, kto robi to codziennie.",
       "sections": [
         {
@@ -691,9 +691,9 @@
           ]
         },
         {
-          "h": "Dlaczego to rzemiosło ginie",
+          "h": "Dlaczego zajmuje się tym tak niewiele osób",
           "p": [
-            "Intarsja trafiła na Czerwoną Listę Ginących Rzemiosł prowadzoną przez brytyjską organizację Heritage Crafts, czyli na rejestr rzemiosł zagrożonych zniknięciem. Powód nie jest taki, że ludzie przestali ją lubić. Zamknęły się ścieżki nauki zawodu, przemysł meblowy przeszedł na fornir cięty maszynowo i na nadruk imitujący słoje, a laser robi w kilka minut wersję tego, co człowiekowi zajmowało tydzień.",
+            "Bardzo niewiele osób wciąż robi intarsję ręcznie, a powód nie jest taki, że ludzie przestali ją lubić. Zamknęły się ścieżki nauki zawodu, przemysł meblowy przeszedł na fornir cięty maszynowo i na nadruk imitujący słoje, a laser robi w kilka minut wersję tego, co człowiekowi zajmowało tydzień.",
             "Laser zostawia przypaloną krawędź i nie umie czytać słojów. Tnie to, co każe mu plik. Decyzje, które sprawiają, że na intarsję warto patrzeć, czyli który arkusz, w którym kierunku i gdzie wypadnie łączenie, zapadają przed pierwszym cięciem i tych decyzji nie podejmuje żadna maszyna."
           ]
         },
@@ -769,8 +769,8 @@
           "a": "Tak, i aktywnie szukam współpracy z galeriami. Ceny są ustawione tak, żeby prowizja galerii nie zmieniała kwoty, którą płaci kolekcjoner. Podejmuję się też zleceń dla pracowni projektowych i stolarni."
         },
         {
-          "q": "Dlaczego intarsja nazywana jest ginącym rzemiosłem?",
-          "a": "Znajduje się na Czerwonej Liście Ginących Rzemiosł prowadzonej przez brytyjską organizację Heritage Crafts, czyli na rejestrze rzemiosł zagrożonych zniknięciem. Ścieżki nauki zawodu się zamknęły, przemysł meblowy przeszedł na fornir maszynowy i nadruk imitujący słoje, a ręcznie zajmuje się nią w Wielkiej Brytanii garstka osób."
+          "q": "Dlaczego tak niewiele osób wciąż robi intarsję?",
+          "a": "Ścieżki nauki zawodu się zamknęły, przemysł meblowy przeszedł na fornir maszynowy i nadruk imitujący słoje, a ręcznie zajmuje się nią w Wielkiej Brytanii garstka osób."
         }
       ]
     },
@@ -780,14 +780,13 @@
       "description": "Materiały prasowe: Jan Katewicz, artysta intarsji współczesnej ze studia Elementa Laudis w Sheffield. Biogram krótki i dłuższy, najważniejsze fakty, zdjęcia i kontakt.",
       "intro": "Wszystko, o co zwykle pytają dziennikarze, kuratorzy i galerie, w jednym miejscu. Można używać poniższych tekstów w tej postaci albo poprosić mnie o wersję na zadaną liczbę znaków.",
       "short_label": "Biogram krótki, 25 słów",
-      "short": "Jan Katewicz ręcznie tnie forniry i składa z nich współczesne intarsje, których wzory przywodzą na myśl mandale, fraktale i mukarnasy, utrzymując przy życiu ginące rzemiosło w swojej pracowni w Sheffield.",
+      "short": "Jan Katewicz ręcznie tnie forniry i składa z nich współczesne intarsje, których wzory przywodzą na myśl mandale, fraktale i mukarnasy, utrzymując przy życiu rzadkie rzemiosło w swojej pracowni w Sheffield.",
       "long_label": "Biogram, 50 słów",
-      "long": "Jan Katewicz tworzy współczesne intarsje w Elementa Laudis, swoim studiu artystycznym w Sheffield, wycinając i składając każde dzieło ręcznie z forniru, który sam barwi. Jego wzory nawiązują do mandali, fraktali i mukarnasów. Intarsja figuruje na liście ginących rzemiosł, a prace Jana trafiły do prywatnych kolekcji w pięciu krajach.",
+      "long": "Jan Katewicz tworzy współczesne intarsje w Elementa Laudis, swoim studiu artystycznym w Sheffield, wycinając i składając każde dzieło ręcznie z forniru, który sam barwi. Jego wzory nawiązują do mandali, fraktali i mukarnasów. Prace Jana trafiły do prywatnych kolekcji w pięciu krajach.",
       "facts_label": "Najważniejsze fakty",
       "facts": [
         "Urodzony w Warszawie w 1987 roku, mieszka i pracuje w Sheffield.",
         "Od czternastu lat pracuje jako doradca finansowy i nadal to robi. Wypadek na rowerze i pół roku rekonwalescencji doprowadziły go do forniru, a dziś łączy jedno z drugim.",
-        "Intarsja znajduje się na Czerwonej Liście Ginących Rzemiosł organizacji Heritage Crafts.",
         "Prace są nietypowo duże jak na to rzemiosło, do 172,5 cm wysokości, podczas gdy historyczna intarsja powstawała w skali mebla.",
         "Ponad czterdzieści prac sprzedanych od początku 2025 roku, do prywatnych kolekcji w pięciu krajach, z powracającymi kolekcjonerami.",
         "Zakwalifikowany na Great Northern Contemporary Craft Fair w Manchesterze, październik 2026, stoisko B09.",

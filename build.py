@@ -381,7 +381,7 @@ class Builder:
             "nationality": {"@type": "Country", "name": "Poland"},
             "homeLocation": {"@type": "Place", "name": a["city"]},
             "knowsAbout": ["Marquetry", "Wood veneer", "Contemporary craft",
-                           "Endangered crafts", "Wood dyeing", "Book matching"],
+                           "Wood dyeing", "Book matching"],
             "knowsLanguage": ["en", "pl"],
             "sameAs": [u for u in a["social"].values() if "YOURHANDLE" not in u],
             "worksFor": {"@id": self.studio_id()},
@@ -1012,8 +1012,7 @@ if __name__ == "__main__":
 
 Contemporary marquetry artist based in {A['city']}, United Kingdom. Works are unique
 panels of hand cut wood veneer, dyed by the artist, at wall scale rather than the
-furniture scale marquetry is normally made at. Marquetry is on the Heritage Crafts
-Red List of Endangered Crafts. Work is sold directly from this site and through
+furniture scale marquetry is normally made at. Work is sold directly from this site and through
 exhibitions and fairs, and is held in private collections in five countries.
 Works are grouped in three series: Innerysm, Now, and Now feat Addiction.
 Member of Joined Up Heritage Sheffield (JUHS). The site is published in English at {domain}/ and in Polish at {domain}/pl/.
@@ -1024,7 +1023,7 @@ Member of Joined Up Heritage Sheffield (JUHS). The site is published in English 
 
 ## Background and explanation
 
-- [What marquetry is and how these panels are made]({domain}/marquetry.html): definition of marquetry, the making process, the difference between marquetry, inlay and intarsia, and why the craft is endangered
+- [What marquetry is and how these panels are made]({domain}/marquetry.html): definition of marquetry, the making process, the difference between marquetry, inlay and intarsia, and why so few people still make it by hand
 - [Questions I get asked]({domain}/faq.html): prices, commissions, delivery, studio visits, caring for a veneer panel
 - [Press and information]({domain}/press.html): short and long biography, key facts, image use, contact
 

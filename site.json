@@ -22,7 +22,7 @@
       "wood veneer art",
       "marquetry artist UK",
       "Sheffield artist",
-      "endangered craft",
+      "hand cut marquetry",
       "wood wall art",
       "Jan Katewicz",
       "Elementa Laudis"
@@ -48,7 +48,7 @@
     "paragraphs": [
       "I was born in Warsaw in 1987 and I live and work in Sheffield. I have been a financial adviser for fourteen years and I still am, which surprises people once they have stood in front of one of the panels. What changed was a cycling accident that put me in hospital and gave me six months to think about what I actually wanted to make. During that time I came across veneer, which is wood sliced thin enough that you can see everything the tree went through, and I started cutting.",
       "The work I make now brings a very old craft together with the kind of ideas you would usually find in contemporary abstract painting. My Innerysm series is about inner strength, self discovery, and the layers of motivation we tend not to look at directly. I build those ideas out of veneer that I cut and dye myself, in patterns that some people associate with mandalas, fractals and the muqarnas vaults of Islamic architecture.",
-      "Most marquetry is the size of a jewellery box. Mine is the size of a wall, which is part of the point. Marquetry appears on the Heritage Crafts Red List of Endangered Crafts, only a handful of people in the UK still practise it, and almost nobody works it at this scale. My work has found its way into private collections in five countries."
+      "Most marquetry is the size of a jewellery box. Mine is the size of a wall, which is part of the point. Only a handful of people in the UK still practise marquetry, and almost nobody works it at this scale. My work has found its way into private collections in five countries."
     ],
     "membership_line": "I am a member of Joined Up Heritage Sheffield (JUHS), the charity that brings together the people and organisations who champion the city's heritage."
   },
@@ -664,7 +664,7 @@
     "marquetry": {
       "nav": "Marquetry",
       "title": "What marquetry is, and how these panels are made",
-      "description": "Marquetry explained by a working marquetry artist. What it is, how a panel is cut and assembled by hand from wood veneer, how it differs from intarsia and inlay, and why it is a Red List endangered craft in the UK.",
+      "description": "Marquetry explained by a working marquetry artist. What it is, how a panel is cut and assembled by hand from wood veneer, how it differs from intarsia and inlay, and why so few people still make it by hand.",
       "intro": "People ask me what marquetry actually is more often than they ask me anything else, so this is the plain answer, written by someone who does it every day.",
       "sections": [
         {
@@ -692,9 +692,9 @@
           ]
         },
         {
-          "h": "Why it is an endangered craft",
+          "h": "Why so few people still do it",
           "p": [
-            "Marquetry appears on the Heritage Crafts Red List of Endangered Crafts, which is the UK register of crafts at risk of dying out. The reason is not that people stopped liking it. It is that the training routes closed, the furniture trade that supported it moved to machine cut veneer and printed woodgrain, and laser cutting now does in minutes a version of what took a person a week.",
+            "Very few people still make marquetry by hand, and the reason is not that people stopped liking it. It is that the training routes closed, the furniture trade that supported it moved to machine cut veneer and printed woodgrain, and laser cutting now does in minutes a version of what took a person a week.",
             "A laser leaves a burnt edge and it cannot read grain. It cuts what the file tells it to cut. The decisions that make marquetry worth looking at, which sheet, which direction, where the join falls, are all made before any cutting starts, and those are the decisions no machine is making."
           ]
         },
@@ -770,8 +770,8 @@
           "a": "Yes, and I am actively looking for gallery representation. Prices are set so that gallery commission works without changing what a collector pays, and I take on trade and subcontract work for design studios and furniture makers."
         },
         {
-          "q": "Why is marquetry called an endangered craft?",
-          "a": "It is on the Heritage Crafts Red List of Endangered Crafts, the UK register of crafts at risk of disappearing. The training routes closed, the furniture trade moved to machine cut veneer and printed woodgrain, and only a handful of people in the UK still practise it by hand."
+          "q": "Why do so few people still make marquetry?",
+          "a": "The training routes closed, the furniture trade moved to machine cut veneer and printed woodgrain, and only a handful of people in the UK still practise it by hand."
         }
       ]
     },
@@ -781,14 +781,13 @@
       "description": "Press information for Jan Katewicz, contemporary marquetry artist at Elementa Laudis in Sheffield. Short and long biography, key facts, image use and contact.",
       "intro": "Everything a writer, curator or gallery normally asks for, in one place. Please use the text below as it is, or ask me for something written to your word count.",
       "short_label": "Short biography, 25 words",
-      "short": "Jan Katewicz hand cuts wood veneers into contemporary marquetry artworks whose patterns recall mandalas, fractals and muqarnas, keeping an endangered craft alive in his Sheffield studio.",
+      "short": "Jan Katewicz hand cuts wood veneers into contemporary marquetry artworks whose patterns recall mandalas, fractals and muqarnas, keeping a rare craft alive in his Sheffield studio.",
       "long_label": "Biography, 50 words",
-      "long": "Jan Katewicz makes contemporary marquetry artworks at Elementa Laudis, his studio in Sheffield, cutting and assembling each piece by hand from wood veneer that he dyes himself. His patterns draw on mandalas, fractals and muqarnas. Marquetry is listed as an endangered craft, and Jan's work has joined private collections across five countries.",
+      "long": "Jan Katewicz makes contemporary marquetry artworks at Elementa Laudis, his studio in Sheffield, cutting and assembling each piece by hand from wood veneer that he dyes himself. His patterns draw on mandalas, fractals and muqarnas. Jan's work has joined private collections across five countries.",
       "facts_label": "Key facts",
       "facts": [
         "Born in Warsaw in 1987, lives and works in Sheffield.",
         "Has worked as a financial adviser for fourteen years and still does. A cycling accident and six months of recovery led him to wood veneer, and he now runs both.",
-        "Marquetry is on the Heritage Crafts Red List of Endangered Crafts.",
         "Works are unusually large for the craft, up to 172.5 cm tall, where historical marquetry was made at the scale of furniture.",
         "Over forty works sold since early 2025, into private collections in five countries, with repeat collectors.",
         "Selected for the Great Northern Contemporary Craft Fair, Manchester, October 2026, stand B09.",
