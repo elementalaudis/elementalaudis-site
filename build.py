@@ -85,6 +85,8 @@ UI = {
         "addr_line": "Visits by appointment.",
         "crumb": "Back to all work",
         "series_label": "{series} series",
+        "series_works": "{n} works",
+        "member_of": "Member of",
         "t_medium": "Medium", "t_dims": "Dimensions", "t_year": "Year",
         "t_edition": "Edition", "t_unique": "Unique work",
         "dims_note": "(h × w)",
@@ -133,6 +135,8 @@ UI = {
         "addr_line": "Wizyty po wcześniejszym umówieniu.",
         "crumb": "Wróć do wszystkich prac",
         "series_label": "Cykl {series}",
+        "series_works": "Liczba prac: {n}",
+        "member_of": "Członek",
         "t_medium": "Technika", "t_dims": "Wymiary", "t_year": "Rok",
         "t_edition": "Egzemplarz", "t_unique": "Unikat",
         "dims_note": "(wys. × szer.)",
@@ -202,6 +206,11 @@ class Builder:
         d = json.load(open(os.path.join(HERE, lang["file"]), encoding="utf-8"))
         self.ART, self.ABOUT, self.EX, self.WORKS = d["artist"], d["about"], d["exhibitions"], d["artworks"]
         self.PAGES = d["pages"]
+        self.SERIES = [s["name"] for s in d.get("series", [])] or \
+            list(dict.fromkeys(w["series"] for w in self.WORKS))
+        # keep works in series order so next/previous walks a series through
+        self.WORKS = [w for s in self.SERIES for w in self.WORKS if w["series"] == s] + \
+            [w for w in self.WORKS if w["series"] not in self.SERIES]
         self.outdir = os.path.join(HERE, lang["dir"]) if lang["dir"] else HERE
         os.makedirs(self.outdir, exist_ok=True)
 
@@ -219,6 +228,19 @@ class Builder:
         d = {"en": "", "pl": "pl"}[code] if code else self.L["dir"]
         page = "" if page == "index.html" else page
         return f"{base}/{d}/{page}" if d else f"{base}/{page}"
+
+    def dims_full(self, w):
+        extra = w.get("dims_extra")
+        return dims(w, self.code) + (f", {extra}" if extra else "")
+
+    def series_id(self, name):
+        return "series-" + "".join(c if c.isalnum() else "-" for c in name.lower()).strip("-")
+
+    def buy_btn(self, w, cls="btn"):
+        """Stripe checkout if the work has a payment link, otherwise an enquiry."""
+        if w.get("stripe"):
+            return f'<a class="{cls}" href="{w['stripe']}">{self.u['btn_buy']}</a>'
+        return f'<a class="{cls}" href="#contact">{self.u['btn_enquire']}</a>'
 
     def dim_attr(self, filename):
         d = jpeg_size(os.path.join(HERE, "images", filename))
@@ -317,12 +339,20 @@ class Builder:
         <a href="press.html">{P['press']['nav']}</a>
         <a href="terms.html">{P['terms']['nav']}</a>
       </span>
+      {self.memberships_line()}
     </div>
     <ul class="social">{links}
       <li><a href="mailto:{self.ART['email']}">E-mail</a></li>
     </ul>
   </div>
 </footer>"""
+
+    def memberships_line(self):
+        ms = self.ART.get("memberships", [])
+        if not ms:
+            return ""
+        links = ", ".join(f'<a href="{m['url']}" rel="noopener" target="_blank">{html.escape(m['name'])}</a>' for m in ms)
+        return f'<span class="foot-member">{self.u["member_of"]} {links}</span>'
 
     def write(self, name, content):
         with open(os.path.join(self.outdir, name), "w", encoding="utf-8") as f:
@@ -355,6 +385,8 @@ class Builder:
             "knowsLanguage": ["en", "pl"],
             "sameAs": [u for u in a["social"].values() if "YOURHANDLE" not in u],
             "worksFor": {"@id": self.studio_id()},
+            "memberOf": [{"@type": "Organization", "name": m["name"], "url": m["url"]}
+                         for m in a.get("memberships", [])],
         }
         studio = {
             "@type": ["ArtGallery", "LocalBusiness"], "@id": self.studio_id(),
@@ -426,7 +458,18 @@ class Builder:
     def build_index(self):
         u, a = self.u, self.a
         grid = []
-        for w in self.WORKS:
+        for s in self.SERIES:
+          ws = [w for w in self.WORKS if w["series"] == s]
+          if not ws:
+              continue
+          grid.append(f"""
+      <div class="series-group" id="{self.series_id(s)}">
+        <div class="series-head">
+          <h3>{html.escape(s)}</h3>
+          <p class="series-count">{u['series_works'].format(n=len(ws))}</p>
+        </div>
+        <div class="works">""")
+          for w in ws:
             sold = w["status"] == "sold"
             grid.append(f"""
         <figure class="work">
@@ -434,29 +477,41 @@ class Builder:
             <div class="frame"><img src="{a}images/{w['card']}" alt="{html.escape(w['series'])} {html.escape(w['title'])}"{self.dim_attr(w["card"])} loading="lazy"></div>
             <figcaption>
               <p class="work-title">{html.escape(w['series'])}: {html.escape(w['title'])}</p>
-              <p class="work-meta">{html.escape(w['medium'])}<br>{dims(w, self.code)} · {w['year']}</p>
+              <p class="work-meta">{html.escape(w['medium'])}<br>{self.dims_full(w)} · {w['year']}</p>
               <span class="work-status{' sold' if sold else ''}">{u['status_sold'] if sold else u['status_available']}</span>
             </figcaption>
           </a>
         </figure>""")
+          grid.append("""
+        </div>
+      </div>""")
 
         cards = []
-        for w in self.WORKS:
-            if w["status"] == "sold":
-                continue
+        for s in self.SERIES:
+          ws = [w for w in self.WORKS if w["series"] == s and w["status"] != "sold"]
+          if not ws:
+              continue
+          cards.append(f"""
+      <div class="series-group">
+        <div class="series-head"><h3>{html.escape(s)}</h3></div>
+        <div class="available">""")
+          for w in ws:
             cards.append(f"""
         <article class="card">
           <a href="work-{w['slug']}.html"><div class="frame"><img src="{a}images/{w['card']}" alt="{html.escape(w['title'])}"{self.dim_attr(w["card"])} loading="lazy"></div></a>
           <div class="card-body">
             <p class="work-title"><a href="work-{w['slug']}.html">{html.escape(w['series'])}: {html.escape(w['title'])}</a></p>
-            <p class="work-meta">{html.escape(w['medium'])} · {dims(w, self.code)} · {w['year']}</p>
+            <p class="work-meta">{html.escape(w['medium'])} · {self.dims_full(w)} · {w['year']}</p>
             <p class="price">{money(w['price'], self.code)}</p>
             <div class="btn-row">
-              <a class="btn" href="{w['stripe']}">{u['btn_buy']}</a>
+              {self.buy_btn(w)}
               <a class="btn quiet" href="work-{w['slug']}.html">{u['btn_details']}</a>
             </div>
           </div>
         </article>""")
+          cards.append("""
+        </div>
+      </div>""")
 
         exl = []
         for e in self.EX:
@@ -467,6 +522,13 @@ class Builder:
         </li>""")
 
         about_ps = "\n          ".join(f"<p>{p}</p>" for p in self.ABOUT["paragraphs"])
+        if self.ABOUT.get("membership_line"):
+            about_ps += f'\n          <p class="member-line">{html.escape(self.ABOUT["membership_line"])}</p>'
+        ann = self.ART.get("announce")
+        announce = ""
+        if ann and datetime.date.today().isoformat() <= ann["until"]:
+            announce = (f'<p class="announce">{html.escape(ann["text"])} '
+                        f'<a href="{ann["link"]}">{html.escape(ann["link_text"])}</a></p>')
         fs = self.L["form_suffix"]
         thanks = ("/pl/thanks.html" if self.code == "pl" else "/thanks.html")
 
@@ -481,6 +543,7 @@ class Builder:
 
   <section class="hero first">
     <div class="wrap">
+      {announce}
       <h1>{self.ART['tagline']}</h1>
       <p class="lede" style="margin-top:2rem;">{self.ART['lede']}</p>
       <figure class="hero-figure">
@@ -499,8 +562,7 @@ class Builder:
         <h2>{u['work_head']}</h2>
         <p style="margin-top:1.2rem;">{u['work_intro']}</p>
       </div>
-      <div class="works">{''.join(grid)}
-      </div>
+      {''.join(grid)}
     </div>
   </section>
 
@@ -511,8 +573,7 @@ class Builder:
         <h2>{u['avail_head']}</h2>
         <p style="margin-top:1.2rem;">{u['avail_intro']}</p>
       </div>
-      <div class="available">{''.join(cards)}
-      </div>
+      {''.join(cards)}
       <p class="note" style="margin-top:3rem;">{u['avail_note'].format(contact='#contact')}</p>
       <p class="note" style="margin-top:1rem;">{u['piece_terms']}</p>
     </div>
@@ -610,7 +671,9 @@ class Builder:
 
         sold = w["status"] == "sold"
         buy = (f'<span class="btn quiet" style="cursor:default;">{u["status_sold"]}</span>'
-               if sold else f'<a class="btn" href="{w["stripe"]}">{u["btn_buy"]}</a>')
+               if sold else
+               f'<a class="btn" href="{w["stripe"]}">{u["btn_buy"]}</a>' if w.get("stripe") else "")
+        enq_cls = "btn quiet" if (sold or w.get("stripe")) else "btn"
 
         title = f"{w['series']}: {w['title']}"
         desc = f"{title}, {w['medium']}, {dims(w, self.code)}, {w['year']}."
@@ -646,14 +709,14 @@ class Builder:
         <h1>{html.escape(w['title'])}</h1>
         <dl>
           <dt>{u['t_medium']}</dt><dd>{html.escape(w['medium'])}</dd>
-          <dt>{u['t_dims']}</dt><dd>{dims(w, self.code)} {u['dims_note']}</dd>
+          <dt>{u['t_dims']}</dt><dd>{dims(w, self.code)} {u['dims_note']}{(", " + html.escape(w["dims_extra"])) if w.get("dims_extra") else ""}</dd>
           <dt>{u['t_year']}</dt><dd>{w['year']}</dd>
           <dt>{u['t_edition']}</dt><dd>{u['t_unique']}</dd>
         </dl>
         <p class="price">{money(w['price'], self.code)}</p>
         <div class="btn-row">
           {buy}
-          <a class="btn quiet" href="index.html#contact">{u['btn_enquire']}</a>
+          <a class="{enq_cls}" href="index.html#contact">{u['btn_enquire']}</a>
         </div>
         <p class="fine" style="margin-top:1.6rem;">{u['piece_fine']}</p>
         <p class="fine" style="margin-top:.8rem;">{u['piece_terms']}</p>
@@ -952,8 +1015,8 @@ panels of hand cut wood veneer, dyed by the artist, at wall scale rather than th
 furniture scale marquetry is normally made at. Marquetry is on the Heritage Crafts
 Red List of Endangered Crafts. Work is sold directly from this site and through
 exhibitions and fairs, and is held in private collections in five countries.
-Two series are complete, Innerysm and Now, and a third series about addiction is in
-progress. The site is published in English at {domain}/ and in Polish at {domain}/pl/.
+Works are grouped in three series: Innerysm, Now, and Now feat Addiction.
+Member of Joined Up Heritage Sheffield (JUHS). The site is published in English at {domain}/ and in Polish at {domain}/pl/.
 
 ## Artworks
 

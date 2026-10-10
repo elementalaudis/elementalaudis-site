@@ -184,3 +184,15 @@ ul.facts li{margin-bottom:.6rem;}
 .foot-links{display:inline-flex;gap:1.2rem;margin-left:1.2rem;}
 .foot-links a{border-bottom:1px solid var(--rule);}
 @media(max-width:560px){.foot-links{display:flex;margin:.8rem 0 0;}}
+
+/* series grouping */
+.series-group{margin-top:clamp(3rem,6vw,4.5rem);}
+.series-group:first-child{margin-top:0;}
+.series-head{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;border-bottom:1px solid currentColor;padding-bottom:.7rem;margin-bottom:clamp(1.6rem,3vw,2.4rem);opacity:.92;}
+.series-head h3{font-size:clamp(1.4rem,2.6vw,1.9rem);}
+.series-count{margin:0;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;opacity:.7;}
+/* fair announcement and membership */
+.announce{margin:0 0 2.2rem;padding:.9rem 1.1rem;border-left:3px solid currentColor;background:var(--paper-warm);font-size:.98rem;line-height:1.5;}
+.announce a{white-space:nowrap;}
+.member-line{font-style:italic;}
+.foot-member{display:block;margin-top:.6rem;font-size:.9em;}

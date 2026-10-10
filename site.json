@@ -26,6 +26,19 @@
       "wood wall art",
       "Jan Katewicz",
       "Elementa Laudis"
+    ],
+    "announce": {
+      "until": "2026-10-18",
+      "text": "Meet me and the new Now feat Addiction series at the Great Northern Contemporary Craft Fair, Victoria Baths, Manchester, 15 to 18 October, stand B09 in Pool B.",
+      "link": "#exhibitions",
+      "link_text": "Details"
+    },
+    "memberships": [
+      {
+        "name": "Joined Up Heritage Sheffield",
+        "short": "JUHS",
+        "url": "https://www.joinedupheritagesheffield.org.uk/"
+      }
     ]
   },
   "about": {
@@ -36,13 +49,14 @@
       "I was born in Warsaw in 1987 and I live and work in Sheffield. I have been a financial adviser for fourteen years and I still am, which surprises people once they have stood in front of one of the panels. What changed was a cycling accident that put me in hospital and gave me six months to think about what I actually wanted to make. During that time I came across veneer, which is wood sliced thin enough that you can see everything the tree went through, and I started cutting.",
       "The work I make now brings a very old craft together with the kind of ideas you would usually find in contemporary abstract painting. My Innerysm series is about inner strength, self discovery, and the layers of motivation we tend not to look at directly. I build those ideas out of veneer that I cut and dye myself, in patterns that some people associate with mandalas, fractals and the muqarnas vaults of Islamic architecture.",
       "Most marquetry is the size of a jewellery box. Mine is the size of a wall, which is part of the point. Marquetry appears on the Heritage Crafts Red List of Endangered Crafts, only a handful of people in the UK still practise it, and almost nobody works it at this scale. My work has found its way into private collections in five countries."
-    ]
+    ],
+    "membership_line": "I am a member of Joined Up Heritage Sheffield (JUHS), the charity that brings together the people and organisations who champion the city's heritage."
   },
   "exhibitions": [
     {
       "when": "16 to 18 Oct 2026",
       "what": "Great Northern Contemporary Craft Fair",
-      "where": "Victoria Baths, Manchester, with a preview evening on 15 October. I will be hand cutting veneer at the stand through the weekend.",
+      "where": "Victoria Baths, Manchester, stand B09 in Pool B, with a preview evening on 15 October. I will be hand cutting veneer at the stand through the weekend.",
       "upcoming": true,
       "start": "2026-10-16",
       "end": "2026-10-18",
@@ -50,7 +64,8 @@
       "locality": "Manchester",
       "street": "Hathersage Road",
       "postcode": "M13 0FE",
-      "url": "https://www.greatnortherncraftfair.co.uk/"
+      "url": "https://www.greatnortherncraftfair.co.uk/",
+      "stand": "B09, Pool B"
     },
     {
       "when": "27 to 29 Nov 2026",
@@ -338,7 +353,7 @@
         "The same green and the same thought as Chaos, and the same rule, which is that the grain decides and I follow it. What is different is that here an order has been built out of the chaos, because that is what we do with our own thinking. We make it mean something.",
         "From across the room this is just something green. So is most of a life, seen from far enough away, vague and repetitive and much like the day before.",
         "Come closer and the layers are all there, and always were. They only show themselves to somebody who stops.",
-        "The Now series is the way in to the next body of work, which is about addiction, and which will be here before long."
+        "The Now series is the way in to the next body of work, Now feat Addiction, which is here now."
       ],
       "details": [
         {
@@ -365,13 +380,282 @@
         "Green in every shade it has. At certain angles the light pulls a yellow out of it, but the panel is green, and in the Now series green is thought, the mind before anything has been done to it.",
         "In this series I do not decide the pattern. The grain decides. I follow what the wood has already written and I put into it whichever moment of my own life I happen to be in while I am cutting.",
         "Every moment of being present starts here, in the churn, because everything does.",
-        "The Now series is the way in to the next body of work, which is about addiction, and which will be here before long."
+        "The Now series is the way in to the next body of work, Now feat Addiction, which is here now."
       ],
       "details": [
         {
           "file": "now-chaos-wall.jpg",
           "caption": "Hanging in the studio",
           "wide": true
+        }
+      ]
+    },
+    {
+      "slug": "battlefield",
+      "title": "Battlefield",
+      "series": "Now feat Addiction",
+      "year": 2026,
+      "medium": "Marquetry in chestnut, walnut and maple veneer, dyed by hand, framed",
+      "width_cm": 123,
+      "height_cm": 71.5,
+      "dims_extra": "including the frame",
+      "price": 950,
+      "status": "available",
+      "stripe": "",
+      "card": "battlefield.jpg",
+      "full": "battlefield-full.jpg",
+      "statement": [
+        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
+        "What is different about this one is the small rectangles, and there are a lot of them. They are patches. Every addiction leaves holes. The mind fights, and sometimes it wins and sometimes it loses, but the holes were there either way. The patches are what comes after. They are an acceptance that something has changed, including how you look, and an acceptance of who you are now rather than who you were before.",
+        "Each patch is a separate piece of veneer, cut by hand and set into the surface, and the grain runs a different way inside every one of them. At 123 cm across it is the largest piece in the series.",
+        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+      ],
+      "details": [
+        {
+          "file": "battlefield-framed.jpg",
+          "caption": "The whole framed panel",
+          "wide": true
+        },
+        {
+          "file": "battlefield-1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "battlefield-2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "battlefield-3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "battlefield-4.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "battlefield-5.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "battlefield-6.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "battlefield-7.jpg",
+          "caption": "Detail"
+        }
+      ]
+    },
+    {
+      "slug": "rules",
+      "title": "Rules",
+      "series": "Now feat Addiction",
+      "year": 2026,
+      "medium": "Marquetry in chestnut, walnut and maple veneer, dyed by hand, framed",
+      "width_cm": 67,
+      "height_cm": 50,
+      "dims_extra": "including the frame",
+      "price": 600,
+      "status": "available",
+      "stripe": "",
+      "card": "rules.jpg",
+      "full": "rules-full.jpg",
+      "statement": [
+        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
+        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+      ],
+      "details": [
+        {
+          "file": "rules-framed.jpg",
+          "caption": "The whole framed panel",
+          "wide": true
+        },
+        {
+          "file": "rules-1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "rules-2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "rules-3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "rules-4.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "rules-5.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "rules-6.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "rules-7.jpg",
+          "caption": "Detail"
+        }
+      ]
+    },
+    {
+      "slug": "resistance",
+      "title": "Resistance",
+      "series": "Now feat Addiction",
+      "year": 2026,
+      "medium": "Marquetry in chestnut, walnut and maple veneer, dyed by hand, framed",
+      "width_cm": 74.5,
+      "height_cm": 41.5,
+      "dims_extra": "including the frame",
+      "price": 600,
+      "status": "available",
+      "stripe": "",
+      "card": "resistance.jpg",
+      "full": "resistance-full.jpg",
+      "statement": [
+        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
+        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+      ],
+      "details": [
+        {
+          "file": "resistance-framed.jpg",
+          "caption": "The whole framed panel",
+          "wide": true
+        },
+        {
+          "file": "resistance-1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "resistance-2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "resistance-3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "resistance-4.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "resistance-5.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "resistance-6.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "resistance-7.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "resistance-8.jpg",
+          "caption": "Detail"
+        }
+      ]
+    },
+    {
+      "slug": "warning",
+      "title": "Warning",
+      "series": "Now feat Addiction",
+      "year": 2026,
+      "medium": "Marquetry in chestnut, walnut and maple veneer, dyed by hand, framed",
+      "width_cm": 44,
+      "height_cm": 63,
+      "dims_extra": "including the frame",
+      "price": 550,
+      "status": "available",
+      "stripe": "",
+      "card": "warning.jpg",
+      "full": "warning-full.jpg",
+      "statement": [
+        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
+        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+      ],
+      "details": [
+        {
+          "file": "warning-framed.jpg",
+          "caption": "The whole framed panel",
+          "wide": true
+        },
+        {
+          "file": "warning-1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "warning-2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "warning-3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "warning-4.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "warning-5.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "warning-6.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "warning-7.jpg",
+          "caption": "Detail"
+        }
+      ]
+    },
+    {
+      "slug": "fleeting-effort",
+      "title": "Fleeting effort",
+      "series": "Now feat Addiction",
+      "year": 2026,
+      "medium": "Marquetry in chestnut, walnut and maple veneer, dyed by hand, framed",
+      "width_cm": 52,
+      "height_cm": 40,
+      "dims_extra": "including the frame",
+      "price": 450,
+      "status": "available",
+      "stripe": "",
+      "card": "fleeting-effort.jpg",
+      "full": "fleeting-effort-full.jpg",
+      "statement": [
+        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
+        "The green field is book matched, which means two sheets of veneer opened against each other like a page, so the figure mirrors itself down the centre and your eye keeps finding a symmetry that turns out not to be exact. At 40 by 52 cm it is the smallest piece in the series.",
+        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+      ],
+      "details": [
+        {
+          "file": "fleeting-effort-framed.jpg",
+          "caption": "The whole framed panel",
+          "wide": true
+        },
+        {
+          "file": "fleeting-effort-1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "fleeting-effort-2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "fleeting-effort-3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "fleeting-effort-4.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "fleeting-effort-5.jpg",
+          "caption": "Detail"
         }
       ]
     }
@@ -455,11 +739,11 @@
         },
         {
           "q": "How much does a piece cost?",
-          "a": "Prices currently run from £800 for a work in the Now series to £1,400 for the largest Innerysm panels. Every price on this site is the price everywhere, in the studio, at a fair and in a gallery."
+          "a": "Prices currently run from £450 for the smallest Now feat Addiction piece to £1,400 for the largest Innerysm panels. Every price on this site is the price everywhere, in the studio, at a fair and in a gallery."
         },
         {
           "q": "What are you working on next?",
-          "a": "A new series about addiction. The Now series is the introduction to it, and the first works will be available before long. If you would like to see them before they go public, the studio letter goes out first."
+          "a": "The series about addiction, Now feat Addiction, is here now, and the Now series is the introduction to it. If you would like to see new work before it goes public, the studio letter goes out first."
         },
         {
           "q": "Can I commission a piece for a particular wall?",
@@ -507,7 +791,8 @@
         "Marquetry is on the Heritage Crafts Red List of Endangered Crafts.",
         "Works are unusually large for the craft, up to 172.5 cm tall, where historical marquetry was made at the scale of furniture.",
         "Over forty works sold since early 2025, into private collections in five countries, with repeat collectors.",
-        "Selected for the Great Northern Contemporary Craft Fair, Manchester, October 2026.",
+        "Selected for the Great Northern Contemporary Craft Fair, Manchester, October 2026, stand B09.",
+        "Member of Joined Up Heritage Sheffield (JUHS).",
         "First solo exhibition, Innerysm, at the opening of the studio in August 2024. Group show at The Holy Art Gallery, London, November 2024.",
         "The studio has its own TripAdvisor listing and opens to the public for Open Up Sheffield."
       ],
@@ -594,5 +879,16 @@
         }
       ]
     }
-  }
+  },
+  "series": [
+    {
+      "name": "Innerysm"
+    },
+    {
+      "name": "Now"
+    },
+    {
+      "name": "Now feat Addiction"
+    }
+  ]
 }
