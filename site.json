@@ -1,0 +1,598 @@
+{
+  "artist": {
+    "name": "Jan Katewicz",
+    "studio": "Elementa Laudis",
+    "domain": "https://elementalaudis.com",
+    "email": "elementa.laudis@gmail.com",
+    "address": "Unit 16, Gordon Works Complex, Valley Rd, Sheffield, S8 9FT",
+    "city": "Sheffield",
+    "tagline": "Marquetry at the scale of a wall",
+    "lede": "I make contemporary marquetry in my studio in Sheffield. I cut and assemble every element by hand from natural veneer and then dye it myself. It is a craft that has almost disappeared in Britain and in the world, and only a handful of people still work it at this scale.",
+    "hero_image": "humble-scale.jpg",
+    "hero_caption": "Innerysm: Humble, marquetry in walnut, maple and zebrano veneer on MDF, 172.5 by 108 cm, 2024",
+    "hero_link": "work-humble.html",
+    "social": {
+      "Instagram": "https://www.instagram.com/elementa.laudis/",
+      "LinkedIn": "https://www.linkedin.com/in/jan-katewicz-elementa-laudis/",
+      "YouTube": "https://www.youtube.com/@elementa.laudis"
+    },
+    "keywords": [
+      "marquetry",
+      "contemporary marquetry",
+      "wood veneer art",
+      "marquetry artist UK",
+      "Sheffield artist",
+      "endangered craft",
+      "wood wall art",
+      "Jan Katewicz",
+      "Elementa Laudis"
+    ]
+  },
+  "about": {
+    "heading": "Jan Katewicz",
+    "portrait": "portrait.jpg",
+    "portrait_caption": "Elementa Laudis studio, Sheffield",
+    "paragraphs": [
+      "I was born in Warsaw in 1987 and I live and work in Sheffield. I have been a financial adviser for fourteen years and I still am, which surprises people once they have stood in front of one of the panels. What changed was a cycling accident that put me in hospital and gave me six months to think about what I actually wanted to make. During that time I came across veneer, which is wood sliced thin enough that you can see everything the tree went through, and I started cutting.",
+      "The work I make now brings a very old craft together with the kind of ideas you would usually find in contemporary abstract painting. My Innerysm series is about inner strength, self discovery, and the layers of motivation we tend not to look at directly. I build those ideas out of veneer that I cut and dye myself, in patterns that some people associate with mandalas, fractals and the muqarnas vaults of Islamic architecture.",
+      "Most marquetry is the size of a jewellery box. Mine is the size of a wall, which is part of the point. Marquetry appears on the Heritage Crafts Red List of Endangered Crafts, only a handful of people in the UK still practise it, and almost nobody works it at this scale. My work has found its way into private collections in five countries."
+    ]
+  },
+  "exhibitions": [
+    {
+      "when": "16 to 18 Oct 2026",
+      "what": "Great Northern Contemporary Craft Fair",
+      "where": "Victoria Baths, Manchester, with a preview evening on 15 October. I will be hand cutting veneer at the stand through the weekend.",
+      "upcoming": true,
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "venue": "Victoria Baths",
+      "locality": "Manchester",
+      "street": "Hathersage Road",
+      "postcode": "M13 0FE",
+      "url": "https://www.greatnortherncraftfair.co.uk/"
+    },
+    {
+      "when": "27 to 29 Nov 2026",
+      "what": "Studio Exhibition",
+      "where": "Elementa Laudis, Sheffield, opening with a preview evening on Friday 27 November",
+      "upcoming": true,
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "venue": "Elementa Laudis",
+      "locality": "Sheffield",
+      "street": "Unit 16, Gordon Works Complex, Valley Rd",
+      "postcode": "S8 9FT"
+    },
+    {
+      "when": "28 to 29 Nov 2026",
+      "what": "GNCCF Online, Gift Edition",
+      "where": "Online",
+      "upcoming": true,
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "online": true
+    },
+    {
+      "when": "May 2025",
+      "what": "Open Up Sheffield",
+      "where": "I opened the studio for the weekend so people could see the Innerysm series and watch how marquetry is actually done"
+    },
+    {
+      "when": "Nov 2024",
+      "what": "Group Exhibition",
+      "where": "The Holy Art Gallery, London, showing two works in a curated group show"
+    },
+    {
+      "when": "Aug 2024",
+      "what": "Innerysm, solo exhibition",
+      "where": "Elementa Laudis, Sheffield, which was also the opening of the studio"
+    },
+    {
+      "when": "Ongoing",
+      "what": "Virtual open studio",
+      "where": "I film the making of each work and put it on YouTube, so anyone can look over my shoulder"
+    }
+  ],
+  "artworks": [
+    {
+      "slug": "humble",
+      "title": "Humble",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Marquetry in walnut, maple and zebrano veneer on MDF",
+      "width_cm": 108,
+      "height_cm": 172.5,
+      "price": 1400,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/3cI3cxeuHc1tgba4RGdUY00",
+      "card": "humble.jpg",
+      "full": "humble-full.jpg",
+      "statement": [
+        "A corridor of light runs back into blue and violet, and it does not stop where the panel stops. The piece is about scale, and about the fact that there is always something bigger than whatever you happen to be standing in front of.",
+        "Near the bottom edge there is one small shape. That one is me. Simple next to all the rest of it, and still worth looking at, which is more or less how I understand my own place in the whole thing.",
+        "At 172.5 cm tall this is the largest piece in the Innerysm series, and it is the one travelling to Manchester in October."
+      ],
+      "details": [
+        {
+          "file": "humble-scale.jpg",
+          "caption": "Standing beside it gives you a sense of the size",
+          "wide": true
+        },
+        {
+          "file": "humble-1.jpg",
+          "caption": "The centre, where the burr is book matched against itself"
+        },
+        {
+          "file": "humble-2.jpg",
+          "caption": "The upper section"
+        },
+        {
+          "file": "humble-3.jpg",
+          "caption": "The lower section"
+        },
+        {
+          "file": "humble-4.jpg",
+          "caption": "The grid, seen close"
+        },
+        {
+          "file": "humble-5.jpg",
+          "caption": "Detail"
+        }
+      ]
+    },
+    {
+      "slug": "archetypes",
+      "title": "Archetypes",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Marquetry in walnut, sycamore and oak veneer on MDF",
+      "width_cm": 117,
+      "height_cm": 159.5,
+      "price": 1400,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/eVq14p3Q30iLgbafwkdUY01",
+      "card": "archetypes.jpg",
+      "full": "archetypes-full.jpg",
+      "statement": [
+        "Violet and vivid green, and inside them a set of shapes that keep almost turning into something you recognise. A diamond, a doorway, a slab of red burr set at an angle.",
+        "This piece is about the forms we know before we have words for them. Nothing in it represents anything, and yet people stand in front of it and start seeing faces and bodies in the grain, which is exactly what I hoped would happen.",
+        "I dye the veneer myself and the colour goes all the way through it rather than sitting on the surface, so the figure of the wood still reads through every field of colour."
+      ],
+      "details": [
+        {
+          "file": "archetypes-1.jpg",
+          "caption": "The central diamond",
+          "wide": true
+        },
+        {
+          "file": "archetypes-2.jpg",
+          "caption": "The upper field",
+          "wide": true
+        },
+        {
+          "file": "archetypes-3.jpg",
+          "caption": "Burr set against dyed ground"
+        },
+        {
+          "file": "archetypes-4.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "archetypes-5.jpg",
+          "caption": "Detail"
+        }
+      ]
+    },
+    {
+      "slug": "inner-strength",
+      "title": "Inner Strength",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Marquetry in walnut and sycamore veneer on MDF",
+      "width_cm": 99.5,
+      "height_cm": 158.5,
+      "price": 1300,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/28E7sN5Yb1mPbUUdocdUY02",
+      "card": "inner-strength.jpg",
+      "full": "inner-strength-full.jpg",
+      "statement": [
+        "A vaulted passage in amber and ochre, with a stair climbing towards an arch at the far end, and behind that arch another one.",
+        "I do not believe inner strength is something you are born with. It is learned. You practise, you try, it does not work, you improve, and each time you unlock one door and find another one behind it. What this piece asks is that you do it consciously, because none of it happens on its own.",
+        "Above the arch a mass of dark figured walnut opens out, mirrored against itself. It guards whatever is at the end of the passage, and it is the reason the climb is worth making."
+      ],
+      "details": [
+        {
+          "file": "inner-strength-1.jpg",
+          "caption": "The arch, in mirrored walnut figure"
+        },
+        {
+          "file": "inner-strength-2.jpg",
+          "caption": "The stair",
+          "wide": true
+        },
+        {
+          "file": "inner-strength-3.jpg",
+          "caption": "The vault and the edge",
+          "wide": true
+        },
+        {
+          "file": "inner-strength-4.jpg",
+          "caption": "Lower detail"
+        },
+        {
+          "file": "inner-strength-5.jpg",
+          "caption": "Detail"
+        }
+      ]
+    },
+    {
+      "slug": "intrinsic-motivation",
+      "title": "Intrinsic Motivation",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Marquetry in walnut, sapele pommelé, camphor, birch and sycamore veneer on MDF",
+      "width_cm": 112,
+      "height_cm": 152.5,
+      "price": 1300,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/28EaEZ72fe9B3oo6ZOdUY03",
+      "card": "intrinsic-motivation.jpg",
+      "full": "intrinsic-motivation-full.jpg",
+      "statement": [
+        "A yellow sun rises behind a mirrored peak, and thin yellow lines run out from the centre across the whole surface.",
+        "This is about the purest kind of motivation there is, the sort that comes from inside you and asks nobody for a reward. The lines leaving the centre are what happens next, because once you find that motivation in one part of your life it starts running into all the others.",
+        "That is why I think it is so profound. It does not stay where you found it. It charges everything else."
+      ],
+      "details": [
+        {
+          "file": "intrinsic-motivation-1.jpg",
+          "caption": "The sun and the peak",
+          "wide": true
+        },
+        {
+          "file": "intrinsic-motivation-2.jpg",
+          "caption": "The upper diamond"
+        },
+        {
+          "file": "intrinsic-motivation-3.jpg",
+          "caption": "A diamond set against pommelé"
+        },
+        {
+          "file": "intrinsic-motivation-4.jpg",
+          "caption": "Detail",
+          "wide": true
+        },
+        {
+          "file": "intrinsic-motivation-5.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "intrinsic-motivation-6.jpg",
+          "caption": "Detail"
+        }
+      ]
+    },
+    {
+      "slug": "breath",
+      "title": "Breath",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Marquetry in walnut, ash and eucalyptus veneer on MDF",
+      "width_cm": 104,
+      "height_cm": 124.5,
+      "price": 1150,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/cNi6oJ1HVc1t5ww1FudUY04",
+      "card": "breath.jpg",
+      "full": "breath-full.jpg",
+      "statement": [
+        "Two curtains of figured eucalyptus draw back from a centre of burr, and that centre is the still point the whole panel breathes around.",
+        "Scattered across the surface there are small squares of darker veneer. Those are ideas, the kind that arrive out of nowhere while you are not chasing anything, because that is the only time they ever arrive.",
+        "Everything starts with a breath. Every change, every improvement, every idea in this panel. So the work asks very little of you, only that you stop, be here now, and breathe."
+      ],
+      "details": [
+        {
+          "file": "breath-detail-1.jpg",
+          "caption": "The centre, with a field of striped figure on either side",
+          "wide": true
+        },
+        {
+          "file": "breath-detail-2.jpg",
+          "caption": "Book matched burr, where both halves are the same sheet mirrored",
+          "wide": true
+        },
+        {
+          "file": "breath-detail-3.jpg",
+          "caption": "Upper left"
+        },
+        {
+          "file": "breath-detail-4.jpg",
+          "caption": "Upper right"
+        },
+        {
+          "file": "breath-detail-5.jpg",
+          "caption": "Lower right"
+        },
+        {
+          "file": "breath-detail-6.jpg",
+          "caption": "Lower left"
+        }
+      ]
+    },
+    {
+      "slug": "now-harmony",
+      "title": "Harmony",
+      "series": "Now",
+      "year": 2025,
+      "medium": "Marquetry in chestnut veneer on plywood",
+      "width_cm": 95.5,
+      "height_cm": 62,
+      "price": 800,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/cNidRbaer7Ld7EEfwkdUY05",
+      "card": "now-harmony.jpg",
+      "full": "now-harmony-full.jpg",
+      "statement": [
+        "The same green and the same thought as Chaos, and the same rule, which is that the grain decides and I follow it. What is different is that here an order has been built out of the chaos, because that is what we do with our own thinking. We make it mean something.",
+        "From across the room this is just something green. So is most of a life, seen from far enough away, vague and repetitive and much like the day before.",
+        "Come closer and the layers are all there, and always were. They only show themselves to somebody who stops.",
+        "The Now series is the way in to the next body of work, which is about addiction, and which will be here before long."
+      ],
+      "details": [
+        {
+          "file": "now-harmony-wall.jpg",
+          "caption": "Hanging in the studio",
+          "wide": true
+        }
+      ]
+    },
+    {
+      "slug": "now-chaos",
+      "title": "Chaos",
+      "series": "Now",
+      "year": 2025,
+      "medium": "Marquetry in chestnut veneer on plywood",
+      "width_cm": 103,
+      "height_cm": 62,
+      "price": 800,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/9B600leuHaXpf76gAodUY06",
+      "card": "now-chaos.jpg",
+      "full": "now-chaos-full.jpg",
+      "statement": [
+        "Green in every shade it has. At certain angles the light pulls a yellow out of it, but the panel is green, and in the Now series green is thought, the mind before anything has been done to it.",
+        "In this series I do not decide the pattern. The grain decides. I follow what the wood has already written and I put into it whichever moment of my own life I happen to be in while I am cutting.",
+        "Every moment of being present starts here, in the churn, because everything does.",
+        "The Now series is the way in to the next body of work, which is about addiction, and which will be here before long."
+      ],
+      "details": [
+        {
+          "file": "now-chaos-wall.jpg",
+          "caption": "Hanging in the studio",
+          "wide": true
+        }
+      ]
+    }
+  ],
+  "pages": {
+    "marquetry": {
+      "nav": "Marquetry",
+      "title": "What marquetry is, and how these panels are made",
+      "description": "Marquetry explained by a working marquetry artist. What it is, how a panel is cut and assembled by hand from wood veneer, how it differs from intarsia and inlay, and why it is a Red List endangered craft in the UK.",
+      "intro": "People ask me what marquetry actually is more often than they ask me anything else, so this is the plain answer, written by someone who does it every day.",
+      "sections": [
+        {
+          "h": "What marquetry is",
+          "p": [
+            "Marquetry is the art of making a picture or a pattern out of wood veneer. Veneer is wood sliced very thin, usually somewhere between half a millimetre and a millimetre, thin enough that a single log can yield hundreds of sheets and thin enough to cut with a knife.",
+            "You take those sheets, cut shapes out of them, fit the shapes together like a jigsaw with no gaps, and glue the whole assembled sheet down onto a stable board. What you end up with is a flat surface where every colour and every line is a piece of real wood rather than paint.",
+            "The craft is centuries old. It reached its height in seventeenth century France and Holland on furniture, and for most of its history it has been decoration applied to something else, a cabinet door or a table top or the dashboard of a car. What I do is treat it as the artwork itself."
+          ]
+        },
+        {
+          "h": "How one of my panels is made",
+          "p": [
+            "I start by choosing the veneer, which is the decision that matters most, because the grain is already there and I am not going to improve on it. A sheet of burr or a piece of quilted sapele has a pattern in it that took the tree decades to write, and my job is to find where it wants to be cut.",
+            "Then I dye it. I buy natural veneer and colour it myself, so the dye goes all the way through the sheet rather than sitting on the surface, which means the figure of the wood still reads through the colour and a scratch will not show a different colour underneath.",
+            "Then comes the cutting, which is all done by hand with a scalpel. Every element, every line, every small square is cut individually and fitted to its neighbours. Book matching, where a sheet is opened out against its own mirror image like a butterfly, is the reason so many of my compositions are symmetrical, and the symmetry is never quite exact because no two halves of a tree are.",
+            "Once the whole face is assembled and taped, it goes down onto MDF or plywood under pressure, gets levelled, and is finished. A large panel takes months."
+          ]
+        },
+        {
+          "h": "Marquetry, intarsia and inlay, the difference",
+          "p": [
+            "These three words get used interchangeably and they should not be. Marquetry is a whole surface assembled from veneer and applied to a board as one sheet. Inlay is a shape cut into solid wood with another piece set into the recess. Intarsia, in the modern woodworking sense, is a mosaic of thick solid pieces shaped and often sanded to different heights so the picture has relief.",
+            "In Polish the word intarsja covers what English calls marquetry, which is why my Polish pages use it and my English pages do not."
+          ]
+        },
+        {
+          "h": "Why it is an endangered craft",
+          "p": [
+            "Marquetry appears on the Heritage Crafts Red List of Endangered Crafts, which is the UK register of crafts at risk of dying out. The reason is not that people stopped liking it. It is that the training routes closed, the furniture trade that supported it moved to machine cut veneer and printed woodgrain, and laser cutting now does in minutes a version of what took a person a week.",
+            "A laser leaves a burnt edge and it cannot read grain. It cuts what the file tells it to cut. The decisions that make marquetry worth looking at, which sheet, which direction, where the join falls, are all made before any cutting starts, and those are the decisions no machine is making."
+          ]
+        },
+        {
+          "h": "Why the scale matters",
+          "p": [
+            "Almost all historical marquetry is small, because it was made to fit furniture. A jewellery box lid, a panel in a cabinet door, a border on a table.",
+            "My panels are between a metre and a metre and three quarters tall. At that size the material behaves differently, because you stop reading the surface as decoration and start reading it the way you read a painting, from across a room and then from close up, and the grain becomes landscape rather than texture. It is also considerably harder to keep flat, which is part of why so few people do it."
+          ]
+        },
+        {
+          "h": "Living with a marquetry panel",
+          "p": [
+            "Wood veneer is stable and long lived, and the same rules apply to it as to any good piece of furniture or any work on paper.",
+            "Keep it out of direct sunlight, because strong sun will fade dye and darken pale woods over years. Keep the room at a normal, fairly steady humidity, so not directly above a radiator and not in an unheated outbuilding. Dust it with a dry soft cloth and nothing else, because silicone polishes and household sprays leave a film that is difficult to remove later.",
+            "Treated like that, a panel will outlive everybody who argues about it."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "nav": "Questions",
+      "title": "Questions I get asked",
+      "description": "Common questions about buying contemporary marquetry, commissions, delivery, prices, studio visits and looking after a wood veneer artwork.",
+      "intro": "These are the questions that come up most often, in the studio, at fairs and by email.",
+      "items": [
+        {
+          "q": "What is marquetry?",
+          "a": "Marquetry is the art of making a picture or a pattern from wood veneer, which is wood sliced under a millimetre thick. The shapes are cut individually, fitted together with no gaps, and glued down onto a board as one sheet. Every colour you see is real wood rather than paint."
+        },
+        {
+          "q": "Do you buy coloured veneer, or dye it yourself?",
+          "a": "I buy natural veneer and dye it myself. The dye goes all the way through the sheet, so the grain still reads through the colour and a scratch will not reveal a different colour underneath."
+        },
+        {
+          "q": "How long does one piece take?",
+          "a": "A large panel takes months. Most of that time is cutting and fitting, which is done by hand with a scalpel, and a good part of it is spent before any cutting starts, choosing the veneer and working out where the joins should fall."
+        },
+        {
+          "q": "How big are the works?",
+          "a": "The Innerysm panels are between about 124 and 172 cm tall. The Now series is smaller, around 62 cm tall and about a metre wide. This is unusually large for marquetry, which historically was made at the scale of furniture."
+        },
+        {
+          "q": "How much does a piece cost?",
+          "a": "Prices currently run from £800 for a work in the Now series to £1,400 for the largest Innerysm panels. Every price on this site is the price everywhere, in the studio, at a fair and in a gallery."
+        },
+        {
+          "q": "What are you working on next?",
+          "a": "A new series about addiction. The Now series is the introduction to it, and the first works will be available before long. If you would like to see them before they go public, the studio letter goes out first."
+        },
+        {
+          "q": "Can I commission a piece for a particular wall?",
+          "a": "Yes. Commissions are a large part of what I do, and the usual starting point is the wall itself, its size, its light and what is around it. Write to me with a photograph and the dimensions and we can talk it through."
+        },
+        {
+          "q": "Do you ship internationally?",
+          "a": "Yes. Within the UK I deliver personally, because a panel of this size travels better in a car than in a courier network. For anywhere else I crate the work properly and quote for shipping once I know the destination."
+        },
+        {
+          "q": "Is the work framed and ready to hang?",
+          "a": "Yes. Each piece arrives framed, ready to hang, and with a signed certificate of authenticity."
+        },
+        {
+          "q": "How do I look after a marquetry panel?",
+          "a": "Keep it out of direct sunlight, keep the room at a normal steady humidity and away from a radiator, and dust it with a dry soft cloth. Do not use silicone polish or household sprays, because they leave a film that is hard to remove later."
+        },
+        {
+          "q": "Can I visit the studio?",
+          "a": "Yes, by appointment. The studio is at Gordon Works on Valley Road in Sheffield, and collectors are welcome to come and see work in person before deciding anything."
+        },
+        {
+          "q": "Do you work with galleries and interior designers?",
+          "a": "Yes, and I am actively looking for gallery representation. Prices are set so that gallery commission works without changing what a collector pays, and I take on trade and subcontract work for design studios and furniture makers."
+        },
+        {
+          "q": "Why is marquetry called an endangered craft?",
+          "a": "It is on the Heritage Crafts Red List of Endangered Crafts, the UK register of crafts at risk of disappearing. The training routes closed, the furniture trade moved to machine cut veneer and printed woodgrain, and only a handful of people in the UK still practise it by hand."
+        }
+      ]
+    },
+    "press": {
+      "nav": "Press",
+      "title": "Press and information",
+      "description": "Press information for Jan Katewicz, contemporary marquetry artist at Elementa Laudis in Sheffield. Short and long biography, key facts, image use and contact.",
+      "intro": "Everything a writer, curator or gallery normally asks for, in one place. Please use the text below as it is, or ask me for something written to your word count.",
+      "short_label": "Short biography, 25 words",
+      "short": "Jan Katewicz hand cuts wood veneers into contemporary marquetry artworks whose patterns recall mandalas, fractals and muqarnas, keeping an endangered craft alive in his Sheffield studio.",
+      "long_label": "Biography, 50 words",
+      "long": "Jan Katewicz makes contemporary marquetry artworks at Elementa Laudis, his studio in Sheffield, cutting and assembling each piece by hand from wood veneer that he dyes himself. His patterns draw on mandalas, fractals and muqarnas. Marquetry is listed as an endangered craft, and Jan's work has joined private collections across five countries.",
+      "facts_label": "Key facts",
+      "facts": [
+        "Born in Warsaw in 1987, lives and works in Sheffield.",
+        "Has worked as a financial adviser for fourteen years and still does. A cycling accident and six months of recovery led him to wood veneer, and he now runs both.",
+        "Marquetry is on the Heritage Crafts Red List of Endangered Crafts.",
+        "Works are unusually large for the craft, up to 172.5 cm tall, where historical marquetry was made at the scale of furniture.",
+        "Over forty works sold since early 2025, into private collections in five countries, with repeat collectors.",
+        "Selected for the Great Northern Contemporary Craft Fair, Manchester, October 2026.",
+        "First solo exhibition, Innerysm, at the opening of the studio in August 2024. Group show at The Holy Art Gallery, London, November 2024.",
+        "The studio has its own TripAdvisor listing and opens to the public for Open Up Sheffield."
+      ],
+      "images_label": "Images",
+      "images": "High resolution photographs of any work on this site are available on request, usually the same day. Please credit the artwork title, the year and the photograph to Jan Katewicz. The images on this site may be used for editorial coverage of my work without asking first.",
+      "contact_label": "Contact"
+    },
+    "terms": {
+      "nav": "Terms",
+      "title": "Buying, delivery and returns",
+      "description": "Terms for buying artwork from Jan Katewicz at Elementa Laudis. Prices, delivery, your right to cancel within fourteen days, commissions, damage, and how your details are used.",
+      "intro": "Everything here is written plainly, because you should not need a solicitor to work out what happens if a panel arrives and you do not like it on your wall.",
+      "sections": [
+        {
+          "h": "What the price includes",
+          "p": [
+            "The price you see is the price everywhere, in the studio, at a fair, on this site and through a gallery. It includes the frame, so the work arrives ready to hang, and it includes delivery anywhere in the United Kingdom.",
+            "Every piece comes with a certificate of authenticity signed by me, giving the title, the year, the materials and the dimensions.",
+            "I am not registered for VAT, so there is no VAT to add and none is shown."
+          ]
+        },
+        {
+          "h": "Delivery",
+          "p": [
+            "Within the UK I deliver personally wherever I reasonably can, because a panel of this size travels better in my car than in a courier network, and because I would rather hand it over than post it. I will contact you within a day of your order to agree a time that suits you. Most deliveries happen within two weeks.",
+            "Outside the UK, shipping is quoted separately once I know the destination. The work is crated properly and sent by an art shipper. Ask me before you buy and I will give you a real figure rather than an estimate.",
+            "If you would rather collect the work from the studio in Sheffield, you are very welcome, and we can arrange that instead."
+          ]
+        },
+        {
+          "h": "Changing your mind",
+          "p": [
+            "If you buy from this website, you have fourteen days from the day the work arrives to change your mind, for any reason at all. You do not have to explain yourself and you do not have to have found anything wrong with it.",
+            "To cancel, email me at elementa.laudis@gmail.com within those fourteen days and say that you are cancelling. A sentence is enough. You then have a further fourteen days to get the work back to me.",
+            "Please return it in the condition it arrived, packed as well as it was packed on the way out. Return carriage is at your cost, and for a work of this size and fragility I would strongly recommend arranging it through an art shipper rather than a parcel courier. If you would like help finding one, ask me and I will point you at the people I use.",
+            "Once the work is back with me and I have checked it, I will refund you within fourteen days, including what you originally paid for delivery. If the work comes back damaged because it was not packed properly, I may reduce the refund to reflect that.",
+            "Two exceptions, which are the normal ones. A commission made to your own specification cannot be cancelled this way, because it was made for you and for nobody else. And work bought in person at the studio, which is my business premises, does not carry an automatic right to cancel, although I will always talk to you if something has gone wrong."
+          ]
+        },
+        {
+          "h": "If something is damaged or not as described",
+          "p": [
+            "This is separate from changing your mind and it is not something I can sign away.",
+            "If a work arrives damaged, or is not what the photographs and description showed, tell me straight away and I will put it right. Depending on what has happened that means repairing it, replacing it, or refunding you in full. Photographs of the damage help, and please keep the packaging until we have sorted it out.",
+            "Marquetry is durable, but it is wood, and wood moves. Small variations in colour between a photograph and the work in your room are normal and are not a fault. Screens differ, and so does the light in your hallway."
+          ]
+        },
+        {
+          "h": "Commissions",
+          "p": [
+            "Commissions usually start with your wall, its size, its light and what surrounds it. We agree the design, the size, the timescale and the price before anything is cut.",
+            "Because the work is made to your specification, the fourteen day cancellation right does not apply once making has begun. That is why I would rather spend time on the drawings with you first than rush into the workshop.",
+            "I normally ask for half the price to begin and the balance on completion, and I am happy to split the balance if that helps. Nothing is charged for the conversation beforehand."
+          ]
+        },
+        {
+          "h": "Paying in instalments",
+          "p": [
+            "If it makes a piece possible, I will split the payment over two or three instalments at no extra cost and no interest. Just ask before you buy.",
+            "The work stays with me until the final instalment is paid, unless we specifically agree otherwise, and if you change your mind before the end I will return everything you have paid."
+          ]
+        },
+        {
+          "h": "Looking after the work",
+          "p": [
+            "Keep it out of direct sunlight, because strong sun will lighten dye and darken pale woods over years. Keep the room at a normal and fairly steady humidity, so not directly above a radiator and not in an unheated outbuilding. Dust with a dry soft cloth and nothing else, because silicone polishes and household sprays leave a film that is difficult to remove later.",
+            "Treated like that, a panel will outlast all of us. If anything ever happens to one of my works, wherever it is and however long afterwards, write to me. I would always rather repair my own work than have somebody else guess at it."
+          ]
+        },
+        {
+          "h": "Your details and your email address",
+          "p": [
+            "When you buy something, I keep your name, address, email and phone number, because I need them to deliver the work, to write your certificate and to keep a record of where my work has gone. Payments are handled by Stripe and I never see your card details.",
+            "If you sign up to the studio letter, I use your email address for that and nothing else. I do not sell it, I do not share it, and there is an unsubscribe link on everything I send. You can ask me to remove you at any time and I will do it the same day.",
+            "If you want to know what I hold about you, or want it deleted, just ask."
+          ]
+        },
+        {
+          "h": "Getting hold of me",
+          "p": [
+            "Jan Katewicz, Elementa Laudis, Unit 16, Gordon Works Complex, Valley Rd, Sheffield, S8 9FT, United Kingdom. Email elementa.laudis@gmail.com. I read and answer everything myself, usually within a day.",
+            "Nothing on this page affects your legal rights."
+          ]
+        }
+      ]
+    }
+  }
+}

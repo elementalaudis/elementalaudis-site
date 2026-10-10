@@ -1,0 +1,597 @@
+{
+  "artist": {
+    "name": "Jan Katewicz",
+    "studio": "Elementa Laudis",
+    "domain": "https://elementalaudis.com",
+    "email": "elementa.laudis@gmail.com",
+    "address": "Unit 16, Gordon Works Complex, Valley Rd, Sheffield, S8 9FT, Wielka Brytania",
+    "city": "Sheffield",
+    "tagline": "Intarsja wielkości ściany",
+    "lede": "Zajmuję się intarsją współczesną w swoim studio artystycznym w Sheffield. Wycinam i składam każdy element ręcznie z naturalnych fornirów, a potem je barwię. To rzemiosło, które w Wielkiej Brytanii i na świecie prawie już zanikło, a w takiej skali pracują w nim tylko jednostki.",
+    "hero_image": "humble-scale.jpg",
+    "hero_caption": "Innerysm: Humble, intarsja, fornir orzechowy, klonowy i zebrano na płycie MDF, 172,5 × 108 cm, 2024",
+    "hero_link": "work-humble.html",
+    "social": {
+      "Instagram": "https://www.instagram.com/elementa.laudis/",
+      "LinkedIn": "https://www.linkedin.com/in/jan-katewicz-elementa-laudis/",
+      "YouTube": "https://www.youtube.com/@elementa.laudis"
+    },
+    "keywords": [
+      "intarsja",
+      "intarsja współczesna",
+      "sztuka z forniru",
+      "artysta intarsja",
+      "drewniane obrazy",
+      "ginące rzemiosło",
+      "Jan Katewicz",
+      "Elementa Laudis"
+    ]
+  },
+  "about": {
+    "heading": "Jan Katewicz",
+    "portrait": "portrait.jpg",
+    "portrait_caption": "Studio artystyczne Elementa Laudis, Sheffield",
+    "paragraphs": [
+      "Urodziłem się w Warszawie w 1987 roku, a mieszkam i pracuję w Sheffield. Od czternastu lat jestem doradcą finansowym i nadal nim jestem, co zaskakuje ludzi, którzy wcześniej stanęli przed którąś z moich płyt. Zmieniło się to, że miałem wypadek na rowerze. Wylądowałem w szpitalu i dostałem pół roku na to, żeby się zastanowić, co właściwie chcę robić. W tym czasie trafiłem na fornir, czyli drewno pocięte tak cienko, że widać w nim wszystko, przez co przeszło drzewo, i zacząłem ciąć.",
+      "To, co robię teraz, łączy bardzo stare rzemiosło z myśleniem, które kojarzy się raczej ze współczesnym malarstwem abstrakcyjnym. Cykl Innerysm jest o wewnętrznej sile, o poznawaniu siebie i o tych warstwach motywacji, na które zwykle nie patrzymy wprost. Buduję to wszystko z fornirów, w układach, które niektórym kojarzą się z mandalami, fraktalami i mukarnasami, czyli sklepieniami znanymi z architektury islamskiej.",
+      "Większość intarsji jest wielkości szkatułki. Moje prace są wielkości ściany i to jest poniekąd sedno sprawy. Intarsja trafiła na Czerwoną Listę Ginących Rzemiosł prowadzoną przez brytyjską organizację Heritage Crafts, w Wielkiej Brytanii zajmuje się nią garstka osób, a w takiej skali prawie nikt. Moje prace trafiły już do prywatnych kolekcji w pięciu krajach."
+    ]
+  },
+  "exhibitions": [
+    {
+      "when": "16 do 18 października 2026",
+      "what": "Great Northern Contemporary Craft Fair",
+      "where": "Victoria Baths, Manchester, wernisaż 15 października. Przez cały weekend będę przy stoisku ciął fornir na żywo.",
+      "upcoming": true,
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "venue": "Victoria Baths",
+      "locality": "Manchester",
+      "street": "Hathersage Road",
+      "postcode": "M13 0FE",
+      "url": "https://www.greatnortherncraftfair.co.uk/"
+    },
+    {
+      "when": "27 do 29 listopada 2026",
+      "what": "Wystawa w pracowni",
+      "where": "Elementa Laudis, Sheffield, wernisaż w piątek 27 listopada wieczorem",
+      "upcoming": true,
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "venue": "Elementa Laudis",
+      "locality": "Sheffield",
+      "street": "Unit 16, Gordon Works Complex, Valley Rd",
+      "postcode": "S8 9FT"
+    },
+    {
+      "when": "28 do 29 listopada 2026",
+      "what": "GNCCF Online, edycja świąteczna",
+      "where": "Online",
+      "upcoming": true,
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "online": true
+    },
+    {
+      "when": "maj 2025",
+      "what": "Open Up Sheffield",
+      "where": "Otworzyłem pracownię na weekend, żeby pokazać cykl Innerysm i to, jak powstaje intarsja"
+    },
+    {
+      "when": "listopad 2024",
+      "what": "Wystawa zbiorowa",
+      "where": "The Holy Art Gallery, Londyn, dwie prace w wystawie kuratorowanej"
+    },
+    {
+      "when": "sierpień 2024",
+      "what": "Innerysm, wystawa indywidualna",
+      "where": "Elementa Laudis, Sheffield, połączona z otwarciem studia"
+    },
+    {
+      "when": "na bieżąco",
+      "what": "Wirtualna otwarta pracownia",
+      "where": "Nagrywam powstawanie każdego dzieła i publikuję na YouTube"
+    }
+  ],
+  "artworks": [
+    {
+      "slug": "humble",
+      "title": "Humble",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Intarsja, fornir orzechowy, klonowy i zebrano na płycie MDF",
+      "width_cm": 108,
+      "height_cm": 172.5,
+      "price": 1400,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/3cI3cxeuHc1tgba4RGdUY00",
+      "card": "humble.jpg",
+      "full": "humble-full.jpg",
+      "statement": [
+        "Korytarz światła cofa się w głąb, w błękity i fiolety, i nie kończy się tam, gdzie kończy się płyta. To dzieło jest o skali i o tym, że zawsze istnieje coś większego niż to, przed czym akurat stoisz.",
+        "Przy dolnej krawędzi jest jeden mały kształt. To ja. Prosty przy całej reszcie, a mimo to wart tego, żeby na niego popatrzeć, i mniej więcej tak rozumiem swoje miejsce w tym wszystkim.",
+        "Przy wysokości 172,5 cm jest to największe dzieło z cyklu Innerysm. To ono jedzie w październiku do Manchesteru."
+      ],
+      "details": [
+        {
+          "file": "humble-scale.jpg",
+          "caption": "Dopiero obok człowieka widać skalę",
+          "wide": true
+        },
+        {
+          "file": "humble-1.jpg",
+          "caption": "Środek, czeczota złożona lustrzanie sama ze sobą"
+        },
+        {
+          "file": "humble-2.jpg",
+          "caption": "Część górna"
+        },
+        {
+          "file": "humble-3.jpg",
+          "caption": "Część dolna"
+        },
+        {
+          "file": "humble-4.jpg",
+          "caption": "Siatka z bliska"
+        },
+        {
+          "file": "humble-5.jpg",
+          "caption": "Fragment"
+        }
+      ]
+    },
+    {
+      "slug": "archetypes",
+      "title": "Archetypes",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Intarsja, fornir orzechowy, jaworowy i dębowy na płycie MDF",
+      "width_cm": 117,
+      "height_cm": 159.5,
+      "price": 1400,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/eVq14p3Q30iLgbafwkdUY01",
+      "card": "archetypes.jpg",
+      "full": "archetypes-full.jpg",
+      "statement": [
+        "Fiolet i intensywna zieleń, a w nich kształty, które są o krok od tego, żeby stać się czymś rozpoznawalnym. Romb, przejście, płyta czerwonej czeczoty ustawiona pod kątem.",
+        "To dzieło jest o formach, które znamy, zanim znajdziemy dla nich słowa. Nic tu niczego nie przedstawia, a mimo to ludzie stają przed nim i zaczynają widzieć w słojach twarze i sylwetki.",
+        "Barwnik przenika fornir na wskroś, nie leży na jego powierzchni. Dzięki temu rysunek drewna czyta się przez każdą płaszczyznę koloru."
+      ],
+      "details": [
+        {
+          "file": "archetypes-1.jpg",
+          "caption": "Romb w centrum kompozycji",
+          "wide": true
+        },
+        {
+          "file": "archetypes-2.jpg",
+          "caption": "Płaszczyzna górna",
+          "wide": true
+        },
+        {
+          "file": "archetypes-3.jpg",
+          "caption": "Czeczota na barwionym tle"
+        },
+        {
+          "file": "archetypes-4.jpg",
+          "caption": "Fragment"
+        },
+        {
+          "file": "archetypes-5.jpg",
+          "caption": "Fragment"
+        }
+      ]
+    },
+    {
+      "slug": "inner-strength",
+      "title": "Inner Strength",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Intarsja, fornir orzechowy i jaworowy na płycie MDF",
+      "width_cm": 99.5,
+      "height_cm": 158.5,
+      "price": 1300,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/28E7sN5Yb1mPbUUdocdUY02",
+      "card": "inner-strength.jpg",
+      "full": "inner-strength-full.jpg",
+      "statement": [
+        "Sklepiony korytarz w bursztynie i ochrze, ze schodami wspinającymi się ku łukowi na końcu, a za tym łukiem jest następny.",
+        "Nie wierzę, że wewnętrzną siłę dostaje się przy urodzeniu. Jej się uczymy. Ćwiczymy, próbujemy, nie wychodzi, poprawiamy, i za każdym razem otwieramy jedne drzwi, a za nimi znajdujemy kolejne. Ta praca prosi o jedno, żeby robić to świadomie, bo samo z siebie nic się tutaj nie wydarzy.",
+        "Nad łukiem rozkłada się ciemna masa fakturowanego orzecha, odbita lustrzanie. Pilnuje tego, co jest na końcu przejścia, i to ona sprawia, że warto się wspinać."
+      ],
+      "details": [
+        {
+          "file": "inner-strength-1.jpg",
+          "caption": "Łuk, w lustrzanym odbiciu rysunku orzecha"
+        },
+        {
+          "file": "inner-strength-2.jpg",
+          "caption": "Schody",
+          "wide": true
+        },
+        {
+          "file": "inner-strength-3.jpg",
+          "caption": "Sklepienie i krawędź",
+          "wide": true
+        },
+        {
+          "file": "inner-strength-4.jpg",
+          "caption": "Fragment dolny"
+        },
+        {
+          "file": "inner-strength-5.jpg",
+          "caption": "Fragment"
+        }
+      ]
+    },
+    {
+      "slug": "intrinsic-motivation",
+      "title": "Intrinsic Motivation",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Intarsja, fornir orzechowy, sapeli pommele, kamforowy, brzozowy i jaworowy na płycie MDF",
+      "width_cm": 112,
+      "height_cm": 152.5,
+      "price": 1300,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/28EaEZ72fe9B3oo6ZOdUY03",
+      "card": "intrinsic-motivation.jpg",
+      "full": "intrinsic-motivation-full.jpg",
+      "statement": [
+        "Żółte słońce wschodzi za lustrzanie odbitym szczytem, a ze środka rozchodzą się cienkie żółte linie, które przecinają całą powierzchnię.",
+        "To jest o najczystszym rodzaju motywacji, o takiej, która bierze się z wnętrza i nie oczekuje od nikogo nagrody. Linie wychodzące ze środka to jej dalszy ciąg, bo kiedy raz znajdziesz ją w jednym obszarze życia, zaczyna przechodzić do wszystkich pozostałych.",
+        "Dlatego uważam ją za tak doniosłą. Nie zostaje tam, gdzie ją znalazłeś. Ładuje wszystko inne."
+      ],
+      "details": [
+        {
+          "file": "intrinsic-motivation-1.jpg",
+          "caption": "Słońce i szczyt",
+          "wide": true
+        },
+        {
+          "file": "intrinsic-motivation-2.jpg",
+          "caption": "Romb górny"
+        },
+        {
+          "file": "intrinsic-motivation-3.jpg",
+          "caption": "Romb na tle sapeli"
+        },
+        {
+          "file": "intrinsic-motivation-4.jpg",
+          "caption": "Fragment",
+          "wide": true
+        },
+        {
+          "file": "intrinsic-motivation-5.jpg",
+          "caption": "Fragment"
+        },
+        {
+          "file": "intrinsic-motivation-6.jpg",
+          "caption": "Fragment"
+        }
+      ]
+    },
+    {
+      "slug": "breath",
+      "title": "Breath",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Intarsja, fornir orzechowy, jesionowy i eukaliptusowy na płycie MDF",
+      "width_cm": 104,
+      "height_cm": 124.5,
+      "price": 1150,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/cNi6oJ1HVc1t5ww1FudUY04",
+      "card": "breath.jpg",
+      "full": "breath-full.jpg",
+      "statement": [
+        "Dwie kurtyny fakturowanego eukaliptusa rozsuwają się na boki od środka z czeczoty, a ten środek jest nieruchomym punktem, wokół którego oddycha cała płyta.",
+        "Po powierzchni rozsypane są małe kwadraty ciemniejszego forniru. To są pomysły, te, które przychodzą znikąd wtedy, kiedy niczego nie gonisz, bo tylko wtedy w ogóle przychodzą.",
+        "Wszystko zaczyna się od oddechu. Każda zmiana, każda poprawa, każdy pomysł zapisany w tej płycie. Dlatego ta praca prosi o niewiele, tylko o to, żeby się zatrzymać, być tutaj i oddychać."
+      ],
+      "details": [
+        {
+          "file": "breath-detail-1.jpg",
+          "caption": "Środek, a po obu jego stronach pole prążkowanego rysunku",
+          "wide": true
+        },
+        {
+          "file": "breath-detail-2.jpg",
+          "caption": "Czeczota złożona lustrzanie, obie połowy to ten sam arkusz",
+          "wide": true
+        },
+        {
+          "file": "breath-detail-3.jpg",
+          "caption": "Narożnik lewy górny"
+        },
+        {
+          "file": "breath-detail-4.jpg",
+          "caption": "Narożnik prawy górny"
+        },
+        {
+          "file": "breath-detail-5.jpg",
+          "caption": "Narożnik prawy dolny"
+        },
+        {
+          "file": "breath-detail-6.jpg",
+          "caption": "Narożnik lewy dolny"
+        }
+      ]
+    },
+    {
+      "slug": "now-harmony",
+      "title": "Harmony",
+      "series": "Now",
+      "year": 2025,
+      "medium": "Intarsja, fornir kasztanowy na sklejce",
+      "width_cm": 95.5,
+      "height_cm": 62,
+      "price": 800,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/cNidRbaer7Ld7EEfwkdUY05",
+      "card": "now-harmony.jpg",
+      "full": "now-harmony-full.jpg",
+      "statement": [
+        "Ta sama zieleń i ta sama myśl co w Chaosie, i ta sama zasada, że decyduje słój, a ja za nim idę. Różnica polega na tym, że tutaj z chaosu został zbudowany porządek, bo to właśnie robimy z własnym myśleniem. Nadajemy mu sens.",
+        "Z drugiego końca pokoju to jest po prostu coś zielonego. Tak samo wygląda większość życia oglądana z odpowiedniego dystansu, niewyraźnie, powtarzalnie, podobnie do wczoraj.",
+        "Podejdź bliżej, a warstwy są tam wszystkie i zawsze były. Pokazują się tylko temu, kto się zatrzyma.",
+        "Cykl Now jest wejściem do kolejnego zbioru prac, który mówi o uzależnieniu i który pojawi się wkrótce."
+      ],
+      "details": [
+        {
+          "file": "now-harmony-wall.jpg",
+          "caption": "Na ścianie w pracowni",
+          "wide": true
+        }
+      ]
+    },
+    {
+      "slug": "now-chaos",
+      "title": "Chaos",
+      "series": "Now",
+      "year": 2025,
+      "medium": "Intarsja, fornir kasztanowy na sklejce",
+      "width_cm": 103,
+      "height_cm": 62,
+      "price": 800,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/9B600leuHaXpf76gAodUY06",
+      "card": "now-chaos.jpg",
+      "full": "now-chaos-full.jpg",
+      "statement": [
+        "Zieleń we wszystkich odcieniach, jakie ma. Pod pewnym kątem światło wyciąga z niej żółć, ale płyta jest zielona, a w cyklu Now zieleń jest myślą, umysłem, zanim cokolwiek się z nim zrobi.",
+        "W tym cyklu to nie ja decyduję o wzorze. Decyduje słój. Idę za tym, co drewno już napisało, i wpisuję w to ten moment własnego życia, w którym akurat jestem, kiedy tnę.",
+        "Każda obecność w teraz zaczyna się właśnie tutaj, w kotłowaninie, bo wszystko się tak zaczyna.",
+        "Cykl Now jest wejściem do kolejnego zbioru prac, który mówi o uzależnieniu i który pojawi się wkrótce."
+      ],
+      "details": [
+        {
+          "file": "now-chaos-wall.jpg",
+          "caption": "Na ścianie w pracowni",
+          "wide": true
+        }
+      ]
+    }
+  ],
+  "pages": {
+    "marquetry": {
+      "nav": "Intarsja",
+      "title": "Czym jest intarsja i jak powstają moje płyty",
+      "description": "Intarsja wyjaśniona przez artystę, który zajmuje się nią na co dzień. Czym jest, jak powstaje płyta cięta ręcznie z forniru, czym różni się od inkrustacji i dlaczego trafiła na listę ginących rzemiosł.",
+      "intro": "O to, czym właściwie jest intarsja, pytają mnie częściej niż o cokolwiek innego. To jest odpowiedź napisana przez kogoś, kto robi to codziennie.",
+      "sections": [
+        {
+          "h": "Czym jest intarsja",
+          "p": [
+            "Intarsja to sztuka budowania obrazu albo wzoru z forniru. Fornir to drewno pocięte bardzo cienko, zwykle poniżej milimetra, na tyle cienko, że z jednej kłody powstają setki arkuszy i że da się je ciąć nożem.",
+            "Bierze się te arkusze, wycina z nich kształty, dopasowuje je do siebie bez żadnych szczelin i przykleja całą złożoną taflę do stabilnej płyty. Powstaje płaska powierzchnia, w której każdy kolor i każda linia są kawałkiem prawdziwego drewna, a nie farbą.",
+            "Rzemiosło ma kilkaset lat. Szczyt osiągnęło w siedemnastowiecznej Francji i Holandii, na meblach, i przez większość swojej historii było dekoracją czegoś innego, drzwi szafy, blatu albo deski rozdzielczej samochodu. Ja traktuję je jako samo dzieło."
+          ]
+        },
+        {
+          "h": "Jak powstaje moja płyta",
+          "p": [
+            "Zaczynam od doboru forniru i to jest decyzja, która waży najwięcej, bo rysunek już tam jest i nie mam zamiaru go poprawiać. W arkuszu czeczoty albo w pikowanym sapeli zapisany jest wzór, który drzewo pisało kilkadziesiąt lat, a moim zadaniem jest znaleźć miejsce, w którym chce zostać przecięty.",
+            "Potem go barwię. Kupuję fornir naturalny i barwię go sam, więc barwnik przenika arkusz na wskroś, a nie leży na powierzchni. Dzięki temu rysunek drewna nadal czyta się przez kolor, a zadrapanie nie odsłania innej barwy pod spodem.",
+            "Następnie cięcie, w całości ręczne, skalpelem. Każdy element, każda linia, każdy mały kwadrat jest wycinany osobno i dopasowywany do sąsiadów. Składanie lustrzane, czyli rozłożenie arkusza wobec własnego odbicia jak skrzydeł motyla, jest powodem, dla którego tak wiele moich kompozycji jest symetrycznych, a symetria nigdy nie wychodzi idealnie, bo żadne dwie połowy drzewa nie są identyczne.",
+            "Kiedy całe lico jest złożone i oklejone taśmą, trafia pod prasę na płytę MDF albo na sklejkę, zostaje wyrównane i wykończone. Duża płyta zajmuje kilka miesięcy."
+          ]
+        },
+        {
+          "h": "Intarsja, inkrustacja i mozaika drewniana",
+          "p": [
+            "Te słowa bywają używane zamiennie i nie powinny. Intarsja to całe lico złożone z forniru i naklejone na płytę jako jedna tafla. Inkrustacja to wgłębienie wycięte w litym drewnie, w które wkłada się inny materiał. Mozaika z grubych, litych kawałków, szlifowanych do różnych wysokości, daje obraz z reliefem i to jest jeszcze co innego.",
+            "W języku angielskim to, co po polsku nazywamy intarsją, nosi nazwę marquetry, i stąd różnica między moją polską a angielską stroną."
+          ]
+        },
+        {
+          "h": "Dlaczego to rzemiosło ginie",
+          "p": [
+            "Intarsja trafiła na Czerwoną Listę Ginących Rzemiosł prowadzoną przez brytyjską organizację Heritage Crafts, czyli na rejestr rzemiosł zagrożonych zniknięciem. Powód nie jest taki, że ludzie przestali ją lubić. Zamknęły się ścieżki nauki zawodu, przemysł meblowy przeszedł na fornir cięty maszynowo i na nadruk imitujący słoje, a laser robi w kilka minut wersję tego, co człowiekowi zajmowało tydzień.",
+            "Laser zostawia przypaloną krawędź i nie umie czytać słojów. Tnie to, co każe mu plik. Decyzje, które sprawiają, że na intarsję warto patrzeć, czyli który arkusz, w którym kierunku i gdzie wypadnie łączenie, zapadają przed pierwszym cięciem i tych decyzji nie podejmuje żadna maszyna."
+          ]
+        },
+        {
+          "h": "Dlaczego skala ma znaczenie",
+          "p": [
+            "Prawie cała historyczna intarsja jest mała, bo powstawała po to, żeby zmieścić się na meblu. Wieko szkatułki, płycina w drzwiach szafy, obramowanie blatu.",
+            "Moje płyty mają od metra do metra siedemdziesiąt pięciu wysokości. W tej skali materiał zachowuje się inaczej, bo przestaje się czytać powierzchnię jako ozdobę, a zaczyna się ją oglądać tak, jak ogląda się obraz, najpierw z drugiego końca pokoju, a potem z bliska. Słoje stają się wtedy krajobrazem, a nie fakturą. Trudniej też utrzymać taką płytę idealnie płasko i to jest jeden z powodów, dla których robi to niewiele osób."
+          ]
+        },
+        {
+          "h": "Jak żyć z płytą intarsjowaną",
+          "p": [
+            "Fornir jest materiałem trwałym i stabilnym, a obowiązują go te same zasady, co dobry mebel albo pracę na papierze.",
+            "Trzymaj go z dala od bezpośredniego słońca, bo mocne światło przez lata rozjaśnia barwnik i przyciemnia jasne gatunki. Zadbaj o normalną, w miarę stałą wilgotność, czyli nie wieszaj płyty bezpośrednio nad grzejnikiem ani w nieogrzewanym pomieszczeniu. Odkurzaj suchą, miękką ściereczką i niczym więcej, bo preparaty silikonowe i domowe aerozole zostawiają powłokę, którą trudno później usunąć.",
+            "Traktowana w ten sposób płyta przetrwa wszystkich, którzy się o nią spierają."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "nav": "Pytania",
+      "title": "Pytania, które słyszę najczęściej",
+      "description": "Najczęstsze pytania o zakup intarsji współczesnej, zamówienia autorskie, dostawę, ceny, wizyty w pracowni i pielęgnację dzieła z forniru.",
+      "intro": "To są pytania, które wracają najczęściej, w pracowni, na targach i w mailach.",
+      "items": [
+        {
+          "q": "Czym jest intarsja?",
+          "a": "Intarsja to sztuka budowania obrazu albo wzoru z forniru, czyli z drewna pociętego na arkusze cieńsze niż milimetr. Kształty wycina się pojedynczo, dopasowuje bez szczelin i przykleja do płyty jako jedną taflę. Każdy kolor, który widać, jest prawdziwym drewnem, a nie farbą."
+        },
+        {
+          "q": "Kupujesz fornir barwiony czy barwisz go sam?",
+          "a": "Kupuję fornir naturalny i barwię go sam. Barwnik przenika arkusz na wskroś, więc rysunek drewna nadal czyta się przez kolor, a zadrapanie nie odsłania innej barwy pod spodem."
+        },
+        {
+          "q": "Ile czasu zajmuje jedno dzieło?",
+          "a": "Duża płyta zajmuje kilka miesięcy. Większość tego czasu to cięcie i dopasowywanie, wykonywane ręcznie skalpelem, a spora część przypada jeszcze przed pierwszym cięciem, na dobór forniru i rozplanowanie łączeń."
+        },
+        {
+          "q": "Jakich rozmiarów są prace?",
+          "a": "Płyty z cyklu Innerysm mają od około 124 do 172 cm wysokości. Cykl Now jest mniejszy, około 62 cm wysokości i około metra szerokości. Jak na intarsję są to rozmiary nietypowe, bo historycznie powstawała ona w skali mebla."
+        },
+        {
+          "q": "Ile kosztuje dzieło?",
+          "a": "Ceny zaczynają się od 800 £ za pracę z cyklu Now i sięgają 1 400 £ za największe płyty z cyklu Innerysm. Każda cena podana na tej stronie obowiązuje wszędzie, także w pracowni, na targach i w galerii."
+        },
+        {
+          "q": "Nad czym teraz pracujesz?",
+          "a": "Nad nowym cyklem o uzależnieniu. Cykl Now jest wejściem do niego, a pierwsze prace pojawią się wkrótce. Jeżeli chcesz je zobaczyć, zanim trafią do publicznej wiadomości, najpierw wysyłam je w liście z pracowni."
+        },
+        {
+          "q": "Czy można zamówić pracę na konkretną ścianę?",
+          "a": "Tak. Zamówienia autorskie to duża część tego, czym się zajmuję, a punktem wyjścia jest zwykle sama ściana, jej wymiar, światło i to, co ją otacza. Napisz do mnie, dołącz zdjęcie i wymiary, a wszystko omówimy."
+        },
+        {
+          "q": "Czy wysyłasz prace za granicę?",
+          "a": "Tak. Na terenie Wielkiej Brytanii dostarczam osobiście, bo płyta tych rozmiarów lepiej znosi podróż samochodem niż siecią kurierską. Poza Wielką Brytanię pakuję dzieło w skrzynię i wyceniam transport, kiedy znam adres docelowy."
+        },
+        {
+          "q": "Czy praca jest oprawiona i gotowa do powieszenia?",
+          "a": "Tak. Każde dzieło jest oprawione, gotowe do powieszenia i dostarczane z podpisanym certyfikatem autentyczności."
+        },
+        {
+          "q": "Jak dbać o płytę intarsjowaną?",
+          "a": "Trzymaj ją z dala od bezpośredniego słońca, zadbaj o normalną i w miarę stałą wilgotność, nie wieszaj bezpośrednio nad grzejnikiem, a kurz zbieraj suchą, miękką ściereczką. Nie używaj preparatów silikonowych ani domowych aerozoli, bo zostawiają powłokę, którą trudno potem usunąć."
+        },
+        {
+          "q": "Czy można odwiedzić pracownię?",
+          "a": "Tak, po wcześniejszym umówieniu. Studio mieści się w Gordon Works przy Valley Road w Sheffield i każdy, kto rozważa zakup, może przyjechać i zobaczyć prace na żywo."
+        },
+        {
+          "q": "Czy współpracujesz z galeriami i projektantami wnętrz?",
+          "a": "Tak, i aktywnie szukam współpracy z galeriami. Ceny są ustawione tak, żeby prowizja galerii nie zmieniała kwoty, którą płaci kolekcjoner. Podejmuję się też zleceń dla pracowni projektowych i stolarni."
+        },
+        {
+          "q": "Dlaczego intarsja nazywana jest ginącym rzemiosłem?",
+          "a": "Znajduje się na Czerwonej Liście Ginących Rzemiosł prowadzonej przez brytyjską organizację Heritage Crafts, czyli na rejestrze rzemiosł zagrożonych zniknięciem. Ścieżki nauki zawodu się zamknęły, przemysł meblowy przeszedł na fornir maszynowy i nadruk imitujący słoje, a ręcznie zajmuje się nią w Wielkiej Brytanii garstka osób."
+        }
+      ]
+    },
+    "press": {
+      "nav": "Prasa",
+      "title": "Dla prasy",
+      "description": "Materiały prasowe: Jan Katewicz, artysta intarsji współczesnej ze studia Elementa Laudis w Sheffield. Biogram krótki i dłuższy, najważniejsze fakty, zdjęcia i kontakt.",
+      "intro": "Wszystko, o co zwykle pytają dziennikarze, kuratorzy i galerie, w jednym miejscu. Można używać poniższych tekstów w tej postaci albo poprosić mnie o wersję na zadaną liczbę znaków.",
+      "short_label": "Biogram krótki, 25 słów",
+      "short": "Jan Katewicz ręcznie tnie forniry i składa z nich współczesne intarsje, których wzory przywodzą na myśl mandale, fraktale i mukarnasy, utrzymując przy życiu ginące rzemiosło w swojej pracowni w Sheffield.",
+      "long_label": "Biogram, 50 słów",
+      "long": "Jan Katewicz tworzy współczesne intarsje w Elementa Laudis, swoim studiu artystycznym w Sheffield, wycinając i składając każde dzieło ręcznie z forniru, który sam barwi. Jego wzory nawiązują do mandali, fraktali i mukarnasów. Intarsja figuruje na liście ginących rzemiosł, a prace Jana trafiły do prywatnych kolekcji w pięciu krajach.",
+      "facts_label": "Najważniejsze fakty",
+      "facts": [
+        "Urodzony w Warszawie w 1987 roku, mieszka i pracuje w Sheffield.",
+        "Od czternastu lat pracuje jako doradca finansowy i nadal to robi. Wypadek na rowerze i pół roku rekonwalescencji doprowadziły go do forniru, a dziś łączy jedno z drugim.",
+        "Intarsja znajduje się na Czerwonej Liście Ginących Rzemiosł organizacji Heritage Crafts.",
+        "Prace są nietypowo duże jak na to rzemiosło, do 172,5 cm wysokości, podczas gdy historyczna intarsja powstawała w skali mebla.",
+        "Ponad czterdzieści prac sprzedanych od początku 2025 roku, do prywatnych kolekcji w pięciu krajach, z powracającymi kolekcjonerami.",
+        "Zakwalifikowany na Great Northern Contemporary Craft Fair w Manchesterze, październik 2026.",
+        "Pierwsza wystawa indywidualna, Innerysm, przy otwarciu studia w sierpniu 2024. Wystawa zbiorowa w The Holy Art Gallery w Londynie, listopad 2024.",
+        "Studio ma własny wpis na TripAdvisorze i otwiera się dla publiczności w ramach Open Up Sheffield."
+      ],
+      "images_label": "Zdjęcia",
+      "images": "Fotografie w wysokiej rozdzielczości każdej pracy z tej strony wysyłam na życzenie, zwykle tego samego dnia. Proszę o podanie tytułu dzieła, roku powstania i autorstwa zdjęcia, czyli Jan Katewicz. Zdjęcia z tej strony można wykorzystać w materiałach redakcyjnych o mojej twórczości bez wcześniejszego pytania.",
+      "contact_label": "Kontakt"
+    },
+    "terms": {
+      "nav": "Regulamin",
+      "title": "Zakup, dostawa i zwroty",
+      "description": "Zasady zakupu prac Jana Katewicza w Elementa Laudis. Ceny, dostawa, prawo do odstąpienia w ciągu czternastu dni, zamówienia autorskie, uszkodzenia i przetwarzanie danych.",
+      "intro": "Wszystko jest tu napisane prosto, bo nie powinieneś potrzebować prawnika, żeby ustalić, co się dzieje, kiedy płyta dojedzie, a Ty stwierdzisz, że na Twojej ścianie jednak nie działa.",
+      "sections": [
+        {
+          "h": "Co zawiera cena",
+          "p": [
+            "Cena, którą widzisz, obowiązuje wszędzie, w pracowni, na targach, na tej stronie i w galerii. Zawiera oprawę, więc praca dociera gotowa do powieszenia, i zawiera dostawę na terenie Wielkiej Brytanii.",
+            "Do każdego dzieła dołączam podpisany przeze mnie certyfikat autentyczności z tytułem, rokiem powstania, materiałami i wymiarami.",
+            "Nie jestem płatnikiem VAT, więc do ceny nic się nie dolicza i VAT nie jest wykazywany."
+          ]
+        },
+        {
+          "h": "Dostawa",
+          "p": [
+            "Na terenie Wielkiej Brytanii dostarczam osobiście wszędzie, gdzie tylko mogę, bo płyta tych rozmiarów lepiej znosi podróż w moim samochodzie niż w sieci kurierskiej, i bo wolę wręczyć ją komuś do ręki niż nadać. Odezwę się w ciągu doby od zamówienia, żeby umówić dogodny termin. Zwykle dostawa następuje w ciągu dwóch tygodni.",
+            "Poza Wielką Brytanię transport wyceniam osobno, kiedy znam adres docelowy. Dzieło pakuję w skrzynię i wysyłam przez firmę wyspecjalizowaną w transporcie sztuki. Zapytaj przed zakupem, a podam konkretną kwotę, nie szacunek.",
+            "Jeżeli wolisz odebrać pracę osobiście w pracowni w Sheffield, jesteś bardzo mile widziany i chętnie to umówimy."
+          ]
+        },
+        {
+          "h": "Zmiana zdania",
+          "p": [
+            "Jeżeli kupujesz przez tę stronę, masz czternaście dni od dnia dostarczenia pracy na to, żeby zmienić zdanie, z dowolnego powodu. Nie musisz się tłumaczyć i nie musisz znaleźć w pracy żadnej wady.",
+            "Żeby odstąpić od umowy, napisz do mnie na elementa.laudis@gmail.com w ciągu tych czternastu dni i powiedz, że odstępujesz. Jedno zdanie wystarczy. Potem masz kolejne czternaście dni na odesłanie pracy.",
+            "Proszę, odeślij ją w takim stanie, w jakim dotarła, zapakowaną tak samo starannie jak w drugą stronę. Koszt transportu powrotnego jest po Twojej stronie, a przy pracy tych rozmiarów i tej delikatności zdecydowanie radzę skorzystać z firmy transportującej dzieła sztuki, a nie ze zwykłego kuriera. Jeśli potrzebujesz pomocy w znalezieniu takiej firmy, napisz, a podam Ci tę, z której sam korzystam.",
+            "Kiedy praca do mnie wróci i ją sprawdzę, zwrócę pieniądze w ciągu czternastu dni, razem z kosztem pierwotnej dostawy. Jeżeli dzieło wróci uszkodzone dlatego, że nie zostało właściwie zapakowane, mogę odpowiednio obniżyć kwotę zwrotu.",
+            "Są dwa wyjątki i są to te typowe. Zamówienia autorskiego wykonanego według Twoich wytycznych nie można zwrócić w ten sposób, bo powstało dla Ciebie i dla nikogo innego. Praca kupiona osobiście w pracowni, czyli w moim miejscu prowadzenia działalności, również nie daje automatycznego prawa do odstąpienia, choć zawsze porozmawiam, jeśli coś poszło nie tak."
+          ]
+        },
+        {
+          "h": "Jeśli coś jest uszkodzone albo niezgodne z opisem",
+          "p": [
+            "To jest coś innego niż zmiana zdania i tego nie mogę wyłączyć żadnym zapisem.",
+            "Jeżeli praca dotrze uszkodzona albo nie będzie odpowiadać zdjęciom i opisowi, powiedz mi od razu, a naprawię sytuację. W zależności od tego, co się stało, oznacza to naprawę, wymianę albo pełny zwrot pieniędzy. Zdjęcia uszkodzenia bardzo pomagają, a opakowanie zachowaj do czasu, aż wszystko wyjaśnimy.",
+            "Intarsja jest trwała, ale to drewno, a drewno pracuje. Drobne różnice koloru między zdjęciem a pracą w Twoim pokoju są normalne i nie są wadą. Ekrany różnią się między sobą, a światło w Twoim korytarzu jest jeszcze inne."
+          ]
+        },
+        {
+          "h": "Zamówienia autorskie",
+          "p": [
+            "Zamówienie zwykle zaczyna się od Twojej ściany, jej wymiaru, światła i tego, co ją otacza. Projekt, rozmiar, termin i cenę ustalamy, zanim cokolwiek zostanie przecięte.",
+            "Ponieważ praca powstaje według Twoich wytycznych, po rozpoczęciu wykonania nie obowiązuje czternastodniowe prawo do odstąpienia. Dlatego wolę spokojnie popracować z Tobą nad rysunkami, niż pędzić do warsztatu.",
+            "Zwykle proszę o połowę kwoty na start i o resztę po ukończeniu, a resztę chętnie rozłożę na części, jeśli to pomaga. Za samą rozmowę i wstępne ustalenia nic nie liczę."
+          ]
+        },
+        {
+          "h": "Płatność w częściach",
+          "p": [
+            "Jeżeli to sprawi, że dana praca stanie się możliwa, rozłożę płatność na dwie albo trzy części, bez żadnej dopłaty i bez odsetek. Wystarczy powiedzieć przed zakupem.",
+            "Dzieło zostaje u mnie do czasu wpłaty ostatniej części, chyba że ustalimy inaczej, a jeśli zmienisz zdanie przed końcem, zwrócę wszystko, co zdążyłeś wpłacić."
+          ]
+        },
+        {
+          "h": "Jak dbać o pracę",
+          "p": [
+            "Trzymaj ją z dala od bezpośredniego słońca, bo mocne światło przez lata rozjaśnia barwnik i przyciemnia jasne gatunki. Zadbaj o normalną i w miarę stałą wilgotność, czyli nie wieszaj płyty bezpośrednio nad grzejnikiem ani w nieogrzewanym pomieszczeniu. Kurz zbieraj suchą, miękką ściereczką i niczym więcej, bo preparaty silikonowe i domowe aerozole zostawiają powłokę, którą trudno później usunąć.",
+            "Traktowana w ten sposób płyta przetrwa nas wszystkich. Gdyby kiedykolwiek coś się stało którejkolwiek z moich prac, gdziekolwiek i po jakimkolwiek czasie, napisz do mnie. Zawsze wolę naprawić własne dzieło, niż żeby ktoś inny zgadywał, jak to zrobić."
+          ]
+        },
+        {
+          "h": "Twoje dane i Twój adres e-mail",
+          "p": [
+            "Kiedy coś kupujesz, zachowuję Twoje imię i nazwisko, adres, e-mail i numer telefonu, bo potrzebuję ich do dostarczenia pracy, do wypisania certyfikatu i do prowadzenia rejestru tego, gdzie trafiły moje dzieła. Płatności obsługuje Stripe, a ja nigdy nie widzę danych Twojej karty.",
+            "Jeżeli zapiszesz się na list z pracowni, używam Twojego adresu wyłącznie do tego. Nie sprzedaję go, nie udostępniam, a w każdej wiadomości jest link do wypisania się. Możesz w każdej chwili poprosić o usunięcie i zrobię to tego samego dnia.",
+            "Jeśli chcesz wiedzieć, jakie dane o Tobie przechowuję, albo chcesz je usunąć, po prostu napisz."
+          ]
+        },
+        {
+          "h": "Kontakt",
+          "p": [
+            "Jan Katewicz, Elementa Laudis, Unit 16, Gordon Works Complex, Valley Rd, Sheffield, S8 9FT, Wielka Brytania. E-mail elementa.laudis@gmail.com. Wszystko czytam i odpisuję osobiście, zwykle w ciągu doby.",
+            "Nic na tej stronie nie ogranicza Twoich praw wynikających z przepisów."
+          ]
+        }
+      ]
+    }
+  }
+}

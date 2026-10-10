@@ -1,0 +1,40 @@
+PUT YOUR PHOTOS IN THIS FOLDER
+==============================
+
+The site looks for these exact filenames (all lowercase, .jpg).
+Rename your photos to match and drop them in here.
+
+  hero.jpg                  Big image at the top. Best: Humble with you
+                            beside it for scale, or Humble straight-on.
+                            (ELEMENTALAUDIS2 or 3)
+
+  humble.jpg                Innerysm: Humble, straight-on
+  archetypes.jpg            Innerysm: Archetypes
+  inner-strength.jpg        Innerysm: Inner Strength
+  intrinsic-motivation.jpg  Innerysm: Intrinsic Motivation
+  breath.jpg                Innerysm: Breath
+  now-harmony.jpg           Now: Harmony (ELEMENTALAUDIS4, landscape)
+  now-chaos.jpg             Now: Chaos (ELEMENTALAUDIS5)
+  studio.jpg                Workshop / you working (the track-saw shot)
+  portrait.jpg              You, in the studio
+  social-share.jpg          What shows when someone shares the link.
+                            Make it 1200 x 630 px, landscape.
+
+Any file that is missing just shows a grey placeholder with its name on
+it — the site will not break. Add photos as you get them.
+
+SIZE THEM FIRST
+---------------
+Straight-off-the-camera photos are 5-10 MB and will make the site slow.
+Aim for about 1600-2000 px on the long edge and under 500 KB each.
+
+Free ways to do it:
+  - squoosh.app (drag in, drag out, no signup)
+  - On a Mac: Preview > Tools > Adjust Size
+  - On Windows: Photos app > Resize
+
+SHOOTING THE WORK
+-----------------
+Flat, even daylight. Camera square-on to the panel, not at an angle.
+Plain wall, a margin of wall visible around the piece. No flash — it
+kills the grain, which is the whole point.

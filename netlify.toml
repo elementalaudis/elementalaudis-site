@@ -1,0 +1,4 @@
+# The pages are pre-built by build.py and committed, so Netlify just publishes this folder.
+[build]
+  publish = "."
+  command = ""
