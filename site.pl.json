@@ -29,7 +29,7 @@
     "announce": [
       {
         "until": "2026-10-18",
-        "text": "Zapraszam na Great Northern Contemporary Craft Fair, gdzie pokażę nowy cykl Now feat Addiction. Victoria Baths, Manchester, 15 do 18 października, stoisko B09 w Pool B.",
+        "text": "Zapraszam na Great Northern Contemporary Craft Fair, gdzie pokażę nowy cykl Now feat. Addiction. Victoria Baths, Manchester, 15 do 18 października, stoisko B09 w Pool B.",
         "link": "#exhibitions",
         "link_text": "Szczegóły"
       },
@@ -372,7 +372,7 @@
         "Ta sama zieleń i ta sama myśl co w Chaosie, i ta sama zasada, że decyduje słój, a ja za nim idę. Różnica polega na tym, że tutaj z chaosu został zbudowany porządek, bo to właśnie robimy z własnym myśleniem. Nadajemy mu sens.",
         "Z drugiego końca pokoju to jest po prostu coś zielonego. Tak samo wygląda większość życia oglądana z odpowiedniego dystansu, niewyraźnie, powtarzalnie, podobnie do wczoraj.",
         "Podejdź bliżej, a warstwy są tam wszystkie i zawsze były. Pokazują się tylko temu, kto się zatrzyma.",
-        "Cykl Now jest wejściem do kolejnego zbioru prac, Now feat Addiction, który właśnie się pojawił."
+        "Cykl Now jest wejściem do kolejnego zbioru prac, Now feat. Addiction, który właśnie się pojawił."
       ],
       "details": [
         {
@@ -399,7 +399,7 @@
         "Zieleń we wszystkich odcieniach, jakie ma. Pod pewnym kątem światło wyciąga z niej żółć, ale płyta jest zielona, a w cyklu Now zieleń jest myślą, umysłem, zanim cokolwiek się z nim zrobi.",
         "W tym cyklu to nie ja decyduję o wzorze. Decyduje słój. Idę za tym, co drewno już napisało, i wpisuję w to ten moment własnego życia, w którym akurat jestem, kiedy tnę.",
         "Każda obecność w teraz zaczyna się właśnie tutaj, w kotłowaninie, bo wszystko się tak zaczyna.",
-        "Cykl Now jest wejściem do kolejnego zbioru prac, Now feat Addiction, który właśnie się pojawił."
+        "Cykl Now jest wejściem do kolejnego zbioru prac, Now feat. Addiction, który właśnie się pojawił."
       ],
       "details": [
         {
@@ -412,7 +412,7 @@
     {
       "slug": "battlefield",
       "title": "Battlefield",
-      "series": "Now feat Addiction",
+      "series": "Now feat. Addiction",
       "year": 2026,
       "medium": "Intarsja, fornir kasztanowy, orzechowy i klonowy, barwiony ręcznie, w ramie",
       "width_cm": 123,
@@ -468,7 +468,7 @@
     {
       "slug": "rules",
       "title": "Rules",
-      "series": "Now feat Addiction",
+      "series": "Now feat. Addiction",
       "year": 2026,
       "medium": "Intarsja, fornir kasztanowy, orzechowy i klonowy, barwiony ręcznie, w ramie",
       "width_cm": 67,
@@ -522,7 +522,7 @@
     {
       "slug": "resistance",
       "title": "Resistance",
-      "series": "Now feat Addiction",
+      "series": "Now feat. Addiction",
       "year": 2026,
       "medium": "Intarsja, fornir kasztanowy, orzechowy i klonowy, barwiony ręcznie, w ramie",
       "width_cm": 74.5,
@@ -580,7 +580,7 @@
     {
       "slug": "warning",
       "title": "Warning",
-      "series": "Now feat Addiction",
+      "series": "Now feat. Addiction",
       "year": 2026,
       "medium": "Intarsja, fornir kasztanowy, orzechowy i klonowy, barwiony ręcznie, w ramie",
       "width_cm": 44,
@@ -634,7 +634,7 @@
     {
       "slug": "fleeting-effort",
       "title": "Fleeting effort",
-      "series": "Now feat Addiction",
+      "series": "Now feat. Addiction",
       "year": 2026,
       "medium": "Intarsja, fornir kasztanowy, orzechowy i klonowy, barwiony ręcznie, w ramie",
       "width_cm": 52,
@@ -758,11 +758,11 @@
         },
         {
           "q": "Ile kosztuje dzieło?",
-          "a": "Ceny zaczynają się od 450 £ za najmniejszą pracę z cyklu Now feat Addiction i sięgają 1 400 £ za największe płyty z cyklu Innerysm. Każda cena podana na tej stronie obowiązuje wszędzie, także w pracowni, na targach i w galerii."
+          "a": "Ceny zaczynają się od 450 £ za najmniejszą pracę z cyklu Now feat. Addiction i sięgają 1 400 £ za największe płyty z cyklu Innerysm. Każda cena podana na tej stronie obowiązuje wszędzie, także w pracowni, na targach i w galerii."
         },
         {
           "q": "Nad czym teraz pracujesz?",
-          "a": "Cykl o uzależnieniu, Now feat Addiction, właśnie się pojawił, a cykl Now jest wejściem do niego. Jeżeli chcesz zobaczyć nowe prace, zanim trafią do publicznej wiadomości, najpierw wysyłam je w liście z pracowni."
+          "a": "Cykl o uzależnieniu, Now feat. Addiction, właśnie się pojawił, a cykl Now jest wejściem do niego. Jeżeli chcesz zobaczyć nowe prace, zanim trafią do publicznej wiadomości, najpierw wysyłam je w liście z pracowni."
         },
         {
           "q": "Czy można zamówić pracę na konkretną ścianę?",
@@ -906,7 +906,7 @@
       "name": "Now"
     },
     {
-      "name": "Now feat Addiction"
+      "name": "Now feat. Addiction"
     }
   ]
 }

@@ -234,7 +234,8 @@ class Builder:
         return dims(w, self.code) + (f", {extra}" if extra else "")
 
     def series_id(self, name):
-        return "series-" + "".join(c if c.isalnum() else "-" for c in name.lower()).strip("-")
+        import re
+        return "series-" + re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
     def buy_btn(self, w, cls="btn"):
         """Stripe checkout if the work has a payment link, otherwise an enquiry."""
@@ -1023,7 +1024,7 @@ Contemporary marquetry artist based in {A['city']}, United Kingdom. Works are un
 panels of hand cut wood veneer, dyed by the artist, at wall scale rather than the
 furniture scale marquetry is normally made at. Work is sold directly from this site and through
 exhibitions and fairs, and is held in private collections in five countries.
-Works are grouped in three series: Innerysm, Now, and Now feat Addiction.
+Works are grouped in three series: Innerysm, Now, and Now feat. Addiction.
 Member of Joined Up Heritage Sheffield (JUHS). The site is published in English at {domain}/ and in Polish at {domain}/pl/.
 
 ## Artworks

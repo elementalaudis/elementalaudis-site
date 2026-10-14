@@ -30,7 +30,7 @@
     "announce": [
       {
         "until": "2026-10-18",
-        "text": "Meet me and the new Now feat Addiction series at the Great Northern Contemporary Craft Fair, Victoria Baths, Manchester, 15 to 18 October, stand B09 in Pool B.",
+        "text": "Meet me and the new Now feat. Addiction series at the Great Northern Contemporary Craft Fair, Victoria Baths, Manchester, 15 to 18 October, stand B09 in Pool B.",
         "link": "#exhibitions",
         "link_text": "Details"
       },
@@ -373,7 +373,7 @@
         "The same green and the same thought as Chaos, and the same rule, which is that the grain decides and I follow it. What is different is that here an order has been built out of the chaos, because that is what we do with our own thinking. We make it mean something.",
         "From across the room this is just something green. So is most of a life, seen from far enough away, vague and repetitive and much like the day before.",
         "Come closer and the layers are all there, and always were. They only show themselves to somebody who stops.",
-        "The Now series is the way in to the next body of work, Now feat Addiction, which is here now."
+        "The Now series is the way in to the next body of work, Now feat. Addiction, which is here now."
       ],
       "details": [
         {
@@ -400,7 +400,7 @@
         "Green in every shade it has. At certain angles the light pulls a yellow out of it, but the panel is green, and in the Now series green is thought, the mind before anything has been done to it.",
         "In this series I do not decide the pattern. The grain decides. I follow what the wood has already written and I put into it whichever moment of my own life I happen to be in while I am cutting.",
         "Every moment of being present starts here, in the churn, because everything does.",
-        "The Now series is the way in to the next body of work, Now feat Addiction, which is here now."
+        "The Now series is the way in to the next body of work, Now feat. Addiction, which is here now."
       ],
       "details": [
         {
@@ -413,7 +413,7 @@
     {
       "slug": "battlefield",
       "title": "Battlefield",
-      "series": "Now feat Addiction",
+      "series": "Now feat. Addiction",
       "year": 2026,
       "medium": "Marquetry in chestnut, walnut and maple veneer, dyed by hand, framed",
       "width_cm": 123,
@@ -469,7 +469,7 @@
     {
       "slug": "rules",
       "title": "Rules",
-      "series": "Now feat Addiction",
+      "series": "Now feat. Addiction",
       "year": 2026,
       "medium": "Marquetry in chestnut, walnut and maple veneer, dyed by hand, framed",
       "width_cm": 67,
@@ -523,7 +523,7 @@
     {
       "slug": "resistance",
       "title": "Resistance",
-      "series": "Now feat Addiction",
+      "series": "Now feat. Addiction",
       "year": 2026,
       "medium": "Marquetry in chestnut, walnut and maple veneer, dyed by hand, framed",
       "width_cm": 74.5,
@@ -581,7 +581,7 @@
     {
       "slug": "warning",
       "title": "Warning",
-      "series": "Now feat Addiction",
+      "series": "Now feat. Addiction",
       "year": 2026,
       "medium": "Marquetry in chestnut, walnut and maple veneer, dyed by hand, framed",
       "width_cm": 44,
@@ -635,7 +635,7 @@
     {
       "slug": "fleeting-effort",
       "title": "Fleeting effort",
-      "series": "Now feat Addiction",
+      "series": "Now feat. Addiction",
       "year": 2026,
       "medium": "Marquetry in chestnut, walnut and maple veneer, dyed by hand, framed",
       "width_cm": 52,
@@ -759,11 +759,11 @@
         },
         {
           "q": "How much does a piece cost?",
-          "a": "Prices currently run from £450 for the smallest Now feat Addiction piece to £1,400 for the largest Innerysm panels. Every price on this site is the price everywhere, in the studio, at a fair and in a gallery."
+          "a": "Prices currently run from £450 for the smallest Now feat. Addiction piece to £1,400 for the largest Innerysm panels. Every price on this site is the price everywhere, in the studio, at a fair and in a gallery."
         },
         {
           "q": "What are you working on next?",
-          "a": "The series about addiction, Now feat Addiction, is here now, and the Now series is the introduction to it. If you would like to see new work before it goes public, the studio letter goes out first."
+          "a": "The series about addiction, Now feat. Addiction, is here now, and the Now series is the introduction to it. If you would like to see new work before it goes public, the studio letter goes out first."
         },
         {
           "q": "Can I commission a piece for a particular wall?",
@@ -907,7 +907,7 @@
       "name": "Now"
     },
     {
-      "name": "Now feat Addiction"
+      "name": "Now feat. Addiction"
     }
   ]
 }
