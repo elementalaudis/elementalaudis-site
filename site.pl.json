@@ -22,9 +22,30 @@
       "sztuka z forniru",
       "artysta intarsja",
       "drewniane obrazy",
-      "ginące rzemiosło",
+      "ręcznie cięta intarsja",
       "Jan Katewicz",
       "Elementa Laudis"
+    ],
+    "announce": [
+      {
+        "until": "2026-10-18",
+        "text": "Zapraszam na Great Northern Contemporary Craft Fair, gdzie pokażę nowy cykl Now feat. Addiction. Victoria Baths, Manchester, 15 do 18 października, stoisko B09 w Pool B.",
+        "link": "#exhibitions",
+        "link_text": "Szczegóły"
+      },
+      {
+        "until": "2026-12-06",
+        "text": "Wystawa w Sheffield przez dwa weekendy: 27 do 29 listopada, z wernisażem w piątek 27 listopada, oraz 4 do 6 grudnia, z pokazem intarsji w sobotę 5 grudnia.",
+        "link": "#exhibitions",
+        "link_text": "Szczegóły"
+      }
+    ],
+    "memberships": [
+      {
+        "name": "Joined Up Heritage Sheffield",
+        "short": "JUHS",
+        "url": "https://www.joinedupheritagesheffield.org.uk/"
+      }
     ]
   },
   "about": {
@@ -34,34 +55,20 @@
     "paragraphs": [
       "Urodziłem się w Warszawie w 1987 roku, a mieszkam i pracuję w Sheffield. Od czternastu lat jestem doradcą finansowym i nadal nim jestem, co zaskakuje ludzi, którzy wcześniej stanęli przed którąś z moich płyt. Zmieniło się to, że miałem wypadek na rowerze. Wylądowałem w szpitalu i dostałem pół roku na to, żeby się zastanowić, co właściwie chcę robić. W tym czasie trafiłem na fornir, czyli drewno pocięte tak cienko, że widać w nim wszystko, przez co przeszło drzewo, i zacząłem ciąć.",
       "To, co robię teraz, łączy bardzo stare rzemiosło z myśleniem, które kojarzy się raczej ze współczesnym malarstwem abstrakcyjnym. Cykl Innerysm jest o wewnętrznej sile, o poznawaniu siebie i o tych warstwach motywacji, na które zwykle nie patrzymy wprost. Buduję to wszystko z fornirów, w układach, które niektórym kojarzą się z mandalami, fraktalami i mukarnasami, czyli sklepieniami znanymi z architektury islamskiej.",
-      "Większość intarsji jest wielkości szkatułki. Moje prace są wielkości ściany i to jest poniekąd sedno sprawy. Intarsja trafiła na Czerwoną Listę Ginących Rzemiosł prowadzoną przez brytyjską organizację Heritage Crafts, w Wielkiej Brytanii zajmuje się nią garstka osób, a w takiej skali prawie nikt. Moje prace trafiły już do prywatnych kolekcji w pięciu krajach."
-    ]
+      "Większość intarsji jest wielkości szkatułki. Moje prace są wielkości ściany i to jest poniekąd sedno sprawy. W Wielkiej Brytanii intarsją zajmuje się garstka osób, a w takiej skali prawie nikt. Moje prace trafiły już do prywatnych kolekcji w pięciu krajach."
+    ],
+    "membership_line": "Jestem członkiem Joined Up Heritage Sheffield (JUHS), organizacji charytatywnej, która łączy ludzi i instytucje dbające o dziedzictwo Sheffield."
   },
   "exhibitions": [
     {
-      "when": "16 do 18 października 2026",
-      "what": "Great Northern Contemporary Craft Fair",
-      "where": "Victoria Baths, Manchester, wernisaż 15 października. Przez cały weekend będę przy stoisku ciął fornir na żywo.",
-      "upcoming": true,
-      "start": "2026-10-16",
-      "end": "2026-10-18",
-      "venue": "Victoria Baths",
-      "locality": "Manchester",
-      "street": "Hathersage Road",
-      "postcode": "M13 0FE",
-      "url": "https://www.greatnortherncraftfair.co.uk/"
-    },
-    {
-      "when": "27 do 29 listopada 2026",
-      "what": "Wystawa w pracowni",
-      "where": "Elementa Laudis, Sheffield, wernisaż w piątek 27 listopada wieczorem",
-      "upcoming": true,
-      "start": "2026-11-27",
-      "end": "2026-11-29",
-      "venue": "Elementa Laudis",
+      "venue": "Miejsce zostanie ogłoszone",
       "locality": "Sheffield",
-      "street": "Unit 16, Gordon Works Complex, Valley Rd",
-      "postcode": "S8 9FT"
+      "upcoming": true,
+      "when": "4 do 6 grudnia 2026",
+      "what": "Wystawa w pracowni, drugi weekend",
+      "where": "Sheffield, miejsce zostanie ogłoszone, z pokazem intarsji w sobotę 5 grudnia",
+      "start": "2026-12-04",
+      "end": "2026-12-06"
     },
     {
       "when": "28 do 29 listopada 2026",
@@ -73,24 +80,52 @@
       "online": true
     },
     {
+      "venue": "Miejsce zostanie ogłoszone",
+      "locality": "Sheffield",
+      "upcoming": true,
+      "when": "27 do 29 listopada 2026",
+      "what": "Wystawa w pracowni, pierwszy weekend",
+      "where": "Sheffield, miejsce zostanie ogłoszone, otwarcie z wernisażem w piątek 27 listopada",
+      "start": "2026-11-27",
+      "end": "2026-11-29"
+    },
+    {
+      "when": "16 do 18 października 2026",
+      "what": "Great Northern Contemporary Craft Fair",
+      "where": "Victoria Baths, Manchester, stoisko B09 w Pool B, wernisaż 15 października. Przez cały weekend będę przy stoisku ciął fornir na żywo.",
+      "upcoming": true,
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "venue": "Victoria Baths",
+      "locality": "Manchester",
+      "street": "Hathersage Road",
+      "postcode": "M13 0FE",
+      "url": "https://www.greatnortherncraftfair.co.uk/",
+      "stand": "B09, Pool B"
+    },
+    {
       "when": "maj 2025",
       "what": "Open Up Sheffield",
-      "where": "Otworzyłem pracownię na weekend, żeby pokazać cykl Innerysm i to, jak powstaje intarsja"
+      "where": "Otworzyłem pracownię na weekend, żeby pokazać cykl Innerysm i to, jak powstaje intarsja",
+      "sort": "2025-05"
     },
     {
       "when": "listopad 2024",
       "what": "Wystawa zbiorowa",
-      "where": "The Holy Art Gallery, Londyn, dwie prace w wystawie kuratorowanej"
+      "where": "The Holy Art Gallery, Londyn, dwie prace w wystawie kuratorowanej",
+      "sort": "2024-11"
     },
     {
       "when": "sierpień 2024",
       "what": "Innerysm, wystawa indywidualna",
-      "where": "Elementa Laudis, Sheffield, połączona z otwarciem studia"
+      "where": "Elementa Laudis, Sheffield, połączona z otwarciem studia",
+      "sort": "2024-08"
     },
     {
       "when": "na bieżąco",
       "what": "Wirtualna otwarta pracownia",
-      "where": "Nagrywam powstawanie każdego dzieła i publikuję na YouTube"
+      "where": "Nagrywam powstawanie każdego dzieła i publikuję na YouTube",
+      "sort": "0000"
     }
   ],
   "artworks": [
@@ -337,7 +372,7 @@
         "Ta sama zieleń i ta sama myśl co w Chaosie, i ta sama zasada, że decyduje słój, a ja za nim idę. Różnica polega na tym, że tutaj z chaosu został zbudowany porządek, bo to właśnie robimy z własnym myśleniem. Nadajemy mu sens.",
         "Z drugiego końca pokoju to jest po prostu coś zielonego. Tak samo wygląda większość życia oglądana z odpowiedniego dystansu, niewyraźnie, powtarzalnie, podobnie do wczoraj.",
         "Podejdź bliżej, a warstwy są tam wszystkie i zawsze były. Pokazują się tylko temu, kto się zatrzyma.",
-        "Cykl Now jest wejściem do kolejnego zbioru prac, który mówi o uzależnieniu i który pojawi się wkrótce."
+        "Cykl Now jest wejściem do kolejnego zbioru prac, Now feat. Addiction, który właśnie się pojawił."
       ],
       "details": [
         {
@@ -364,7 +399,7 @@
         "Zieleń we wszystkich odcieniach, jakie ma. Pod pewnym kątem światło wyciąga z niej żółć, ale płyta jest zielona, a w cyklu Now zieleń jest myślą, umysłem, zanim cokolwiek się z nim zrobi.",
         "W tym cyklu to nie ja decyduję o wzorze. Decyduje słój. Idę za tym, co drewno już napisało, i wpisuję w to ten moment własnego życia, w którym akurat jestem, kiedy tnę.",
         "Każda obecność w teraz zaczyna się właśnie tutaj, w kotłowaninie, bo wszystko się tak zaczyna.",
-        "Cykl Now jest wejściem do kolejnego zbioru prac, który mówi o uzależnieniu i który pojawi się wkrótce."
+        "Cykl Now jest wejściem do kolejnego zbioru prac, Now feat. Addiction, który właśnie się pojawił."
       ],
       "details": [
         {
@@ -373,13 +408,282 @@
           "wide": true
         }
       ]
+    },
+    {
+      "slug": "battlefield",
+      "title": "Battlefield",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir kasztanowy, orzechowy i klonowy, barwiony ręcznie, w ramie",
+      "width_cm": 123,
+      "height_cm": 71.5,
+      "dims_extra": "z ramą",
+      "price": 950,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/dRm6oJeuH1mP8IIck8dUY08",
+      "card": "battlefield.jpg",
+      "full": "battlefield-full.jpg",
+      "statement": [
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W tej pracy wyróżniają się małe prostokąty, a jest ich naprawdę dużo. To łaty. Każde uzależnienie zostawia dziury. Umysł walczy, czasem wygrywa, a czasem przegrywa, ale dziury i tak powstały. Łaty są tym, co przychodzi potem. To akceptacja, że coś się zmieniło, także w tym, jak wyglądasz, i akceptacja tego, kim jesteś teraz, a nie tego, kim byłeś wcześniej.",
+        "Każda łata to osobny kawałek forniru, wycięty ręcznie i wpuszczony w powierzchnię, a słój w każdej z nich biegnie w inną stronę. Ma 123 cm szerokości i jest największą pracą w cyklu.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
+      ],
+      "details": [
+        {
+          "file": "battlefield-framed.jpg",
+          "caption": "Cała praca w ramie",
+          "wide": true
+        },
+        {
+          "file": "battlefield-1.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "battlefield-2.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "battlefield-3.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "battlefield-4.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "battlefield-5.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "battlefield-6.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "battlefield-7.jpg",
+          "caption": "Szczegół"
+        }
+      ]
+    },
+    {
+      "slug": "rules",
+      "title": "Rules",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir kasztanowy, orzechowy i klonowy, barwiony ręcznie, w ramie",
+      "width_cm": 67,
+      "height_cm": 50,
+      "dims_extra": "z ramą",
+      "price": 600,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/fZu28taer1mP8II83SdUY09",
+      "card": "rules.jpg",
+      "full": "rules-full.jpg",
+      "statement": [
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
+      ],
+      "details": [
+        {
+          "file": "rules-framed.jpg",
+          "caption": "Cała praca w ramie",
+          "wide": true
+        },
+        {
+          "file": "rules-1.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "rules-2.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "rules-3.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "rules-4.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "rules-5.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "rules-6.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "rules-7.jpg",
+          "caption": "Szczegół"
+        }
+      ]
+    },
+    {
+      "slug": "resistance",
+      "title": "Resistance",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir kasztanowy, orzechowy i klonowy, barwiony ręcznie, w ramie",
+      "width_cm": 74.5,
+      "height_cm": 41.5,
+      "dims_extra": "z ramą",
+      "price": 600,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/28EdRb86j3uXf76docdUY0a",
+      "card": "resistance.jpg",
+      "full": "resistance-full.jpg",
+      "statement": [
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
+      ],
+      "details": [
+        {
+          "file": "resistance-framed.jpg",
+          "caption": "Cała praca w ramie",
+          "wide": true
+        },
+        {
+          "file": "resistance-1.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "resistance-2.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "resistance-3.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "resistance-4.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "resistance-5.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "resistance-6.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "resistance-7.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "resistance-8.jpg",
+          "caption": "Szczegół"
+        }
+      ]
+    },
+    {
+      "slug": "warning",
+      "title": "Warning",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir kasztanowy, orzechowy i klonowy, barwiony ręcznie, w ramie",
+      "width_cm": 44,
+      "height_cm": 63,
+      "dims_extra": "z ramą",
+      "price": 550,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/bJeaEZ4U7aXp1gggAodUY0b",
+      "card": "warning.jpg",
+      "full": "warning-full.jpg",
+      "statement": [
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
+      ],
+      "details": [
+        {
+          "file": "warning-framed.jpg",
+          "caption": "Cała praca w ramie",
+          "wide": true
+        },
+        {
+          "file": "warning-1.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "warning-2.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "warning-3.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "warning-4.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "warning-5.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "warning-6.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "warning-7.jpg",
+          "caption": "Szczegół"
+        }
+      ]
+    },
+    {
+      "slug": "fleeting-effort",
+      "title": "Fleeting effort",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir kasztanowy, orzechowy i klonowy, barwiony ręcznie, w ramie",
+      "width_cm": 52,
+      "height_cm": 40,
+      "dims_extra": "z ramą",
+      "price": 450,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/9B68wR5Yb7Ld7EE1FudUY0c",
+      "card": "fleeting-effort.jpg",
+      "full": "fleeting-effort-full.jpg",
+      "statement": [
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "Zielone pole jest złożone lustrzanie, czyli dwa arkusze forniru otwarte względem siebie jak strony książki, więc rysunek drewna odbija się wzdłuż środka, a oko wciąż szuka symetrii, która okazuje się nie całkiem dokładna. Ma 40 na 52 cm i jest najmniejszą pracą w cyklu.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
+      ],
+      "details": [
+        {
+          "file": "fleeting-effort-framed.jpg",
+          "caption": "Cała praca w ramie",
+          "wide": true
+        },
+        {
+          "file": "fleeting-effort-1.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "fleeting-effort-2.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "fleeting-effort-3.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "fleeting-effort-4.jpg",
+          "caption": "Szczegół"
+        },
+        {
+          "file": "fleeting-effort-5.jpg",
+          "caption": "Szczegół"
+        }
+      ]
     }
   ],
   "pages": {
     "marquetry": {
       "nav": "Intarsja",
       "title": "Czym jest intarsja i jak powstają moje płyty",
-      "description": "Intarsja wyjaśniona przez artystę, który zajmuje się nią na co dzień. Czym jest, jak powstaje płyta cięta ręcznie z forniru, czym różni się od inkrustacji i dlaczego trafiła na listę ginących rzemiosł.",
+      "description": "Intarsja wyjaśniona przez artystę, który zajmuje się nią na co dzień. Czym jest, jak powstaje płyta cięta ręcznie z forniru, czym różni się od inkrustacji i dlaczego tak niewiele osób wciąż robi ją ręcznie.",
       "intro": "O to, czym właściwie jest intarsja, pytają mnie częściej niż o cokolwiek innego. To jest odpowiedź napisana przez kogoś, kto robi to codziennie.",
       "sections": [
         {
@@ -407,9 +711,9 @@
           ]
         },
         {
-          "h": "Dlaczego to rzemiosło ginie",
+          "h": "Dlaczego zajmuje się tym tak niewiele osób",
           "p": [
-            "Intarsja trafiła na Czerwoną Listę Ginących Rzemiosł prowadzoną przez brytyjską organizację Heritage Crafts, czyli na rejestr rzemiosł zagrożonych zniknięciem. Powód nie jest taki, że ludzie przestali ją lubić. Zamknęły się ścieżki nauki zawodu, przemysł meblowy przeszedł na fornir cięty maszynowo i na nadruk imitujący słoje, a laser robi w kilka minut wersję tego, co człowiekowi zajmowało tydzień.",
+            "Bardzo niewiele osób wciąż robi intarsję ręcznie, a powód nie jest taki, że ludzie przestali ją lubić. Zamknęły się ścieżki nauki zawodu, przemysł meblowy przeszedł na fornir cięty maszynowo i na nadruk imitujący słoje, a laser robi w kilka minut wersję tego, co człowiekowi zajmowało tydzień.",
             "Laser zostawia przypaloną krawędź i nie umie czytać słojów. Tnie to, co każe mu plik. Decyzje, które sprawiają, że na intarsję warto patrzeć, czyli który arkusz, w którym kierunku i gdzie wypadnie łączenie, zapadają przed pierwszym cięciem i tych decyzji nie podejmuje żadna maszyna."
           ]
         },
@@ -454,11 +758,11 @@
         },
         {
           "q": "Ile kosztuje dzieło?",
-          "a": "Ceny zaczynają się od 800 £ za pracę z cyklu Now i sięgają 1 400 £ za największe płyty z cyklu Innerysm. Każda cena podana na tej stronie obowiązuje wszędzie, także w pracowni, na targach i w galerii."
+          "a": "Ceny zaczynają się od 450 £ za najmniejszą pracę z cyklu Now feat. Addiction i sięgają 1 400 £ za największe płyty z cyklu Innerysm. Każda cena podana na tej stronie obowiązuje wszędzie, także w pracowni, na targach i w galerii."
         },
         {
           "q": "Nad czym teraz pracujesz?",
-          "a": "Nad nowym cyklem o uzależnieniu. Cykl Now jest wejściem do niego, a pierwsze prace pojawią się wkrótce. Jeżeli chcesz je zobaczyć, zanim trafią do publicznej wiadomości, najpierw wysyłam je w liście z pracowni."
+          "a": "Cykl o uzależnieniu, Now feat. Addiction, właśnie się pojawił, a cykl Now jest wejściem do niego. Jeżeli chcesz zobaczyć nowe prace, zanim trafią do publicznej wiadomości, najpierw wysyłam je w liście z pracowni."
         },
         {
           "q": "Czy można zamówić pracę na konkretną ścianę?",
@@ -485,8 +789,8 @@
           "a": "Tak, i aktywnie szukam współpracy z galeriami. Ceny są ustawione tak, żeby prowizja galerii nie zmieniała kwoty, którą płaci kolekcjoner. Podejmuję się też zleceń dla pracowni projektowych i stolarni."
         },
         {
-          "q": "Dlaczego intarsja nazywana jest ginącym rzemiosłem?",
-          "a": "Znajduje się na Czerwonej Liście Ginących Rzemiosł prowadzonej przez brytyjską organizację Heritage Crafts, czyli na rejestrze rzemiosł zagrożonych zniknięciem. Ścieżki nauki zawodu się zamknęły, przemysł meblowy przeszedł na fornir maszynowy i nadruk imitujący słoje, a ręcznie zajmuje się nią w Wielkiej Brytanii garstka osób."
+          "q": "Dlaczego tak niewiele osób wciąż robi intarsję?",
+          "a": "Ścieżki nauki zawodu się zamknęły, przemysł meblowy przeszedł na fornir maszynowy i nadruk imitujący słoje, a ręcznie zajmuje się nią w Wielkiej Brytanii garstka osób."
         }
       ]
     },
@@ -496,17 +800,17 @@
       "description": "Materiały prasowe: Jan Katewicz, artysta intarsji współczesnej ze studia Elementa Laudis w Sheffield. Biogram krótki i dłuższy, najważniejsze fakty, zdjęcia i kontakt.",
       "intro": "Wszystko, o co zwykle pytają dziennikarze, kuratorzy i galerie, w jednym miejscu. Można używać poniższych tekstów w tej postaci albo poprosić mnie o wersję na zadaną liczbę znaków.",
       "short_label": "Biogram krótki, 25 słów",
-      "short": "Jan Katewicz ręcznie tnie forniry i składa z nich współczesne intarsje, których wzory przywodzą na myśl mandale, fraktale i mukarnasy, utrzymując przy życiu ginące rzemiosło w swojej pracowni w Sheffield.",
+      "short": "Jan Katewicz ręcznie tnie forniry i składa z nich współczesne intarsje, których wzory przywodzą na myśl mandale, fraktale i mukarnasy, utrzymując przy życiu rzadkie rzemiosło w swojej pracowni w Sheffield.",
       "long_label": "Biogram, 50 słów",
-      "long": "Jan Katewicz tworzy współczesne intarsje w Elementa Laudis, swoim studiu artystycznym w Sheffield, wycinając i składając każde dzieło ręcznie z forniru, który sam barwi. Jego wzory nawiązują do mandali, fraktali i mukarnasów. Intarsja figuruje na liście ginących rzemiosł, a prace Jana trafiły do prywatnych kolekcji w pięciu krajach.",
+      "long": "Jan Katewicz tworzy współczesne intarsje w Elementa Laudis, swoim studiu artystycznym w Sheffield, wycinając i składając każde dzieło ręcznie z forniru, który sam barwi. Jego wzory nawiązują do mandali, fraktali i mukarnasów. Prace Jana trafiły do prywatnych kolekcji w pięciu krajach.",
       "facts_label": "Najważniejsze fakty",
       "facts": [
         "Urodzony w Warszawie w 1987 roku, mieszka i pracuje w Sheffield.",
         "Od czternastu lat pracuje jako doradca finansowy i nadal to robi. Wypadek na rowerze i pół roku rekonwalescencji doprowadziły go do forniru, a dziś łączy jedno z drugim.",
-        "Intarsja znajduje się na Czerwonej Liście Ginących Rzemiosł organizacji Heritage Crafts.",
         "Prace są nietypowo duże jak na to rzemiosło, do 172,5 cm wysokości, podczas gdy historyczna intarsja powstawała w skali mebla.",
         "Ponad czterdzieści prac sprzedanych od początku 2025 roku, do prywatnych kolekcji w pięciu krajach, z powracającymi kolekcjonerami.",
-        "Zakwalifikowany na Great Northern Contemporary Craft Fair w Manchesterze, październik 2026.",
+        "Zakwalifikowany na Great Northern Contemporary Craft Fair w Manchesterze, październik 2026, stoisko B09.",
+        "Członek Joined Up Heritage Sheffield (JUHS).",
         "Pierwsza wystawa indywidualna, Innerysm, przy otwarciu studia w sierpniu 2024. Wystawa zbiorowa w The Holy Art Gallery w Londynie, listopad 2024.",
         "Studio ma własny wpis na TripAdvisorze i otwiera się dla publiczności w ramach Open Up Sheffield."
       ],
@@ -593,5 +897,16 @@
         }
       ]
     }
-  }
+  },
+  "series": [
+    {
+      "name": "Innerysm"
+    },
+    {
+      "name": "Now"
+    },
+    {
+      "name": "Now feat. Addiction"
+    }
+  ]
 }
