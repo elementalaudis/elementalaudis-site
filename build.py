@@ -86,6 +86,12 @@ UI = {
         "crumb": "Back to all work",
         "series_label": "{series} series",
         "series_works": "{n} works",
+        "series_avail_meta": "{n} available, from {p}",
+        "view_series": "View the series",
+        "all_series": "All series",
+        "other_series": "Other series:",
+        "series_avail_head": "Available from this series",
+        "crumb_series": "Back to {series}",
         "member_of": "Member of",
         "t_medium": "Medium", "t_dims": "Dimensions", "t_year": "Year",
         "t_edition": "Edition", "t_unique": "Unique work",
@@ -136,6 +142,12 @@ UI = {
         "crumb": "Wróć do wszystkich prac",
         "series_label": "Cykl {series}",
         "series_works": "Liczba prac: {n}",
+        "series_avail_meta": "Dostępne: {n}, od {p}",
+        "view_series": "Zobacz cykl",
+        "all_series": "Wszystkie cykle",
+        "other_series": "Pozostałe cykle:",
+        "series_avail_head": "Dostępne prace z tego cyklu",
+        "crumb_series": "Wróć do cyklu {series}",
         "member_of": "Członek",
         "t_medium": "Technika", "t_dims": "Wymiary", "t_year": "Rok",
         "t_edition": "Egzemplarz", "t_unique": "Unikat",
@@ -455,53 +467,59 @@ class Builder:
                                      "name": n, "item": base + u}
                                     for i, (n, u) in enumerate(trail)]}
 
-    # -------- pages
-    def build_index(self):
+    # -------- series
+    def series_slug(self, name):
+        import re
+        return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
+    def series_page(self, name):
+        return f"series-{self.series_slug(name)}.html"
+
+    def works_in(self, name, available=False):
+        return [w for w in self.WORKS if w["series"] == name and (not available or w["status"] != "sold")]
+
+    def series_card(self, name, anchor, avail=False):
         u, a = self.u, self.a
-        grid = []
-        for s in self.SERIES:
-          ws = [w for w in self.WORKS if w["series"] == s]
-          if not ws:
-              continue
-          grid.append(f"""
-      <div class="series-group" id="{self.series_id(s)}">
-        <div class="series-head">
-          <h3>{html.escape(s)}</h3>
-          <p class="series-count">{u['series_works'].format(n=len(ws))}</p>
-        </div>
-        <div class="works">""")
-          for w in ws:
-            sold = w["status"] == "sold"
-            grid.append(f"""
+        ws = self.works_in(name, available=avail)
+        cover = self.works_in(name)[0]
+        if avail:
+            meta = u["series_avail_meta"].format(n=len(ws), p=money(min(w["price"] for w in ws), self.code))
+        else:
+            meta = u["series_works"].format(n=len(ws))
+        return f"""
+        <figure class="work series-card">
+          <a href="{self.series_page(name)}{anchor}">
+            <div class="frame"><img src="{a}images/{cover['card']}" alt="{html.escape(name)}"{self.dim_attr(cover["card"])} loading="lazy"></div>
+            <figcaption>
+              <p class="work-title">{html.escape(name)}</p>
+              <p class="work-meta">{meta}</p>
+              <span class="work-status">{u['view_series']}</span>
+            </figcaption>
+          </a>
+        </figure>"""
+
+    def work_figure(self, w):
+        u, a = self.u, self.a
+        sold = w["status"] == "sold"
+        return f"""
         <figure class="work">
           <a href="work-{w['slug']}.html">
             <div class="frame"><img src="{a}images/{w['card']}" alt="{html.escape(w['series'])} {html.escape(w['title'])}"{self.dim_attr(w["card"])} loading="lazy"></div>
             <figcaption>
-              <p class="work-title">{html.escape(w['series'])}: {html.escape(w['title'])}</p>
+              <p class="work-title">{html.escape(w['title'])}</p>
               <p class="work-meta">{html.escape(w['medium'])}<br>{self.dims_full(w)} · {w['year']}</p>
               <span class="work-status{' sold' if sold else ''}">{u['status_sold'] if sold else u['status_available']}</span>
             </figcaption>
           </a>
-        </figure>""")
-          grid.append("""
-        </div>
-      </div>""")
+        </figure>"""
 
-        cards = []
-        for s in self.SERIES:
-          ws = [w for w in self.WORKS if w["series"] == s and w["status"] != "sold"]
-          if not ws:
-              continue
-          cards.append(f"""
-      <div class="series-group">
-        <div class="series-head"><h3>{html.escape(s)}</h3></div>
-        <div class="available">""")
-          for w in ws:
-            cards.append(f"""
+    def avail_card(self, w):
+        u, a = self.u, self.a
+        return f"""
         <article class="card">
           <a href="work-{w['slug']}.html"><div class="frame"><img src="{a}images/{w['card']}" alt="{html.escape(w['title'])}"{self.dim_attr(w["card"])} loading="lazy"></div></a>
           <div class="card-body">
-            <p class="work-title"><a href="work-{w['slug']}.html">{html.escape(w['series'])}: {html.escape(w['title'])}</a></p>
+            <p class="work-title"><a href="work-{w['slug']}.html">{html.escape(w['title'])}</a></p>
             <p class="work-meta">{html.escape(w['medium'])} · {self.dims_full(w)} · {w['year']}</p>
             <p class="price">{money(w['price'], self.code)}</p>
             <div class="btn-row">
@@ -509,10 +527,61 @@ class Builder:
               <a class="btn quiet" href="work-{w['slug']}.html">{u['btn_details']}</a>
             </div>
           </div>
-        </article>""")
-          cards.append("""
-        </div>
-      </div>""")
+        </article>"""
+
+    def build_series(self, name):
+        u = self.u
+        ws = self.works_in(name)
+        av = self.works_in(name, available=True)
+        page = self.series_page(name)
+        others = "".join(f'<a href="{self.series_page(o)}">{html.escape(o)}</a>'
+                         for o in self.SERIES if o != name and self.works_in(o))
+        title = u["series_label"].format(series=name)
+        desc = f"{title}: {len(ws)} " + ("unique marquetry works by" if self.code == "en" else "unikatowych intarsji,") + f" {self.ART['name']}."
+        out = self.head(f"{title}, {self.ART['name']} | {self.ART['studio']}", desc, page, ws[0]["full"])
+        out += self.header(page)
+        avail_html = f"""
+  <section id="available">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">{u['avail_eyebrow']}</p>
+        <h2>{u['series_avail_head']}</h2>
+        <p style="margin-top:1.2rem;">{u['avail_intro']}</p>
+      </div>
+      <div class="available">{''.join(self.avail_card(w) for w in av)}
+      </div>
+      <p class="note" style="margin-top:3rem;">{u['avail_note'].format(contact='index.html#contact')}</p>
+    </div>
+  </section>""" if av else ""
+        out += f"""
+<main>
+  <div class="wrap crumb"><a href="index.html#work">{u['all_series']}</a></div>
+  <section id="work" class="first">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">{u['series_works'].format(n=len(ws))}</p>
+        <h1>{html.escape(name)}</h1>
+        <p class="series-switch">{u['other_series']} {others}</p>
+      </div>
+      <div class="works">{''.join(self.work_figure(w) for w in ws)}
+      </div>
+    </div>
+  </section>
+{avail_html}
+{self.band()}
+</main>
+{self.footer()}
+<script type="application/ld+json">{json.dumps(self.crumbs([(u['nav'][0], ''), (name, page)]), ensure_ascii=False)}</script>
+{LIGHTBOX}"""
+        self.write(page, out)
+
+    # -------- pages
+    def build_index(self):
+        u, a = self.u, self.a
+        # the home page shows a menu of series; each series has its own page
+        grid = "".join(self.series_card(s, "") for s in self.SERIES if self.works_in(s))
+        cards = "".join(self.series_card(s, "#available", avail=True)
+                        for s in self.SERIES if self.works_in(s, available=True))
 
         exl = []
         # newest at the top, oldest at the bottom; undated entries go last
@@ -572,7 +641,8 @@ class Builder:
         <h2>{u['work_head']}</h2>
         <p style="margin-top:1.2rem;">{u['work_intro']}</p>
       </div>
-      {''.join(grid)}
+      <div class="works series-menu">{grid}
+      </div>
     </div>
   </section>
 
@@ -583,7 +653,8 @@ class Builder:
         <h2>{u['avail_head']}</h2>
         <p style="margin-top:1.2rem;">{u['avail_intro']}</p>
       </div>
-      {''.join(cards)}
+      <div class="works series-menu">{cards}
+      </div>
       <p class="note" style="margin-top:3rem;">{u['avail_note'].format(contact='#contact')}</p>
       <p class="note" style="margin-top:1rem;">{u['piece_terms']}</p>
     </div>
@@ -718,7 +789,7 @@ class Builder:
         out += self.header(page)
         out += f"""
 <main>
-  <div class="wrap crumb"><a href="index.html#work">{u['crumb']}</a></div>
+  <div class="wrap crumb"><a href="{self.series_page(w['series'])}">{u['crumb_series'].format(series=html.escape(w['series']))}</a></div>
 
   <div class="wrap piece">
     <div class="piece-grid">
@@ -950,16 +1021,22 @@ class Builder:
     def run(self):
         print(f"{self.code.upper()}:")
         self.build_index()
-        n = len(self.WORKS)
-        for i, w in enumerate(self.WORKS):
-            self.build_work(w, self.WORKS[(i - 1) % n], self.WORKS[(i + 1) % n])
+        for sname in self.SERIES:
+            ws = self.works_in(sname)
+            if not ws:
+                continue
+            self.build_series(sname)
+            n = len(ws)
+            for i, w in enumerate(ws):
+                self.build_work(w, ws[(i - 1) % n], ws[(i + 1) % n])
         self.build_marquetry()
         self.build_faq()
         self.build_press()
         self.build_terms()
         self.build_thanks()
         d = self.L["dir"] + "/" if self.L["dir"] else ""
-        return [d + "index.html"] + [d + f"work-{w['slug']}.html" for w in self.WORKS] + \
+        return [d + "index.html"] + [d + self.series_page(x) for x in self.SERIES if self.works_in(x)] + \
+               [d + f"work-{w['slug']}.html" for w in self.WORKS] + \
                [d + "marquetry.html", d + "faq.html", d + "press.html", d + "terms.html"]
 
 

@@ -351,6 +351,26 @@
       "dims_extra": "including the frame"
     },
     {
+      "slug": "further",
+      "title": "Further",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Marquetry in walnut, chestnut and ash veneer on plywood, dyed by hand, framed",
+      "width_cm": 40,
+      "height_cm": 31,
+      "price": 400,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/00w7sN1HV3uX4ss6ZOdUY0o",
+      "card": "further.jpg",
+      "full": "further-full.jpg",
+      "statement": [
+        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
+        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+      ],
+      "details": [],
+      "dims_extra": "including the frame"
+    },
+    {
       "slug": "battlefield",
       "title": "Battlefield",
       "series": "Now feat. Addiction",
