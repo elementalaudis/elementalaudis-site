@@ -679,6 +679,17 @@ class Builder:
           <figcaption>{html.escape(d['caption'])}</figcaption>
         </figure>""")
 
+        details_section = f"""  <section>
+    <div class="wrap">
+      <p class="eyebrow">{u['det_eyebrow']}</p>
+      <h2 style="margin-bottom:2.5rem;">{u['det_head']}</h2>
+      <div class="details">{''.join(figs)}
+      </div>
+      <p class="fine" style="margin-top:2.5rem;">{u['det_note']}</p>
+    </div>
+  </section>
+""" if figs else ""
+
         sold = w["status"] == "sold"
         buy = (f'<span class="btn quiet" style="cursor:default;">{u["status_sold"]}</span>'
                if sold else
@@ -741,16 +752,7 @@ class Builder:
     </div>
   </section>
 
-  <section>
-    <div class="wrap">
-      <p class="eyebrow">{u['det_eyebrow']}</p>
-      <h2 style="margin-bottom:2.5rem;">{u['det_head']}</h2>
-      <div class="details">{''.join(figs)}
-      </div>
-      <p class="fine" style="margin-top:2.5rem;">{u['det_note']}</p>
-    </div>
-  </section>
-
+{details_section}
   <div class="wrap nextprev">
     <a href="work-{prev['slug']}.html">{u['prev']}: {html.escape(prev['series'])} {html.escape(prev['title'])}</a>
     <a href="work-{nxt['slug']}.html">{u['next']}: {html.escape(nxt['series'])} {html.escape(nxt['title'])}</a>

@@ -130,284 +130,213 @@
   ],
   "artworks": [
     {
-      "slug": "humble",
-      "title": "Humble",
-      "series": "Innerysm",
-      "year": 2024,
-      "medium": "Intarsja, fornir orzechowy, klonowy i zebrano na płycie MDF",
-      "width_cm": 108,
-      "height_cm": 172.5,
-      "price": 1400,
+      "slug": "the-source",
+      "title": "The source",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 83.0,
+      "height_cm": 123.0,
+      "price": 1050,
       "status": "available",
-      "stripe": "https://buy.stripe.com/3cI3cxeuHc1tgba4RGdUY00",
-      "card": "humble.jpg",
-      "full": "humble-full.jpg",
+      "stripe": "",
+      "card": "the-source.jpg",
+      "full": "the-source-full.jpg",
       "statement": [
-        "Korytarz światła cofa się w głąb, w błękity i fiolety, i nie kończy się tam, gdzie kończy się płyta. To dzieło jest o skali i o tym, że zawsze istnieje coś większego niż to, przed czym akurat stoisz.",
-        "Przy dolnej krawędzi jest jeden mały kształt. To ja. Prosty przy całej reszcie, a mimo to wart tego, żeby na niego popatrzeć, i mniej więcej tak rozumiem swoje miejsce w tym wszystkim.",
-        "Przy wysokości 172,5 cm jest to największe dzieło z cyklu Innerysm. To ono jedzie w październiku do Manchesteru."
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
       ],
-      "details": [
-        {
-          "file": "humble-scale.jpg",
-          "caption": "Dopiero obok człowieka widać skalę",
-          "wide": true
-        },
-        {
-          "file": "humble-1.jpg",
-          "caption": "Środek, czeczota złożona lustrzanie sama ze sobą"
-        },
-        {
-          "file": "humble-2.jpg",
-          "caption": "Część górna"
-        },
-        {
-          "file": "humble-3.jpg",
-          "caption": "Część dolna"
-        },
-        {
-          "file": "humble-4.jpg",
-          "caption": "Siatka z bliska"
-        },
-        {
-          "file": "humble-5.jpg",
-          "caption": "Fragment"
-        }
-      ]
+      "details": []
     },
     {
-      "slug": "archetypes",
-      "title": "Archetypes",
-      "series": "Innerysm",
-      "year": 2024,
-      "medium": "Intarsja, fornir orzechowy, jaworowy i dębowy na płycie MDF",
-      "width_cm": 117,
-      "height_cm": 159.5,
-      "price": 1400,
+      "slug": "sight",
+      "title": "Sight",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 84.0,
+      "height_cm": 64.0,
+      "price": 750,
       "status": "available",
-      "stripe": "https://buy.stripe.com/eVq14p3Q30iLgbafwkdUY01",
-      "card": "archetypes.jpg",
-      "full": "archetypes-full.jpg",
+      "stripe": "",
+      "card": "sight.jpg",
+      "full": "sight-full.jpg",
       "statement": [
-        "Fiolet i intensywna zieleń, a w nich kształty, które są o krok od tego, żeby stać się czymś rozpoznawalnym. Romb, przejście, płyta czerwonej czeczoty ustawiona pod kątem.",
-        "To dzieło jest o formach, które znamy, zanim znajdziemy dla nich słowa. Nic tu niczego nie przedstawia, a mimo to ludzie stają przed nim i zaczynają widzieć w słojach twarze i sylwetki.",
-        "Barwnik przenika fornir na wskroś, nie leży na jego powierzchni. Dzięki temu rysunek drewna czyta się przez każdą płaszczyznę koloru."
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
       ],
-      "details": [
-        {
-          "file": "archetypes-1.jpg",
-          "caption": "Romb w centrum kompozycji",
-          "wide": true
-        },
-        {
-          "file": "archetypes-2.jpg",
-          "caption": "Płaszczyzna górna",
-          "wide": true
-        },
-        {
-          "file": "archetypes-3.jpg",
-          "caption": "Czeczota na barwionym tle"
-        },
-        {
-          "file": "archetypes-4.jpg",
-          "caption": "Fragment"
-        },
-        {
-          "file": "archetypes-5.jpg",
-          "caption": "Fragment"
-        }
-      ]
+      "details": []
     },
     {
-      "slug": "inner-strength",
-      "title": "Inner Strength",
-      "series": "Innerysm",
-      "year": 2024,
-      "medium": "Intarsja, fornir orzechowy i jaworowy na płycie MDF",
-      "width_cm": 99.5,
-      "height_cm": 158.5,
-      "price": 1300,
+      "slug": "wall",
+      "title": "Wall",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 84.0,
+      "height_cm": 60.0,
+      "price": 700,
       "status": "available",
-      "stripe": "https://buy.stripe.com/28E7sN5Yb1mPbUUdocdUY02",
-      "card": "inner-strength.jpg",
-      "full": "inner-strength-full.jpg",
+      "stripe": "",
+      "card": "wall.jpg",
+      "full": "wall-full.jpg",
       "statement": [
-        "Sklepiony korytarz w bursztynie i ochrze, ze schodami wspinającymi się ku łukowi na końcu, a za tym łukiem jest następny.",
-        "Nie wierzę, że wewnętrzną siłę dostaje się przy urodzeniu. Jej się uczymy. Ćwiczymy, próbujemy, nie wychodzi, poprawiamy, i za każdym razem otwieramy jedne drzwi, a za nimi znajdujemy kolejne. Ta praca prosi o jedno, żeby robić to świadomie, bo samo z siebie nic się tutaj nie wydarzy.",
-        "Nad łukiem rozkłada się ciemna masa fakturowanego orzecha, odbita lustrzanie. Pilnuje tego, co jest na końcu przejścia, i to ona sprawia, że warto się wspinać."
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
       ],
-      "details": [
-        {
-          "file": "inner-strength-1.jpg",
-          "caption": "Łuk, w lustrzanym odbiciu rysunku orzecha"
-        },
-        {
-          "file": "inner-strength-2.jpg",
-          "caption": "Schody",
-          "wide": true
-        },
-        {
-          "file": "inner-strength-3.jpg",
-          "caption": "Sklepienie i krawędź",
-          "wide": true
-        },
-        {
-          "file": "inner-strength-4.jpg",
-          "caption": "Fragment dolny"
-        },
-        {
-          "file": "inner-strength-5.jpg",
-          "caption": "Fragment"
-        }
-      ]
+      "details": []
     },
     {
-      "slug": "intrinsic-motivation",
-      "title": "Intrinsic Motivation",
-      "series": "Innerysm",
-      "year": 2024,
-      "medium": "Intarsja, fornir orzechowy, sapeli pommele, kamforowy, brzozowy i jaworowy na płycie MDF",
-      "width_cm": 112,
-      "height_cm": 152.5,
-      "price": 1300,
+      "slug": "calmness",
+      "title": "Calmness",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 43.5,
+      "height_cm": 62.5,
+      "price": 550,
       "status": "available",
-      "stripe": "https://buy.stripe.com/28EaEZ72fe9B3oo6ZOdUY03",
-      "card": "intrinsic-motivation.jpg",
-      "full": "intrinsic-motivation-full.jpg",
+      "stripe": "",
+      "card": "calmness.jpg",
+      "full": "calmness-full.jpg",
       "statement": [
-        "Żółte słońce wschodzi za lustrzanie odbitym szczytem, a ze środka rozchodzą się cienkie żółte linie, które przecinają całą powierzchnię.",
-        "To jest o najczystszym rodzaju motywacji, o takiej, która bierze się z wnętrza i nie oczekuje od nikogo nagrody. Linie wychodzące ze środka to jej dalszy ciąg, bo kiedy raz znajdziesz ją w jednym obszarze życia, zaczyna przechodzić do wszystkich pozostałych.",
-        "Dlatego uważam ją za tak doniosłą. Nie zostaje tam, gdzie ją znalazłeś. Ładuje wszystko inne."
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
       ],
-      "details": [
-        {
-          "file": "intrinsic-motivation-1.jpg",
-          "caption": "Słońce i szczyt",
-          "wide": true
-        },
-        {
-          "file": "intrinsic-motivation-2.jpg",
-          "caption": "Romb górny"
-        },
-        {
-          "file": "intrinsic-motivation-3.jpg",
-          "caption": "Romb na tle sapeli"
-        },
-        {
-          "file": "intrinsic-motivation-4.jpg",
-          "caption": "Fragment",
-          "wide": true
-        },
-        {
-          "file": "intrinsic-motivation-5.jpg",
-          "caption": "Fragment"
-        },
-        {
-          "file": "intrinsic-motivation-6.jpg",
-          "caption": "Fragment"
-        }
-      ]
+      "details": []
     },
     {
-      "slug": "breath",
-      "title": "Breath",
-      "series": "Innerysm",
-      "year": 2024,
-      "medium": "Intarsja, fornir orzechowy, jesionowy i eukaliptusowy na płycie MDF",
-      "width_cm": 104,
-      "height_cm": 124.5,
-      "price": 1150,
+      "slug": "fangs",
+      "title": "Fangs",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 43.5,
+      "height_cm": 62.0,
+      "price": 550,
       "status": "available",
-      "stripe": "https://buy.stripe.com/cNi6oJ1HVc1t5ww1FudUY04",
-      "card": "breath.jpg",
-      "full": "breath-full.jpg",
+      "stripe": "",
+      "card": "fangs.jpg",
+      "full": "fangs-full.jpg",
       "statement": [
-        "Dwie kurtyny fakturowanego eukaliptusa rozsuwają się na boki od środka z czeczoty, a ten środek jest nieruchomym punktem, wokół którego oddycha cała płyta.",
-        "Po powierzchni rozsypane są małe kwadraty ciemniejszego forniru. To są pomysły, te, które przychodzą znikąd wtedy, kiedy niczego nie gonisz, bo tylko wtedy w ogóle przychodzą.",
-        "Wszystko zaczyna się od oddechu. Każda zmiana, każda poprawa, każdy pomysł zapisany w tej płycie. Dlatego ta praca prosi o niewiele, tylko o to, żeby się zatrzymać, być tutaj i oddychać."
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
       ],
-      "details": [
-        {
-          "file": "breath-detail-1.jpg",
-          "caption": "Środek, a po obu jego stronach pole prążkowanego rysunku",
-          "wide": true
-        },
-        {
-          "file": "breath-detail-2.jpg",
-          "caption": "Czeczota złożona lustrzanie, obie połowy to ten sam arkusz",
-          "wide": true
-        },
-        {
-          "file": "breath-detail-3.jpg",
-          "caption": "Narożnik lewy górny"
-        },
-        {
-          "file": "breath-detail-4.jpg",
-          "caption": "Narożnik prawy górny"
-        },
-        {
-          "file": "breath-detail-5.jpg",
-          "caption": "Narożnik prawy dolny"
-        },
-        {
-          "file": "breath-detail-6.jpg",
-          "caption": "Narożnik lewy dolny"
-        }
-      ]
+      "details": []
     },
     {
-      "slug": "now-harmony",
-      "title": "Harmony",
-      "series": "Now",
-      "year": 2025,
-      "medium": "Intarsja, fornir kasztanowy na sklejce",
-      "width_cm": 95.5,
-      "height_cm": 62,
-      "price": 800,
+      "slug": "subplot",
+      "title": "Subplot",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 32.0,
+      "height_cm": 43.0,
+      "price": 400,
       "status": "available",
-      "stripe": "https://buy.stripe.com/cNidRbaer7Ld7EEfwkdUY05",
-      "card": "now-harmony.jpg",
-      "full": "now-harmony-full.jpg",
+      "stripe": "",
+      "card": "subplot.jpg",
+      "full": "subplot-full.jpg",
       "statement": [
-        "Ta sama zieleń i ta sama myśl co w Chaosie, i ta sama zasada, że decyduje słój, a ja za nim idę. Różnica polega na tym, że tutaj z chaosu został zbudowany porządek, bo to właśnie robimy z własnym myśleniem. Nadajemy mu sens.",
-        "Z drugiego końca pokoju to jest po prostu coś zielonego. Tak samo wygląda większość życia oglądana z odpowiedniego dystansu, niewyraźnie, powtarzalnie, podobnie do wczoraj.",
-        "Podejdź bliżej, a warstwy są tam wszystkie i zawsze były. Pokazują się tylko temu, kto się zatrzyma.",
-        "Cykl Now jest wejściem do kolejnego zbioru prac, Now feat. Addiction, który właśnie się pojawił."
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
       ],
-      "details": [
-        {
-          "file": "now-harmony-wall.jpg",
-          "caption": "Na ścianie w pracowni",
-          "wide": true
-        }
-      ]
+      "details": []
     },
     {
-      "slug": "now-chaos",
-      "title": "Chaos",
-      "series": "Now",
-      "year": 2025,
-      "medium": "Intarsja, fornir kasztanowy na sklejce",
-      "width_cm": 103,
-      "height_cm": 62,
-      "price": 800,
+      "slug": "untouched",
+      "title": "Untouched...",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 32.0,
+      "height_cm": 42.5,
+      "price": 400,
       "status": "available",
-      "stripe": "https://buy.stripe.com/9B600leuHaXpf76gAodUY06",
-      "card": "now-chaos.jpg",
-      "full": "now-chaos-full.jpg",
+      "stripe": "",
+      "card": "untouched.jpg",
+      "full": "untouched-full.jpg",
       "statement": [
-        "Zieleń we wszystkich odcieniach, jakie ma. Pod pewnym kątem światło wyciąga z niej żółć, ale płyta jest zielona, a w cyklu Now zieleń jest myślą, umysłem, zanim cokolwiek się z nim zrobi.",
-        "W tym cyklu to nie ja decyduję o wzorze. Decyduje słój. Idę za tym, co drewno już napisało, i wpisuję w to ten moment własnego życia, w którym akurat jestem, kiedy tnę.",
-        "Każda obecność w teraz zaczyna się właśnie tutaj, w kotłowaninie, bo wszystko się tak zaczyna.",
-        "Cykl Now jest wejściem do kolejnego zbioru prac, Now feat. Addiction, który właśnie się pojawił."
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
       ],
-      "details": [
-        {
-          "file": "now-chaos-wall.jpg",
-          "caption": "Na ścianie w pracowni",
-          "wide": true
-        }
-      ]
+      "details": []
+    },
+    {
+      "slug": "self-judgment",
+      "title": "Self-judgment",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 40.0,
+      "height_cm": 33.5,
+      "price": 400,
+      "status": "available",
+      "stripe": "",
+      "card": "self-judgment.jpg",
+      "full": "self-judgment-full.jpg",
+      "statement": [
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
+      ],
+      "details": []
+    },
+    {
+      "slug": "small-passions",
+      "title": "Small passions",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 32.0,
+      "height_cm": 41.0,
+      "price": 400,
+      "status": "available",
+      "stripe": "",
+      "card": "small-passions.jpg",
+      "full": "small-passions-full.jpg",
+      "statement": [
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
+      ],
+      "details": []
+    },
+    {
+      "slug": "mirror",
+      "title": "Mirror",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 40.0,
+      "height_cm": 32.0,
+      "price": 400,
+      "status": "available",
+      "stripe": "",
+      "card": "mirror.jpg",
+      "full": "mirror-full.jpg",
+      "statement": [
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
+      ],
+      "details": []
+    },
+    {
+      "slug": "expectancy",
+      "title": "Expectancy",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "medium": "Intarsja, fornir orzechowy, kasztanowy i jesionowy na sklejce, barwiony ręcznie, w ramie",
+      "width_cm": 40.0,
+      "height_cm": 31.5,
+      "price": 400,
+      "status": "available",
+      "stripe": "",
+      "card": "expectancy.jpg",
+      "full": "expectancy-full.jpg",
+      "statement": [
+        "W tym cyklu zieleń to bycie obecnym. To warstwy drobnych rzeczy w ciągu dnia, które znikają, jeśli przestaniesz zwracać na nie uwagę. Brąz to uzależnienie, które wcina się w zieleń ostrymi krawędziami, a tych nie da się nie zauważyć.",
+        "W każdej pracy z tego cyklu jest sęk i oznacza węzeł gordyjski, bo zobaczyć problem wyraźnie to nie to samo, co go rozwiązać, a czasem jedynym wyjściem jest go przeciąć."
+      ],
+      "details": []
     },
     {
       "slug": "battlefield",
@@ -677,6 +606,286 @@
           "caption": "Szczegół"
         }
       ]
+    },
+    {
+      "slug": "now-harmony",
+      "title": "Harmony",
+      "series": "Now",
+      "year": 2025,
+      "medium": "Intarsja, fornir kasztanowy na sklejce",
+      "width_cm": 95.5,
+      "height_cm": 62,
+      "price": 800,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/cNidRbaer7Ld7EEfwkdUY05",
+      "card": "now-harmony.jpg",
+      "full": "now-harmony-full.jpg",
+      "statement": [
+        "Ta sama zieleń i ta sama myśl co w Chaosie, i ta sama zasada, że decyduje słój, a ja za nim idę. Różnica polega na tym, że tutaj z chaosu został zbudowany porządek, bo to właśnie robimy z własnym myśleniem. Nadajemy mu sens.",
+        "Z drugiego końca pokoju to jest po prostu coś zielonego. Tak samo wygląda większość życia oglądana z odpowiedniego dystansu, niewyraźnie, powtarzalnie, podobnie do wczoraj.",
+        "Podejdź bliżej, a warstwy są tam wszystkie i zawsze były. Pokazują się tylko temu, kto się zatrzyma.",
+        "Cykl Now jest wejściem do kolejnego zbioru prac, Now feat. Addiction, który właśnie się pojawił."
+      ],
+      "details": [
+        {
+          "file": "now-harmony-wall.jpg",
+          "caption": "Na ścianie w pracowni",
+          "wide": true
+        }
+      ]
+    },
+    {
+      "slug": "now-chaos",
+      "title": "Chaos",
+      "series": "Now",
+      "year": 2025,
+      "medium": "Intarsja, fornir kasztanowy na sklejce",
+      "width_cm": 103,
+      "height_cm": 62,
+      "price": 800,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/9B600leuHaXpf76gAodUY06",
+      "card": "now-chaos.jpg",
+      "full": "now-chaos-full.jpg",
+      "statement": [
+        "Zieleń we wszystkich odcieniach, jakie ma. Pod pewnym kątem światło wyciąga z niej żółć, ale płyta jest zielona, a w cyklu Now zieleń jest myślą, umysłem, zanim cokolwiek się z nim zrobi.",
+        "W tym cyklu to nie ja decyduję o wzorze. Decyduje słój. Idę za tym, co drewno już napisało, i wpisuję w to ten moment własnego życia, w którym akurat jestem, kiedy tnę.",
+        "Każda obecność w teraz zaczyna się właśnie tutaj, w kotłowaninie, bo wszystko się tak zaczyna.",
+        "Cykl Now jest wejściem do kolejnego zbioru prac, Now feat. Addiction, który właśnie się pojawił."
+      ],
+      "details": [
+        {
+          "file": "now-chaos-wall.jpg",
+          "caption": "Na ścianie w pracowni",
+          "wide": true
+        }
+      ]
+    },
+    {
+      "slug": "humble",
+      "title": "Humble",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Intarsja, fornir orzechowy, klonowy i zebrano na płycie MDF",
+      "width_cm": 108,
+      "height_cm": 172.5,
+      "price": 1400,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/3cI3cxeuHc1tgba4RGdUY00",
+      "card": "humble.jpg",
+      "full": "humble-full.jpg",
+      "statement": [
+        "Korytarz światła cofa się w głąb, w błękity i fiolety, i nie kończy się tam, gdzie kończy się płyta. To dzieło jest o skali i o tym, że zawsze istnieje coś większego niż to, przed czym akurat stoisz.",
+        "Przy dolnej krawędzi jest jeden mały kształt. To ja. Prosty przy całej reszcie, a mimo to wart tego, żeby na niego popatrzeć, i mniej więcej tak rozumiem swoje miejsce w tym wszystkim.",
+        "Przy wysokości 172,5 cm jest to największe dzieło z cyklu Innerysm. To ono jedzie w październiku do Manchesteru."
+      ],
+      "details": [
+        {
+          "file": "humble-scale.jpg",
+          "caption": "Dopiero obok człowieka widać skalę",
+          "wide": true
+        },
+        {
+          "file": "humble-1.jpg",
+          "caption": "Środek, czeczota złożona lustrzanie sama ze sobą"
+        },
+        {
+          "file": "humble-2.jpg",
+          "caption": "Część górna"
+        },
+        {
+          "file": "humble-3.jpg",
+          "caption": "Część dolna"
+        },
+        {
+          "file": "humble-4.jpg",
+          "caption": "Siatka z bliska"
+        },
+        {
+          "file": "humble-5.jpg",
+          "caption": "Fragment"
+        }
+      ]
+    },
+    {
+      "slug": "archetypes",
+      "title": "Archetypes",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Intarsja, fornir orzechowy, jaworowy i dębowy na płycie MDF",
+      "width_cm": 117,
+      "height_cm": 159.5,
+      "price": 1400,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/eVq14p3Q30iLgbafwkdUY01",
+      "card": "archetypes.jpg",
+      "full": "archetypes-full.jpg",
+      "statement": [
+        "Fiolet i intensywna zieleń, a w nich kształty, które są o krok od tego, żeby stać się czymś rozpoznawalnym. Romb, przejście, płyta czerwonej czeczoty ustawiona pod kątem.",
+        "To dzieło jest o formach, które znamy, zanim znajdziemy dla nich słowa. Nic tu niczego nie przedstawia, a mimo to ludzie stają przed nim i zaczynają widzieć w słojach twarze i sylwetki.",
+        "Barwnik przenika fornir na wskroś, nie leży na jego powierzchni. Dzięki temu rysunek drewna czyta się przez każdą płaszczyznę koloru."
+      ],
+      "details": [
+        {
+          "file": "archetypes-1.jpg",
+          "caption": "Romb w centrum kompozycji",
+          "wide": true
+        },
+        {
+          "file": "archetypes-2.jpg",
+          "caption": "Płaszczyzna górna",
+          "wide": true
+        },
+        {
+          "file": "archetypes-3.jpg",
+          "caption": "Czeczota na barwionym tle"
+        },
+        {
+          "file": "archetypes-4.jpg",
+          "caption": "Fragment"
+        },
+        {
+          "file": "archetypes-5.jpg",
+          "caption": "Fragment"
+        }
+      ]
+    },
+    {
+      "slug": "inner-strength",
+      "title": "Inner Strength",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Intarsja, fornir orzechowy i jaworowy na płycie MDF",
+      "width_cm": 99.5,
+      "height_cm": 158.5,
+      "price": 1300,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/28E7sN5Yb1mPbUUdocdUY02",
+      "card": "inner-strength.jpg",
+      "full": "inner-strength-full.jpg",
+      "statement": [
+        "Sklepiony korytarz w bursztynie i ochrze, ze schodami wspinającymi się ku łukowi na końcu, a za tym łukiem jest następny.",
+        "Nie wierzę, że wewnętrzną siłę dostaje się przy urodzeniu. Jej się uczymy. Ćwiczymy, próbujemy, nie wychodzi, poprawiamy, i za każdym razem otwieramy jedne drzwi, a za nimi znajdujemy kolejne. Ta praca prosi o jedno, żeby robić to świadomie, bo samo z siebie nic się tutaj nie wydarzy.",
+        "Nad łukiem rozkłada się ciemna masa fakturowanego orzecha, odbita lustrzanie. Pilnuje tego, co jest na końcu przejścia, i to ona sprawia, że warto się wspinać."
+      ],
+      "details": [
+        {
+          "file": "inner-strength-1.jpg",
+          "caption": "Łuk, w lustrzanym odbiciu rysunku orzecha"
+        },
+        {
+          "file": "inner-strength-2.jpg",
+          "caption": "Schody",
+          "wide": true
+        },
+        {
+          "file": "inner-strength-3.jpg",
+          "caption": "Sklepienie i krawędź",
+          "wide": true
+        },
+        {
+          "file": "inner-strength-4.jpg",
+          "caption": "Fragment dolny"
+        },
+        {
+          "file": "inner-strength-5.jpg",
+          "caption": "Fragment"
+        }
+      ]
+    },
+    {
+      "slug": "intrinsic-motivation",
+      "title": "Intrinsic Motivation",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Intarsja, fornir orzechowy, sapeli pommele, kamforowy, brzozowy i jaworowy na płycie MDF",
+      "width_cm": 112,
+      "height_cm": 152.5,
+      "price": 1300,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/28EaEZ72fe9B3oo6ZOdUY03",
+      "card": "intrinsic-motivation.jpg",
+      "full": "intrinsic-motivation-full.jpg",
+      "statement": [
+        "Żółte słońce wschodzi za lustrzanie odbitym szczytem, a ze środka rozchodzą się cienkie żółte linie, które przecinają całą powierzchnię.",
+        "To jest o najczystszym rodzaju motywacji, o takiej, która bierze się z wnętrza i nie oczekuje od nikogo nagrody. Linie wychodzące ze środka to jej dalszy ciąg, bo kiedy raz znajdziesz ją w jednym obszarze życia, zaczyna przechodzić do wszystkich pozostałych.",
+        "Dlatego uważam ją za tak doniosłą. Nie zostaje tam, gdzie ją znalazłeś. Ładuje wszystko inne."
+      ],
+      "details": [
+        {
+          "file": "intrinsic-motivation-1.jpg",
+          "caption": "Słońce i szczyt",
+          "wide": true
+        },
+        {
+          "file": "intrinsic-motivation-2.jpg",
+          "caption": "Romb górny"
+        },
+        {
+          "file": "intrinsic-motivation-3.jpg",
+          "caption": "Romb na tle sapeli"
+        },
+        {
+          "file": "intrinsic-motivation-4.jpg",
+          "caption": "Fragment",
+          "wide": true
+        },
+        {
+          "file": "intrinsic-motivation-5.jpg",
+          "caption": "Fragment"
+        },
+        {
+          "file": "intrinsic-motivation-6.jpg",
+          "caption": "Fragment"
+        }
+      ]
+    },
+    {
+      "slug": "breath",
+      "title": "Breath",
+      "series": "Innerysm",
+      "year": 2024,
+      "medium": "Intarsja, fornir orzechowy, jesionowy i eukaliptusowy na płycie MDF",
+      "width_cm": 104,
+      "height_cm": 124.5,
+      "price": 1150,
+      "status": "available",
+      "stripe": "https://buy.stripe.com/cNi6oJ1HVc1t5ww1FudUY04",
+      "card": "breath.jpg",
+      "full": "breath-full.jpg",
+      "statement": [
+        "Dwie kurtyny fakturowanego eukaliptusa rozsuwają się na boki od środka z czeczoty, a ten środek jest nieruchomym punktem, wokół którego oddycha cała płyta.",
+        "Po powierzchni rozsypane są małe kwadraty ciemniejszego forniru. To są pomysły, te, które przychodzą znikąd wtedy, kiedy niczego nie gonisz, bo tylko wtedy w ogóle przychodzą.",
+        "Wszystko zaczyna się od oddechu. Każda zmiana, każda poprawa, każdy pomysł zapisany w tej płycie. Dlatego ta praca prosi o niewiele, tylko o to, żeby się zatrzymać, być tutaj i oddychać."
+      ],
+      "details": [
+        {
+          "file": "breath-detail-1.jpg",
+          "caption": "Środek, a po obu jego stronach pole prążkowanego rysunku",
+          "wide": true
+        },
+        {
+          "file": "breath-detail-2.jpg",
+          "caption": "Czeczota złożona lustrzanie, obie połowy to ten sam arkusz",
+          "wide": true
+        },
+        {
+          "file": "breath-detail-3.jpg",
+          "caption": "Narożnik lewy górny"
+        },
+        {
+          "file": "breath-detail-4.jpg",
+          "caption": "Narożnik prawy górny"
+        },
+        {
+          "file": "breath-detail-5.jpg",
+          "caption": "Narożnik prawy dolny"
+        },
+        {
+          "file": "breath-detail-6.jpg",
+          "caption": "Narożnik lewy dolny"
+        }
+      ]
     }
   ],
   "pages": {
@@ -758,7 +967,7 @@
         },
         {
           "q": "Ile kosztuje dzieło?",
-          "a": "Ceny zaczynają się od 450 £ za najmniejszą pracę z cyklu Now feat. Addiction i sięgają 1 400 £ za największe płyty z cyklu Innerysm. Każda cena podana na tej stronie obowiązuje wszędzie, także w pracowni, na targach i w galerii."
+          "a": "Ceny zaczynają się od 400 £ za najmniejsze prace z cyklu Now feat. Addiction i sięgają 1 400 £ za największe płyty z cyklu Innerysm. Każda cena podana na tej stronie obowiązuje wszędzie, także w pracowni, na targach i w galerii."
         },
         {
           "q": "Nad czym teraz pracujesz?",
@@ -900,13 +1109,13 @@
   },
   "series": [
     {
-      "name": "Innerysm"
+      "name": "Now feat. Addiction"
     },
     {
       "name": "Now"
     },
     {
-      "name": "Now feat. Addiction"
+      "name": "Innerysm"
     }
   ]
 }
