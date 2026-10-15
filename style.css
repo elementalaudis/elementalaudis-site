@@ -196,3 +196,8 @@ ul.facts li{margin-bottom:.6rem;}
 .announce a{white-space:nowrap;}
 .member-line{font-style:italic;}
 .foot-member{display:block;margin-top:.6rem;font-size:.9em;}
+
+/* series menu and series pages */
+.series-card .work-status{text-decoration:underline;text-underline-offset:.25em;}
+.series-switch{margin-top:1.2rem;}
+.series-switch a{margin-right:1.2rem;white-space:nowrap;}
