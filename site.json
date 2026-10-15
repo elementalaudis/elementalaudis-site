@@ -140,14 +140,15 @@
       "height_cm": 123.0,
       "price": 1050,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/4gM7sNbiv4z1aQQ5VKdUY0d",
       "card": "the-source.jpg",
       "full": "the-source-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "sight",
@@ -159,14 +160,15 @@
       "height_cm": 64.0,
       "price": 750,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/fZudRbaerfdFbUUck8dUY0e",
       "card": "sight.jpg",
       "full": "sight-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "wall",
@@ -178,14 +180,15 @@
       "height_cm": 60.0,
       "price": 700,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/aFaeVfcmz5D5e32bg4dUY0f",
       "card": "wall.jpg",
       "full": "wall-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "calmness",
@@ -197,14 +200,15 @@
       "height_cm": 62.5,
       "price": 550,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/28E14paer7Ldgba97WdUY0g",
       "card": "calmness.jpg",
       "full": "calmness-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "fangs",
@@ -216,14 +220,15 @@
       "height_cm": 62.0,
       "price": 550,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/6oU00lfyL0iL6AA2JydUY0h",
       "card": "fangs.jpg",
       "full": "fangs-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "subplot",
@@ -235,14 +240,15 @@
       "height_cm": 43.0,
       "price": 400,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/7sYfZjgCP3uX9MMfwkdUY0i",
       "card": "subplot.jpg",
       "full": "subplot-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "untouched",
@@ -254,14 +260,15 @@
       "height_cm": 42.5,
       "price": 400,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/eVqcN7gCP5D5bUUbg4dUY0j",
       "card": "untouched.jpg",
       "full": "untouched-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "self-judgment",
@@ -273,14 +280,15 @@
       "height_cm": 33.5,
       "price": 400,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/28EdRb2LZ0iLaQQac0dUY0k",
       "card": "self-judgment.jpg",
       "full": "self-judgment-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "small-passions",
@@ -292,14 +300,15 @@
       "height_cm": 41.0,
       "price": 400,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/dRmfZj5Yb2qTaQQ3NCdUY0l",
       "card": "small-passions.jpg",
       "full": "small-passions-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "mirror",
@@ -311,14 +320,15 @@
       "height_cm": 32.0,
       "price": 400,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/7sY6oJgCPaXpcYY0BqdUY0m",
       "card": "mirror.jpg",
       "full": "mirror-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "expectancy",
@@ -330,14 +340,15 @@
       "height_cm": 31.5,
       "price": 400,
       "status": "available",
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/8x2dRbeuHghJcYYbg4dUY0n",
       "card": "expectancy.jpg",
       "full": "expectancy-full.jpg",
       "statement": [
         "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
         "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
       ],
-      "details": []
+      "details": [],
+      "dims_extra": "including the frame"
     },
     {
       "slug": "battlefield",
