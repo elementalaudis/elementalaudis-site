@@ -92,6 +92,14 @@ UI = {
         "other_series": "Other series:",
         "series_avail_head": "Available from this series",
         "crumb_series": "Back to {series}",
+        "crumb_set": "{set}",
+        "set_eyebrow": "The new work",
+        "set_meta": "{n} panels, {year}",
+        "set_avail": "Each panel can be acquired on its own: {n} available, from {p}",
+        "set_cta": "See all {n} panels",
+        "set_panels": "The {n} panels",
+        "set_avail_head": "Available panels",
+        "other_in_series": "Other works in this series",
         "member_of": "Member of",
         "t_medium": "Medium", "t_dims": "Dimensions", "t_year": "Year",
         "t_edition": "Edition", "t_unique": "Unique work",
@@ -148,6 +156,14 @@ UI = {
         "other_series": "Pozostałe cykle:",
         "series_avail_head": "Dostępne prace z tego cyklu",
         "crumb_series": "Wróć do cyklu {series}",
+        "crumb_set": "{set}",
+        "set_eyebrow": "Nowa praca",
+        "set_meta": "{n} paneli, {year}",
+        "set_avail": "Każdy panel można nabyć osobno: dostępne {n}, od {p}",
+        "set_cta": "Zobacz wszystkie {n} paneli",
+        "set_panels": "{n} paneli",
+        "set_avail_head": "Dostępne panele",
+        "other_in_series": "Inne prace z tego cyklu",
         "member_of": "Członek",
         "t_medium": "Technika", "t_dims": "Wymiary", "t_year": "Rok",
         "t_edition": "Egzemplarz", "t_unique": "Unikat",
@@ -218,6 +234,7 @@ class Builder:
         d = json.load(open(os.path.join(HERE, lang["file"]), encoding="utf-8"))
         self.ART, self.ABOUT, self.EX, self.WORKS = d["artist"], d["about"], d["exhibitions"], d["artworks"]
         self.PAGES = d["pages"]
+        self.SETS = d.get("sets", [])
         self.SERIES = [s["name"] for s in d.get("series", [])] or \
             list(dict.fromkeys(w["series"] for w in self.WORKS))
         # keep works in series order so next/previous walks a series through
@@ -409,8 +426,8 @@ class Builder:
             "email": a["email"],
             "image": f"{dom}/images/{self.ART['hero_image']}",
             "address": {"@type": "PostalAddress",
-                        "streetAddress": "Unit 16, Gordon Works Complex, Valley Rd",
-                        "addressLocality": "Sheffield", "postalCode": "S8 9FT",
+                        "streetAddress": "Studio G7, Eagle Works (CADS), 90 Stevenson Road, Attercliffe",
+                        "addressLocality": "Sheffield", "postalCode": "S9 3XG",
                         "addressCountry": "GB"},
             "areaServed": ["GB", "EU", "Worldwide"],
             "priceRange": "££",
@@ -482,6 +499,9 @@ class Builder:
         u, a = self.u, self.a
         ws = self.works_in(name, available=avail)
         cover = self.works_in(name)[0]
+        st = self.set_of(name)
+        if st:
+            cover = {"card": st["card"]}
         if avail:
             meta = u["series_avail_meta"].format(n=len(ws), p=money(min(w["price"] for w in ws), self.code))
         else:
@@ -529,51 +549,127 @@ class Builder:
           </div>
         </article>"""
 
-    def build_series(self, name):
+    # -------- sets (a work made of several panels, e.g. Everywhere)
+    def set_of(self, series):
+        return next((x for x in self.SETS if x["series"] == series), None)
+
+    def set_page(self, st):
+        return f"set-{st['slug']}.html"
+
+    def set_works(self, st, available=False):
+        return [w for w in self.WORKS if w.get("set") == st["name"] and (not available or w["status"] != "sold")]
+
+    def set_feature(self, st, anchor=""):
+        """A wide block showing the whole set, linking to the page with every panel."""
+        u, a = self.u, self.a
+        ws = self.set_works(st)
+        av = self.set_works(st, available=True)
+        price = money(min(w["price"] for w in av), self.code) if av else ""
+        meta = u["set_meta"].format(n=len(ws), year=st["year"])
+        avail = f'<p class="set-avail">{u["set_avail"].format(n=len(av), p=price)}</p>' if av else ""
+        return f"""
+      <article class="set-feature">
+        <a class="set-image" href="{self.set_page(st)}{anchor}"><img src="{a}images/{st['image']}" alt="{html.escape(st['name'])}, {html.escape(st['lead'])}"{self.dim_attr(st["image"])} loading="lazy"></a>
+        <div class="set-text">
+          <p class="eyebrow">{u['set_eyebrow']}</p>
+          <h2><a href="{self.set_page(st)}{anchor}">{html.escape(st['name'])}</a></h2>
+          <p class="set-lead">{html.escape(st['lead'])}</p>
+          <p class="work-meta">{meta}</p>
+          {avail}
+          <p><a class="btn" href="{self.set_page(st)}{anchor}">{u['set_cta'].format(n=len(ws))}</a></p>
+        </div>
+      </article>"""
+
+    def collection_page(self, page, name, eyebrow, intro_html, ws, av, crumbs_html, crumb_trail, image):
         u = self.u
-        ws = self.works_in(name)
-        av = self.works_in(name, available=True)
-        page = self.series_page(name)
-        others = "".join(f'<a href="{self.series_page(o)}">{html.escape(o)}</a>'
-                         for o in self.SERIES if o != name and self.works_in(o))
-        title = u["series_label"].format(series=name)
-        desc = f"{title}: {len(ws)} " + ("unique marquetry works by" if self.code == "en" else "unikatowych intarsji,") + f" {self.ART['name']}."
-        out = self.head(f"{title}, {self.ART['name']} | {self.ART['studio']}", desc, page, ws[0]["full"])
+        title = u["series_label"].format(series=name) if not intro_html else name
+        desc = f"{name}: {len(ws)} " + ("unique marquetry works by" if self.code == "en" else "unikatowych intarsji,") + f" {self.ART['name']}."
+        out = self.head(f"{title}, {self.ART['name']} | {self.ART['studio']}", desc, page, image)
         out += self.header(page)
         avail_html = f"""
   <section id="available">
     <div class="wrap">
       <div class="section-head">
         <p class="eyebrow">{u['avail_eyebrow']}</p>
-        <h2>{u['series_avail_head']}</h2>
+        <h2>{u['series_avail_head'] if not intro_html else u['set_avail_head']}</h2>
         <p style="margin-top:1.2rem;">{u['avail_intro']}</p>
       </div>
-      <div class="available">{''.join(self.avail_card(w) for w in av)}
-      </div>
+      {av}
       <p class="note" style="margin-top:3rem;">{u['avail_note'].format(contact='index.html#contact')}</p>
     </div>
   </section>""" if av else ""
         out += f"""
 <main>
-  <div class="wrap crumb"><a href="index.html#work">{u['all_series']}</a></div>
+  <div class="wrap crumb">{crumbs_html}</div>
   <section id="work" class="first">
     <div class="wrap">
       <div class="section-head">
-        <p class="eyebrow">{u['series_works'].format(n=len(ws))}</p>
+        <p class="eyebrow">{eyebrow}</p>
         <h1>{html.escape(name)}</h1>
-        <p class="series-switch">{u['other_series']} {others}</p>
+        {intro_html}
       </div>
-      <div class="works">{''.join(self.work_figure(w) for w in ws)}
-      </div>
+      {ws}
     </div>
   </section>
 {avail_html}
 {self.band()}
 </main>
 {self.footer()}
-<script type="application/ld+json">{json.dumps(self.crumbs([(u['nav'][0], ''), (name, page)]), ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(self.crumbs(crumb_trail), ensure_ascii=False)}</script>
 {LIGHTBOX}"""
         self.write(page, out)
+
+    def build_series(self, name):
+        u = self.u
+        page = self.series_page(name)
+        st = self.set_of(name)
+        others = "".join(f'<a href="{self.series_page(o)}">{html.escape(o)}</a>'
+                         for o in self.SERIES if o != name and self.works_in(o))
+        switch = f'<p class="series-switch">{u["other_series"]} {others}</p>'
+        all_ws = self.works_in(name)
+        if st:
+            rest = [w for w in all_ws if w.get("set") != st["name"]]
+            rest_av = [w for w in rest if w["status"] != "sold"]
+            works_html = self.set_feature(st) + (f"""
+      <h2 class="sub-head">{u['other_in_series']}</h2>
+      <div class="works">{''.join(self.work_figure(w) for w in rest)}
+      </div>""" if rest else "")
+            av_html = self.set_feature(st, "#available") + (f"""
+      <h3 class="sub-head">{u['other_in_series']}</h3>
+      <div class="available">{''.join(self.avail_card(w) for w in rest_av)}
+      </div>""" if rest_av else "") if self.set_works(st, True) or rest_av else ""
+            image = st["image"]
+        else:
+            works_html = f"""<div class="works">{''.join(self.work_figure(w) for w in all_ws)}
+      </div>"""
+            av = self.works_in(name, available=True)
+            av_html = f"""<div class="available">{''.join(self.avail_card(w) for w in av)}
+      </div>""" if av else ""
+            image = all_ws[0]["full"]
+        self.collection_page(page, name, u['series_works'].format(n=len(all_ws)), switch, works_html, av_html,
+                             f'<a href="index.html#work">{u["all_series"]}</a>',
+                             [(u['nav'][0], ''), (name, page)], image)
+        if st:
+            self.build_set(st)
+
+    def build_set(self, st):
+        u, a = self.u, self.a
+        page = self.set_page(st)
+        ws = self.set_works(st)
+        av = self.set_works(st, available=True)
+        text = "".join(f"<p>{html.escape(p)}</p>" for p in st["text"])
+        intro = f"""<p class="set-lead">{html.escape(st['lead'])}</p>
+        <figure class="set-hero"><a href="{a}images/{st['image']}" class="zoom"><img src="{a}images/{st['image']}" alt="{html.escape(st['name'])}, {html.escape(st['lead'])}"{self.dim_attr(st["image"])}></a></figure>
+        <div class="statement set-statement">{text}<p class="fine">{html.escape(st['medium'])}, {st['year']}. {html.escape(st['note'])}</p></div>
+        <h2 class="sub-head">{u['set_panels'].format(n=len(ws))}</h2>"""
+        works_html = f"""<div class="works">{''.join(self.work_figure(w) for w in ws)}
+      </div>"""
+        av_html = f"""<div class="available">{''.join(self.avail_card(w) for w in av)}
+      </div>""" if av else ""
+        sp = self.series_page(st["series"])
+        self.collection_page(page, st["name"], u['series_label'].format(series=html.escape(st["series"])), intro, works_html, av_html,
+                             f'<a href="index.html#work">{u["all_series"]}</a> <span aria-hidden="true">/</span> <a href="{sp}">{html.escape(st["series"])}</a>',
+                             [(u['nav'][0], ''), (st["series"], sp), (st["name"], page)], st["image"])
 
     # -------- pages
     def build_index(self):
@@ -600,14 +696,25 @@ class Builder:
             anns = [anns]
         today = datetime.date.today().isoformat()
         anns = [x for x in anns if today <= x["until"]]
-        # every current notice is written out; a small script shows only the first one
-        # that has not ended yet, so a finished event drops off without a rebuild
-        announce = "".join(
-            f'<p class="announce" data-until="{x["until"]}"{"" if k == 0 else " hidden"}>{html.escape(x["text"])} '
-            f'<a href="{x["link"]}">{html.escape(x["link_text"])}</a></p>' for k, x in enumerate(anns))
+        # current notices are written out; a small script hides any that has ended,
+        # so a finished event drops off without a rebuild
+        def notice(x, k):
+            if "rows" in x:
+                rows = "".join(f'<div><dt>{html.escape(r[0])}</dt><dd>{html.escape(r[1])}</dd></div>' for r in x["rows"])
+                return f"""<aside class="event-banner" data-until="{x['until']}"{'' if k == 0 else ' hidden'} aria-label="{html.escape(x['kicker'])}">
+        <p class="event-kicker">{html.escape(x['kicker'])}</p>
+        <p class="event-title">{html.escape(x['title'])}</p>
+        <dl class="event-rows">{rows}</dl>
+        <p class="event-address">{html.escape(x['address'])}</p>
+        <p class="event-note">{html.escape(x['note'])}</p>
+        <p class="event-links"><a href="{x['link']}">{html.escape(x['link_text'])}</a><a href="{x['map']}" rel="noopener" target="_blank">{html.escape(x['map_text'])}</a></p>
+      </aside>"""
+            return (f'<p class="announce" data-until="{x["until"]}"{"" if k == 0 else " hidden"}>{html.escape(x["text"])} '
+                    f'<a href="{x["link"]}">{html.escape(x["link_text"])}</a></p>')
+        announce = "".join(notice(x, k) for k, x in enumerate(anns))
         if announce:
             announce += ("<script>(function(){var d=new Date(),t=d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2),"
-                         "s=false;document.querySelectorAll('.announce').forEach(function(p){if(!s&&t<=p.dataset.until){p.hidden=false;s=true;}else{p.hidden=true;}});})();</script>")
+                         "s=false;document.querySelectorAll('[data-until]').forEach(function(p){if(!s&&t<=p.dataset.until){p.hidden=false;s=true;}else{p.hidden=true;}});})();</script>")
         fs = self.L["form_suffix"]
         thanks = ("/pl/thanks.html" if self.code == "pl" else "/thanks.html")
 
@@ -621,13 +728,15 @@ class Builder:
 <main id="top">
 
   <section class="hero first">
-    <div class="wrap">
-      {announce}
-      <h1>{self.ART['tagline']}</h1>
-      <p class="lede" style="margin-top:2rem;">{self.ART['lede']}</p>
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        {announce}
+        <h1>{self.ART['tagline']}</h1>
+        <p class="lede" style="margin-top:2rem;">{self.ART['lede']}</p>
+      </div>
       <figure class="hero-figure">
         <a href="{self.ART['hero_link']}">
-          <div class="frame"><img src="{a}images/{self.ART['hero_image']}" alt="{html.escape(self.ART['name'])}"{self.dim_attr(self.ART["hero_image"])} fetchpriority="high" loading="eager"></div>
+          <div class="frame"><img src="{a}images/{self.ART['hero_image']}" alt="{html.escape(self.ART.get('hero_alt', self.ART['name']))}"{self.dim_attr(self.ART["hero_image"])} fetchpriority="high" loading="eager"></div>
         </a>
         <figcaption>{self.ART['hero_caption']}</figcaption>
       </figure>
@@ -739,6 +848,14 @@ class Builder:
 {LIGHTBOX}"""
         self.write("index.html", out)
 
+    def work_crumb(self, w):
+        u = self.u
+        sp = f'<a href="{self.series_page(w["series"])}">{u["crumb_series"].format(series=html.escape(w["series"]))}</a>'
+        st = next((x for x in self.SETS if x["name"] == w.get("set")), None)
+        if st:
+            sp += f' <span aria-hidden="true">/</span> <a href="{self.set_page(st)}">{u["crumb_set"].format(set=html.escape(st["name"]))}</a>'
+        return sp
+
     def build_work(self, w, prev, nxt):
         u, a = self.u, self.a
         figs = []
@@ -789,7 +906,7 @@ class Builder:
         out += self.header(page)
         out += f"""
 <main>
-  <div class="wrap crumb"><a href="{self.series_page(w['series'])}">{u['crumb_series'].format(series=html.escape(w['series']))}</a></div>
+  <div class="wrap crumb">{self.work_crumb(w)}</div>
 
   <div class="wrap piece">
     <div class="piece-grid">
@@ -1026,9 +1143,14 @@ class Builder:
             if not ws:
                 continue
             self.build_series(sname)
-            n = len(ws)
-            for i, w in enumerate(ws):
-                self.build_work(w, ws[(i - 1) % n], ws[(i + 1) % n])
+            # walk a set on its own, then the rest of the series
+            groups = [self.set_works(x) for x in self.SETS if x["series"] == sname]
+            in_sets = {w["slug"] for g in groups for w in g}
+            groups.append([w for w in ws if w["slug"] not in in_sets])
+            for g in groups:
+                n = len(g)
+                for i, w in enumerate(g):
+                    self.build_work(w, g[(i - 1) % n], g[(i + 1) % n])
         self.build_marquetry()
         self.build_faq()
         self.build_press()
@@ -1036,6 +1158,7 @@ class Builder:
         self.build_thanks()
         d = self.L["dir"] + "/" if self.L["dir"] else ""
         return [d + "index.html"] + [d + self.series_page(x) for x in self.SERIES if self.works_in(x)] + \
+               [d + self.set_page(x) for x in self.SETS] + \
                [d + f"work-{w['slug']}.html" for w in self.WORKS] + \
                [d + "marquetry.html", d + "faq.html", d + "press.html", d + "terms.html"]
 

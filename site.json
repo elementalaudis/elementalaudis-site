@@ -4,13 +4,13 @@
     "studio": "Elementa Laudis",
     "domain": "https://elementalaudis.com",
     "email": "elementa.laudis@gmail.com",
-    "address": "Unit 16, Gordon Works Complex, Valley Rd, Sheffield, S8 9FT",
+    "address": "Studio G7, Eagle Works (CADS), 90 Stevenson Road, Attercliffe, Sheffield, S9 3XG",
     "city": "Sheffield",
     "tagline": "Marquetry at the scale of a wall",
     "lede": "I make contemporary marquetry in my studio in Sheffield. I cut and assemble every element by hand from natural veneer and then dye it myself. It is a craft that has almost disappeared in Britain and in the world, and only a handful of people still work it at this scale.",
-    "hero_image": "humble-scale.jpg",
-    "hero_caption": "Innerysm: Humble, marquetry in walnut, maple and zebrano veneer on MDF, 172.5 by 108 cm, 2024",
-    "hero_link": "work-humble.html",
+    "hero_image": "invitation-everywhere.jpg",
+    "hero_caption": "Invitation to Now feat. Addiction, with Everywhere, 2026, twelve panels",
+    "hero_link": "set-everywhere.html",
     "social": {
       "Instagram": "https://www.instagram.com/elementa.laudis/",
       "LinkedIn": "https://www.linkedin.com/in/jan-katewicz-elementa-laudis/",
@@ -29,16 +29,29 @@
     ],
     "announce": [
       {
-        "until": "2026-10-18",
-        "text": "Meet me and the new Now feat. Addiction series at the Great Northern Contemporary Craft Fair, Victoria Baths, Manchester, 15 to 18 October, stand B09 in Pool B.",
-        "link": "#exhibitions",
-        "link_text": "Details"
-      },
-      {
         "until": "2026-12-06",
-        "text": "Studio Exhibition in Sheffield over two weekends, 27 to 29 November, opening with a preview evening on Friday 27th, and 4 to 6 December, with a marquetry demonstration on Saturday 5 December.",
+        "kicker": "Exhibition and grand opening of my new studio",
+        "title": "Now feat. Addiction",
+        "rows": [
+          [
+            "Opening night",
+            "Friday 27 November, 6.30pm to 9pm"
+          ],
+          [
+            "Open",
+            "28 and 29 November, 4 to 6 December, 11am to 6pm"
+          ],
+          [
+            "Demonstration",
+            "Saturday 5 December, live marquetry all day"
+          ]
+        ],
+        "address": "Studio G7, Eagle Works (CADS), 90 Stevenson Road, Attercliffe, Sheffield S9 3XG",
+        "note": "Free admission. Everyone is welcome.",
         "link": "#exhibitions",
-        "link_text": "Details"
+        "link_text": "All dates",
+        "map": "https://www.google.com/maps/search/?api=1&query=Eagle+Works+90+Stevenson+Road+Sheffield+S9+3XG",
+        "map_text": "Map and directions"
       }
     ],
     "memberships": [
@@ -47,7 +60,8 @@
         "short": "JUHS",
         "url": "https://www.joinedupheritagesheffield.org.uk/"
       }
-    ]
+    ],
+    "hero_alt": "Invitation: Now feat. Addiction, an exhibition of new marquetry by Jan Katewicz. Opening night Friday 27 November, 6.30pm to 9pm. Open 28 and 29 November and 4 to 6 December, 11am to 6pm. Live marquetry demonstration Saturday 5 December. Eagle Works (CADS), Studio G7, 90 Stevenson Road, Sheffield S9 3XG. Free admission."
   },
   "about": {
     "heading": "Jan Katewicz",
@@ -62,16 +76,6 @@
   },
   "exhibitions": [
     {
-      "venue": "Venue to be announced",
-      "locality": "Sheffield",
-      "upcoming": true,
-      "when": "4 to 6 Dec 2026",
-      "what": "Studio Exhibition, second weekend",
-      "where": "Sheffield, venue to be announced, with a marquetry demonstration on Saturday 5 December",
-      "start": "2026-12-04",
-      "end": "2026-12-06"
-    },
-    {
       "when": "28 to 29 Nov 2026",
       "what": "GNCCF Online, Gift Edition",
       "where": "Online",
@@ -81,20 +85,10 @@
       "online": true
     },
     {
-      "venue": "Venue to be announced",
-      "locality": "Sheffield",
-      "upcoming": true,
-      "when": "27 to 29 Nov 2026",
-      "what": "Studio Exhibition, first weekend",
-      "where": "Sheffield, venue to be announced, opening with a preview evening on Friday 27 November",
-      "start": "2026-11-27",
-      "end": "2026-11-29"
-    },
-    {
       "when": "16 to 18 Oct 2026",
       "what": "Great Northern Contemporary Craft Fair",
       "where": "Victoria Baths, Manchester, stand B09 in Pool B, with a preview evening on 15 October. I will be hand cutting veneer at the stand through the weekend.",
-      "upcoming": true,
+      "upcoming": false,
       "start": "2026-10-16",
       "end": "2026-10-18",
       "venue": "Victoria Baths",
@@ -127,6 +121,30 @@
       "what": "Virtual open studio",
       "where": "I film the making of each work and put it on YouTube, so anyone can look over my shoulder",
       "sort": "0000"
+    },
+    {
+      "venue": "Elementa Laudis, Eagle Works (CADS)",
+      "locality": "Sheffield",
+      "street": "Studio G7, 90 Stevenson Road",
+      "postcode": "S9 3XG",
+      "upcoming": true,
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "when": "27 to 29 Nov 2026",
+      "what": "Now feat. Addiction, exhibition and grand opening of my new studio",
+      "where": "Studio G7, Eagle Works (CADS), 90 Stevenson Road, Attercliffe, Sheffield S9 3XG. Opening night Friday 27 November, 6.30pm to 9pm, then 11am to 6pm. Free admission, everyone welcome."
+    },
+    {
+      "venue": "Elementa Laudis, Eagle Works (CADS)",
+      "locality": "Sheffield",
+      "street": "Studio G7, 90 Stevenson Road",
+      "postcode": "S9 3XG",
+      "upcoming": true,
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "when": "4 to 6 Dec 2026",
+      "what": "Now feat. Addiction, final weekend",
+      "where": "Studio G7, Eagle Works (CADS), 90 Stevenson Road, Attercliffe, Sheffield S9 3XG, 11am to 6pm, with a live marquetry demonstration all day on Saturday 5 December. Free admission."
     }
   ],
   "artworks": [
@@ -144,11 +162,39 @@
       "card": "the-source.jpg",
       "full": "the-source-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "The source is the centre of Everywhere and, at 123 × 83 cm, the largest panel.",
+        "When I made it I was thinking about how hard it is to be present, now that addiction can be anywhere: social media, work, the older kinds, anything we do not fully control. The layers of green are what we find when we stop and pay attention. I kept every green shape cut straight with a knife. The walnut I tore apart and let into the panel, the way addictions arrive, without asking.",
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "the-source-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "the-source-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "the-source-d3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "the-source-d4.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "the-source-d5.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "the-source-d6.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "sight",
@@ -164,11 +210,39 @@
       "card": "sight.jpg",
       "full": "sight-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "Sight hangs below Wall in Everywhere.",
+        "The green veneer is book matched, which means consecutive leaves are opened like the pages of a book so the grain mirrors itself. It is why figures seem to appear in the wood the longer you look at it.",
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "sight-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "sight-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "sight-d3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "sight-d4.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "sight-d5.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "sight-d6.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "wall",
@@ -184,11 +258,31 @@
       "card": "wall.jpg",
       "full": "wall-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "Wall hangs above Sight, on the left of The source.",
+        "What looks like depth in the green is the dye. I dye the surface myself after everything is cut and glued down, then sand it back and dye it again in a lighter colour, so the first colour comes through unevenly. Sand a fraction too far and you are through the veneer, and the panel cannot be repaired.",
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "wall-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "wall-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "wall-d3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "wall-d4.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "calmness",
@@ -204,11 +298,34 @@
       "card": "calmness.jpg",
       "full": "calmness-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "There is a knot in every piece in this series. It is the Gordian knot, because seeing a problem is not the same as solving it, and sometimes the only way out is to cut. Calmness is a good panel to start looking for it.",
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "calmness-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "calmness-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "calmness-d3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "calmness-d4.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "calmness-d5.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "fangs",
@@ -224,11 +341,26 @@
       "card": "fangs.jpg",
       "full": "fangs-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "The green and the brown are worked in opposite ways. I cut every green piece straight, under control, and I tear most of the walnut by hand, so the brown edges are rough where the wood decided to split. Up close that difference is the whole subject of the work.",
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "fangs-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "fangs-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "fangs-d3.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "subplot",
@@ -244,11 +376,31 @@
       "card": "subplot.jpg",
       "full": "subplot-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "Subplot is one of the three small panels that run down the left side of Everywhere.",
+        "Small panels ask you to come close, and up close every line between two pieces is a joint I cut by hand, and the colour is dye I put on myself after the panel was assembled.",
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "subplot-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "subplot-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "subplot-d3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "subplot-d4.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "untouched",
@@ -264,11 +416,29 @@
       "card": "untouched.jpg",
       "full": "untouched-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "untouched-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "untouched-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "untouched-d3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "untouched-d4.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "self-judgment",
@@ -284,11 +454,29 @@
       "card": "self-judgment.jpg",
       "full": "self-judgment-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "self-judgment-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "self-judgment-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "self-judgment-d3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "self-judgment-d4.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "small-passions",
@@ -304,11 +492,29 @@
       "card": "small-passions.jpg",
       "full": "small-passions-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "small-passions-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "small-passions-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "small-passions-d3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "small-passions-d4.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "mirror",
@@ -324,11 +530,33 @@
       "card": "mirror.jpg",
       "full": "mirror-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "mirror-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "mirror-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "mirror-d3.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "mirror-d4.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "mirror-d5.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "expectancy",
@@ -344,11 +572,26 @@
       "card": "expectancy.jpg",
       "full": "expectancy-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "Expectancy hangs at the outer right edge of Everywhere.",
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "expectancy-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "expectancy-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "expectancy-d3.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "further",
@@ -364,11 +607,25 @@
       "card": "further.jpg",
       "full": "further-full.jpg",
       "statement": [
-        "In this series the green is being present. It is the layers of small things in a day that disappear if you stop paying attention. The brown is addiction, and it cuts into the green with hard edges that you cannot help noticing.",
-        "There is a knot in every piece in this series, and it stands for the Gordian knot, because seeing a problem clearly is not the same thing as solving it, and sometimes the only way out is to cut."
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
       ],
-      "details": [],
-      "dims_extra": "including the frame"
+      "details": [
+        {
+          "file": "further-d1.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "further-d2.jpg",
+          "caption": "Detail"
+        },
+        {
+          "file": "further-d3.jpg",
+          "caption": "Detail"
+        }
+      ],
+      "dims_extra": "including the frame",
+      "set": "Everywhere"
     },
     {
       "slug": "battlefield",
@@ -1023,7 +1280,7 @@
         },
         {
           "q": "Can I visit the studio?",
-          "a": "Yes, by appointment. The studio is at Gordon Works on Valley Road in Sheffield, and collectors are welcome to come and see work in person before deciding anything."
+          "a": "Yes, by appointment. The studio is at Eagle Works (CADS) on Stevenson Road in Attercliffe, Sheffield, and collectors are welcome to come and see work in person before deciding anything."
         },
         {
           "q": "Do you work with galleries and interior designers?",
@@ -1132,7 +1389,7 @@
         {
           "h": "Getting hold of me",
           "p": [
-            "Jan Katewicz, Elementa Laudis, Unit 16, Gordon Works Complex, Valley Rd, Sheffield, S8 9FT, United Kingdom. Email elementa.laudis@gmail.com. I read and answer everything myself, usually within a day.",
+            "Jan Katewicz, Elementa Laudis, Studio G7, Eagle Works (CADS), 90 Stevenson Road, Attercliffe, Sheffield, S9 3XG, United Kingdom. Email elementa.laudis@gmail.com. I read and answer everything myself, usually within a day.",
             "Nothing on this page affects your legal rights."
           ]
         }
@@ -1148,6 +1405,23 @@
     },
     {
       "name": "Innerysm"
+    }
+  ],
+  "sets": [
+    {
+      "name": "Everywhere",
+      "slug": "everywhere",
+      "series": "Now feat. Addiction",
+      "year": 2026,
+      "image": "everywhere-set.jpg",
+      "card": "everywhere-set-card.jpg",
+      "lead": "A new work of twelve panels, hung together as one",
+      "text": [
+        "Everywhere is twelve panels hung together as one. The green in every panel is the present moment, cut straight with a knife. The brown is addiction, and most of that walnut is not cut at all. I tear it apart by hand and inlay it as it is, because addiction does not ask for permission.",
+        "Everywhere takes its name from something I believe about addiction, that it can be found anywhere, and that is why the work is twelve panels rather than one."
+      ],
+      "medium": "Marquetry in walnut, chestnut and ash veneer on plywood, dyed by hand, framed",
+      "note": "Each panel is a finished work and can be acquired on its own."
     }
   ]
 }
